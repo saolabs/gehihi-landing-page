@@ -33,7 +33,7 @@
 
 <h2>Về cái tên “Gehihi” và văn hóa cộng đồng AI</h2>
 <p>Cái tên <b>Gehihi</b> vốn là biệt danh hóm hỉnh do cộng đồng công nghệ Việt Nam đặt cho Gemini, ghép từ chữ “Ge” với tiếng cười “hihi” khi mô hình AI đưa ra câu trả lời ngơ ngác nhưng vẫn tự tin. Tuy nhiên, thay vì xem đó là điểm chê bai, đội ngũ phát triển nhận thấy đây là thực tế chung của công nghệ AI: <i>mô hình nào cũng có ưu và nhược điểm riêng</i>.</p>
-<p>Gehihi App mượn cái tên vui vẻ này để thể hiện một triết lý thiết kế cởi mở: thay vì tranh cãi model nào tốt hơn, hãy trao cho người dùng quyền chọn model phù hợp nhất cho từng việc. <i>Lưu ý: Gehihi App do SaoLabs phát triển độc lập và không liên kết với Google LLC hay thương hiệu Gemini.</i></p>
+<p>Gehihi App mượn cái tên vui vẻ này để thể hiện một triết lý thiết kế cởi mở: thay vì tranh cãi model nào tốt hơn, hãy trao cho người dùng quyền chọn model phù hợp nhất cho từng việc — như dùng Gemini khi cần viết lách và xử lý tài liệu lớn, dùng Claude khi cần lập trình (code) và tư duy logic kỹ thuật, hay chọn DeepSeek và GPT cho các bài toán chuyên sâu. <i>Lưu ý: Gehihi App do SaoLabs phát triển độc lập và không liên kết với Google LLC hay thương hiệu Gemini.</i></p>
 
 <h2>Bảo mật và Quyền riêng tư</h2>
 <p>Gehihi App tôn trọng tối đa dữ liệu của bạn. Khách sử dụng được lưu trữ dữ liệu cục bộ trên trình duyệt. Khi bạn tạo tài khoản và thêm API key riêng, thông tin được mã hoá bảo mật ở tầng backend và chỉ sử dụng cho các yêu cầu xuất phát từ chính bạn.</p>
