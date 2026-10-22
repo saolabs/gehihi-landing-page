@@ -28,6 +28,7 @@ php artisan serve --port=8005
 
 - `php artisan test`: kiểm tra metadata, link nội bộ, sitemap.
 - `npm run dist:static`: xuất site tĩnh ra `dist-static/web` với origin trong `sao.config.json`.
+- `npm run deploy`: kéo commit mới nhất, chạy test, xuất tĩnh rồi rsync lên VPS `45.119.86.201:/var/www/html/gehihi/public` và kiểm tra các URL trong sitemap. Dừng nếu còn thay đổi chưa commit. Cấu hình nginx/SSL nằm trên server (`/etc/nginx/sites-available/gehihi.vn`).
 - `npm run og`: render lại ảnh OG từ `scripts/og-image.html` (cần Google Chrome).
 
 ## Trước khi phát hành

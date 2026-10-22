@@ -19,6 +19,7 @@
         "typecheck": "tsc --noEmit",
         "check": "npm run build:views && npm run typecheck",
         "dist:static": "node scripts/export-static.mjs",
+        "deploy": "bash scripts/deploy.sh",
         "og": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --hide-scrollbars --window-size=1200,630 --virtual-time-budget=5000 --screenshot=public/assets/img/og-gehihi.png \"file://$PWD/scripts/og-image.html\""
     },
     "devDependencies": {
