@@ -1,0 +1,45 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Gehihi là gì? Nguồn gốc biệt danh “Gehihi” của Gemini')
+@section('meta:description', 'Gehihi là biệt danh vui cộng đồng AI Việt Nam đặt cho Gemini của Google. Tìm hiểu vì sao Gemini bị gọi là Gehihi, lời “giải oan” cho nó và Gehihi App liên quan thế nào.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'gehihi-la-gi')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Gehihi là gì?</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<p class="eyebrow">Giải nghĩa từ lóng AI</p>
+<h1 itemprop="headline">Gehihi là gì? Chuyện cái biệt danh của Gemini</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-10-22">22/10/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><span itemprop="name">SaoLabs</span></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p><b>Gehihi</b> là biệt danh vui mà cộng đồng công nghệ Việt Nam dùng để gọi <b>Gemini</b>, mô hình AI của Google. Cái tên nhiều khả năng ghép từ chữ “Ge” trong Gemini với tiếng cười “hihi”, ám chỉ những lúc AI trả lời sai mà vẫn rất tự tin.</p></div>
+<div class="prose" itemprop="articleBody">
+<h2>Vì sao Gemini bị gọi là Gehihi?</h2>
+<p>Theo <a data-nav="false" href="https://docnhanh.vn/cong-nghe/google-thu-nghiem-gemini-4-argon-no-luc-lat-nguoc-the-co-va-xoa-mac-gehihi-tintuc1053287" target="_blank" rel="noopener">bài viết trên Đọc Nhanh</a> (02/10/2026), biệt danh này xuất phát từ việc Gemini hay mắc lỗi suy luận logic, sinh code thiếu ổn định và bị ảo giác khi xử lý chuỗi lệnh phức tạp.</p>
+<p>Trên mạng xã hội, ảnh chế về Gehihi thường có chung một mô típ: mỗi lần có model AI mới ra mắt, Gehihi được vẽ đứng một góc, mặt ngơ ngác, miệng vẫn cười.</p>
+<h2>Lời “giải oan” cho Gehihi</h2>
+<p>Không phải ai cũng chê. Video <a data-nav="false" href="https://www.youtube.com/watch?v=rMQQalBWqZk" target="_blank" rel="noopener">“Giải oan cho Gehihi (Gemini), một nửa thôi”</a> tóm lại lời bênh quen thuộc: Gemini ngoan, làm đúng y yêu cầu và thành thật. Nhiều bình luận cũng khen nó làm tốt việc đơn giản, sáng tác, tra cứu lịch sử, địa lý và chỉnh sửa ảnh nhanh.</p>
+<p>Nói cách khác, “Gehihi” là chuyện hợp việc hay không. Model nào cũng có lúc ngơ; khác nhau ở chỗ ngơ với loại câu hỏi nào.</p>
+<h2>Gehihi trong năm 2026</h2>
+<p>Đọc Nhanh gọi việc Google thử nghiệm Gemini 4 Argon là nỗ lực “xóa mác Gehihi”. Dù kết quả ra sao, biệt danh này đã thành một phần văn hoá mạng của người dùng AI Việt, cũng như nhiều biệt danh vui khác dành cho các chatbot.</p>
+<h2>Gehihi App liên quan gì?</h2>
+<p>Gehihi App do SaoLabs làm, mượn cái tên vui này nhưng <b>không liên kết với Google</b>. Ý tưởng đơn giản: thay vì cãi nhau model nào ngơ, cứ để người dùng chọn và đổi model ngay trong một cuộc trò chuyện, gồm Gemini, Claude, GPT, DeepSeek hoặc API key của riêng bạn.</p>
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn">Thử Gehihi App</a> <a class="text-link" href="/#tinh-nang">Xem tính năng →</a></p>
+</div>
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Hỏi nhanh</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Gehihi có phải tên chính thức của Gemini không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Tên chính thức là Gemini, do Google phát triển. Gehihi chỉ là biệt danh không chính thức trong cộng đồng người dùng Việt Nam.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gọi Gemini là Gehihi có ý xấu không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Phần lớn là trêu vui. Biệt danh nhắc đến điểm yếu như ảo giác hay suy luận sai, nhưng cũng được dùng một cách thân thiện, kiểu “dễ thương mà hơi ngơ”.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Làm sao tránh bị “Gehihi” khi dùng AI?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Kiểm tra lại thông tin quan trọng, yêu cầu AI dẫn nguồn và thử hỏi lại bằng một model khác khi câu trả lời có vẻ sai. Gehihi App gộp cả ba việc này vào một chỗ.</p></div></details>
+</section>
+<footer class="sources"><h2>Nguồn tham khảo</h2><ul>
+<li><a data-nav="false" href="https://docnhanh.vn/cong-nghe/google-thu-nghiem-gemini-4-argon-no-luc-lat-nguoc-the-co-va-xoa-mac-gehihi-tintuc1053287" target="_blank" rel="noopener">Đọc Nhanh: Google thử nghiệm Gemini 4 Argon, nỗ lực xóa mác “Gehihi” (02/10/2026)</a></li>
+<li><a data-nav="false" href="https://www.youtube.com/watch?v=rMQQalBWqZk" target="_blank" rel="noopener">YouTube: Giải oan cho Gehihi (Gemini), một nửa thôi</a></li>
+<li><a data-nav="false" href="https://vi.wikipedia.org/wiki/Gemini_(chatbot)" target="_blank" rel="noopener">Wikipedia: Gemini (chatbot)</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>

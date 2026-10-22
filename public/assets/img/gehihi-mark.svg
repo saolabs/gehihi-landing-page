@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Gehihi">
+  <path d="M32 4C16.5 4 4 14.7 4 28c0 7.4 3.9 14 10 18.4V60l12.3-8.5c1.9.3 3.8.5 5.7.5 15.5 0 28-10.7 28-24S47.5 4 32 4Z" fill="#ff5a36"/>
+  <path d="M18 26.5c1.6-3.2 5.4-3.2 7 0M39 26.5c1.6-3.2 5.4-3.2 7 0" fill="none" stroke="#1d1b16" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M22 34c5.2 6.4 14.8 6.4 20 0" fill="none" stroke="#1d1b16" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="15" cy="33" r="3" fill="#ffc2a8"/><circle cx="49" cy="33" r="3" fill="#ffc2a8"/>
+</svg>

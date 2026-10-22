@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "saola": "1.0.0"
+    },
+    "paths": {
+        "resources": "resources",
+        "saoView": "resources/saola",
+        "bladeView": "resources/views",
+        "compiled": "resources/js/saola",
+        "public": "public/static/saola",
+        "sharedApp": "_app"
+    },
+    "output": {
+        "default": "app/js",
+        "contexts": {
+            "web": "web/js"
+        }
+    },
+    "contexts": {
+        "web": {
+            "name": "Web",
+            "dist": {
+                "static": {
+                    "origin": "https://gehihi.vn"
+                },
+                "css": false,
+                "html": {
+                    "title": "Gehihi",
+                    "lang": "vi"
+                },
+                "styles": [
+                    "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap",
+                    "/assets/css/site.css"
+                ],
+                "assets": [
+                    {
+                        "from": "public/assets/img/og-gehihi.png",
+                        "to": "assets/img/og-gehihi.png"
+                    }
+                ]
+            },
+            "app": [
+                "web/app"
+            ],
+            "views": {
+                "web": "web/views"
+            },
+            "blade": {
+                "web": "web"
+            },
+            "compiled": {
+                "views": "web/views",
+                "app": "web/app",
+                "registry": "web/registry.js"
+            },
+            "registry": {
+                "lazy": false
+            }
+        }
+    },
+    "compiler": {
+        "idMode": "terse"
+    }
+}

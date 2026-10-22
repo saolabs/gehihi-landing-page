@@ -1,0 +1,70 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Gehihi — chat AI nhiều model, ngơ thì đổi model')
+@section('meta:description', 'Gehihi: chat AI dùng Gemini, Claude, GPT, DeepSeek trong một ô chat. Dự án có hướng dẫn riêng, Research trích nguồn, key riêng. Không cần tài khoản.')
+@section('seo:path', '')
+@block('content')
+<section class="hero" itemscope="itemscope" itemtype="https://schema.org/WebApplication"><div class="container hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">Cộng đồng gọi Gemini là Gehihi. Bọn mình lấy luôn cái tên đó.</p>
+<h1><span itemprop="name">Gehihi</span>: chat AI nhiều model, <mark>ngơ thì đổi</mark></h1>
+<p class="lead" itemprop="description">Một ô chat cho Gemini, Claude, GPT, DeepSeek và các API tương thích OpenAI. Câu trả lời chưa ổn thì hỏi lại bằng model khác, ngay trong cuộc trò chuyện. Không cần tài khoản để bắt đầu.</p>
+<meta itemprop="applicationCategory" content="UtilitiesApplication">
+<meta itemprop="operatingSystem" content="Web">
+<meta itemprop="inLanguage" content="vi">
+<div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn" itemprop="url">Trò chuyện ngay</a><a class="btn btn-ghost" href="/gehihi-la-gi.html">Gehihi là gì?</a></div>
+<p class="hero-note">Không cần đăng ký · Mang API key riêng khi muốn</p>
+</div>
+<div class="chat-demo" aria-label="Minh hoạ một cuộc trò chuyện trên Gehihi" role="img">
+<div class="chat-bar"><span></span><span></span><span></span><b>Dự án: Ôn thi Vật lý</b></div>
+<div class="bubble bubble-user">Tại sao bầu trời màu xanh?</div>
+<div class="bubble bubble-ai is-off"><small>Model nhanh</small>Vì bầu trời phản chiếu màu nước biển. hihi</div>
+<div class="switcher"><span>Chưa ổn? Hỏi lại bằng</span><b class="chip">Claude</b><b class="chip">GPT</b><b class="chip">Gemini Pro</b><b class="chip">DeepSeek</b></div>
+<div class="bubble bubble-ai"><small>Model suy luận</small>Do tán xạ Rayleigh: ánh sáng bước sóng ngắn như xanh lam bị khí quyển tán xạ mạnh hơn đỏ, nên ta thấy xanh khắp bầu trời.</div>
+</div>
+</div></section>
+
+<section class="section" id="tinh-nang" aria-labelledby="features-title"><div class="container">
+<div class="section-head"><p class="eyebrow">Tính năng</p><h2 id="features-title">Đủ cho việc hỏi, học và nghiên cứu</h2></div>
+<div class="feature-grid">
+<article class="feature"><span class="feature-icon" aria-hidden="true">💬</span><h3>Vào là chat</h3><p>Không bắt đăng ký. Khách vẫn có dự án, hội thoại và tệp của riêng mình; khi tạo tài khoản, dữ liệu được chuyển sang.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">📁</span><h3>Dự án có hướng dẫn riêng</h3><p>Đặt tên và viết hướng dẫn một lần. Mọi cuộc trò chuyện trong dự án đều nhận hướng dẫn đó, khỏi dặn lại từ đầu.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🔎</span><h3>Research có trích nguồn</h3><p>Tra cứu nhanh hoặc nghiên cứu sâu nhiều vòng: tìm, đọc trang, tổng hợp báo cáo kèm liên kết nguồn. Nguồn không kiểm chứng được sẽ bị đánh dấu.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🔀</span><h3>Nhiều model, có dự phòng</h3><p>Chọn model theo việc: nhanh cho câu hỏi ngắn, suy luận cho bài khó. Model gặp lỗi thì chuyển sang model dự phòng.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🔑</span><h3>Mang API key riêng</h3><p>Có tài khoản thì thêm provider của bạn: OpenAI, Anthropic, Google, DeepSeek, Cerebras, NVIDIA hoặc endpoint tương thích OpenAI. Key được mã hoá khi lưu.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🌿</span><h3>Sửa, tạo lại, xuất</h3><p>Sửa câu hỏi hay tạo lại câu trả lời mà không mất nhánh cũ. Xuất hội thoại ra tệp khi cần.</p></article>
+</div>
+</div></section>
+
+<section class="section meme" aria-labelledby="meme-title"><div class="container meme-grid">
+<div class="dict-card" aria-hidden="true"><p class="dict-word">Ge·hi·hi <i>(danh từ, lóng)</i></p><p>Biệt danh dân AI Việt đặt cho Gemini, nhất là những lúc nó trả lời sai mà vẫn rất tự tin.</p><p class="dict-example">“Hỏi Gehihi xong nhớ kiểm tra lại nha.”</p></div>
+<div>
+<p class="eyebrow">Vì sao tên là Gehihi?</p>
+<h2 id="meme-title">Một model có lúc ngơ. Nhiều model thì ít ngơ hơn.</h2>
+<p>Trong các hội nhóm AI, “Gehihi” là cách trêu Gemini. Người chê bảo nó hay ảo giác, code chưa chắc. Người bênh bảo nó ngoan, làm đúng y lời, viết lách nhanh. Bọn mình thấy cả hai đều đúng, tuỳ việc.</p>
+<p>Vì thế Gehihi không đặt cược vào một model nào. Bạn chọn model hợp việc, và đổi ngay khi câu trả lời chưa ưng.</p>
+<a class="text-link" href="/gehihi-la-gi.html">Đọc chuyện cái tên Gehihi →</a>
+</div>
+</div></section>
+
+<section class="section" aria-labelledby="steps-title"><div class="container">
+<div class="section-head"><p class="eyebrow">Cách dùng</p><h2 id="steps-title">Ba bước, không cần đọc hướng dẫn</h2></div>
+<ol class="steps">
+<li><b>Mở Gehihi và hỏi.</b> Không đăng ký, không cài đặt.</li>
+<li><b>Gom việc vào dự án.</b> Viết hướng dẫn một lần, thêm tệp làm nguồn.</li>
+<li><b>Chưa ưng thì đổi model.</b> Hoặc bật Research để có câu trả lời kèm nguồn.</li>
+</ol>
+</div></section>
+
+<section class="section" id="hoi-dap" aria-labelledby="faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage"><div class="container narrow">
+<div class="section-head"><p class="eyebrow">Hỏi đáp</p><h2 id="faq-title">Câu hỏi thường gặp về Gehihi</h2></div>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Gehihi có phải sản phẩm của Google không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Gehihi do SaoLabs phát triển và không liên kết với Google. “Gehihi” là biệt danh cộng đồng đặt cho Gemini; Gemini là thương hiệu của Google LLC.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Có cần tạo tài khoản để dùng Gehihi không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Bạn dùng được chat, dự án, tệp và Research ngay. Tài khoản chỉ cần khi muốn thêm provider riêng hoặc giữ dữ liệu lâu dài.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi khác Gemini thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gemini là model và ứng dụng AI của Google. Gehihi là nơi trò chuyện dùng được nhiều model, trong đó có thể có Gemini, kèm dự án, Research trích nguồn và API key riêng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi dùng model nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Model mặc định do hệ thống chọn và có thể thay đổi theo thời gian. Khi có tài khoản, bạn thêm provider riêng như OpenAI, Anthropic, Google, DeepSeek hoặc endpoint tương thích OpenAI để dùng model mình muốn.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">API key của tôi được lưu thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Key được mã hoá khi lưu, không hiển thị lại sau khi lưu và chỉ dùng cho tài khoản của bạn.</p></div></details>
+</div></section>
+
+<section class="container cta-band"><div><h2>Hỏi thử một câu đi.</h2><p>Ngơ thì đổi model. Vậy thôi.</p></div><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn">Trò chuyện ngay</a></section>
+@endblock
+</template>
