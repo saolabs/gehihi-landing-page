@@ -3,11 +3,16 @@
 # Usage: npm run deploy   (or: bash scripts/deploy.sh)
 set -euo pipefail
 
-HOST="${DEPLOY_HOST:-root@45.119.86.201}"
-DEST="${DEPLOY_DEST:-/var/www/html/gehihi/public}"
 ORIGIN="https://gehihi.vn"
 
 cd "$(dirname "$0")/.."
+
+# Server details stay out of git: .deploy.env is ignored (see .deploy.env.example).
+[[ -f .deploy.env ]] && source .deploy.env
+: "${DEPLOY_HOST:?Thiếu DEPLOY_HOST, tạo .deploy.env từ .deploy.env.example}"
+: "${DEPLOY_DEST:?Thiếu DEPLOY_DEST, tạo .deploy.env từ .deploy.env.example}"
+HOST="$DEPLOY_HOST"
+DEST="$DEPLOY_DEST"
 
 # Production must match a commit; the build reads the working tree.
 if [[ -n "$(git status --porcelain)" ]]; then

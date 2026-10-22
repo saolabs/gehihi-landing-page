@@ -38,3 +38,5 @@ database/database.sqlite-journal
 
 ssh.txt
 /mail.txt
+# Production server details for scripts/deploy.sh
+/.deploy.env
