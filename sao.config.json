@@ -29,7 +29,7 @@
                     "lang": "vi"
                 },
                 "styles": [
-                    "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap",
+                    "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap",
                     "/assets/css/site.css"
                 ],
                 "assets": [

@@ -6,7 +6,7 @@
 <a href="/" class="brand" aria-label="Gehihi, trang chủ"><img src="/assets/img/gehihi-mark.svg" width="36" height="36" alt=""><span>Gehihi</span></a>
 <nav class="site-nav" aria-label="Điều hướng chính">
 <a href="/#tinh-nang">Tính năng</a>
-<a href="/gehihi-la-gi.html">Gehihi là gì?</a>
+<a href="/about.html">Về Gehihi</a>
 <a href="/#hoi-dap">Hỏi đáp</a>
 </nav>
 <a data-nav="false" class="btn btn-primary btn-small" href="https://app.gehihi.vn">Trò chuyện ngay</a>
@@ -18,7 +18,7 @@
 <div><a href="/" class="brand" aria-label="Gehihi, trang chủ"><img src="/assets/img/gehihi-mark.svg" width="36" height="36" alt=""><span>Gehihi</span></a>
 <p class="footer-description">Chat AI nhiều model, có dự án, Research trích nguồn và key riêng. Một sản phẩm của <span itemprop="name">SaoLabs</span>.</p>
 <link itemprop="url" href="https://saolabs.org/"></div>
-<div class="footer-links"><h2>Khám phá</h2><a href="/#tinh-nang">Tính năng</a><a href="/gehihi-la-gi.html">Gehihi là gì?</a><a href="/#hoi-dap">Hỏi đáp</a></div>
+<div class="footer-links"><h2>Khám phá</h2><a href="/#tinh-nang">Tính năng</a><a href="/about.html">Về Gehihi</a><a href="/#hoi-dap">Hỏi đáp</a></div>
 <div class="footer-links"><h2>Liên hệ</h2><a data-nav="false" href="mailto:support@saolabs.org" itemprop="email">support&#64;saolabs.org</a><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">saolabs.org</a></div>
 </div>
 <div class="container footer-bottom"><p>Gehihi không liên kết với Google. Gemini là thương hiệu của Google LLC; “Gehihi” là biệt danh do cộng đồng đặt cho Gemini.</p><a data-nav="false" href="#top">Lên đầu trang ↑</a></div>

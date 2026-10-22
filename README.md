@@ -9,7 +9,7 @@ Chiến lược SEO: tận dụng meme “Gehihi” (biệt danh cộng đồng 
 | URL | View | Từ khoá chính |
 | --- | --- | --- |
 | `/` | `modules/home/index.sao` | gehihi, gehihi ai, chat ai nhiều model |
-| `/gehihi-la-gi.html` | `modules/home/gehihi-la-gi.sao` | gehihi là gì, gehihi gemini |
+| `/about.html` | `modules/home/about.sao` | gehihi là gì, gehihi gemini |
 
 Thêm trang: tạo view `.sao` rồi khai báo trong `config/site.php`; route, sitemap và test tự nhận.
 

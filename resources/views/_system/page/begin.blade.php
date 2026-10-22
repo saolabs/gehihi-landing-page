@@ -12,7 +12,7 @@
     <meta name="description" content="@yield('meta:description')">
     <meta name="author" content="SaoLabs">
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#fff8ec">
+    <meta name="theme-color" content="#f8fafc">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="canonical" href="{{ $canonical }}">
     <meta property="og:type" content="@yield('meta:og_type', 'website')">
@@ -31,7 +31,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="/assets/css/site.css">
     @include($__system__.'partials.assets')
     {!! $__helper->renderHeadAssets('css') !!}

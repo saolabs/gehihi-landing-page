@@ -1,0 +1,56 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Về Gehihi App — Không gian làm việc AI đa model và tra cứu có nguồn')
+@section('meta:description', 'Tìm hiểu về Gehihi App: nền tảng chat AI đa model, quản lý theo dự án, Deep Research trích nguồn và câu chuyện nguồn gốc cái tên Gehihi của cộng đồng AI.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'about')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Về Gehihi App</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<p class="eyebrow">Giới thiệu sản phẩm</p>
+<h1 itemprop="headline">Gehihi App: Không gian làm việc AI đa model cho học tập và nghiên cứu</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-10-22">22/10/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><span itemprop="name">SaoLabs</span></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p><b>Gehihi App</b> là không gian làm việc AI đa nền tảng do <b>SaoLabs</b> phát triển, kết nối đồng thời nhiều mô hình AI hàng đầu như Google Gemini, OpenAI GPT, Anthropic Claude và DeepSeek trong một ô chat duy nhất. Ứng dụng hỗ trợ quản lý theo dự án có hướng dẫn riêng, đính kèm tài liệu tham chiếu, Deep Research trích nguồn và tự do tích hợp API key cá nhân.</p></div>
+<div class="prose" itemprop="articleBody">
+<h2>Vì sao Gehihi App ra đời?</h2>
+<p>Trong kỷ nguyên AI bùng nổ, việc chỉ sử dụng một chatbot đơn lẻ bộc lộ nhiều hạn chế. Người dùng thường xuyên phải mở nhiều tab trình duyệt, chuyển đổi qua lại giữa ChatGPT, Claude và Gemini, sao chép lặp đi lặp lại chỉ dẫn bối cảnh (system prompt) và khó khăn khi muốn đối chiếu chéo các câu trả lời.</p>
+<p>Gehihi App được xây dựng với mục tiêu xóa bỏ mọi rào cản đó: tạo ra một không gian làm việc tập trung, nơi bạn có thể khai thác điểm mạnh của từng mô hình AI mà không bị phân tán luồng tư duy.</p>
+
+<h2>Các trụ cột tính năng cốt lõi của Gehihi App</h2>
+<p>Gehihi App tập trung giải quyết các bài toán làm việc thực tế cho người học, người nghiên cứu và lập trình viên:</p>
+<ul>
+<li><b>Đa model trong một hội thoại:</b> Đặt câu hỏi và đổi model ngay trong luồng chat nếu muốn câu trả lời sâu sắc hơn hoặc kiểm tra chéo độ chính xác.</li>
+<li><b>Quản lý theo Dự án (Workspace):</b> Tạo các dự án độc lập, thiết lập hướng dẫn quy chuẩn một lần để mọi hội thoại con tự động tuân thủ.</li>
+<li><b>Đính kèm tài liệu làm nguồn (Document Context):</b> Nạp tệp PDF, Markdown, văn bản hay mã nguồn vào dự án để AI đọc hiểu và phân tích có căn cứ.</li>
+<li><b>Deep Research có trích nguồn minh bạch:</b> Tự động tra cứu web theo thời gian thực qua nhiều vòng, tổng hợp báo cáo chuyên sâu kèm danh mục liên kết nguồn có thể kiểm chứng.</li>
+<li><b>Tự do API Key (BYOK):</b> Không bắt buộc đăng ký tài khoản cho khách vãng lai; đồng thời hỗ trợ người dùng nâng cao kết nối API key riêng với cơ chế mã hoá an toàn tuyệt đối.</li>
+</ul>
+
+<h2>Về cái tên “Gehihi” và văn hóa cộng đồng AI</h2>
+<p>Cái tên <b>Gehihi</b> vốn là biệt danh hóm hỉnh do cộng đồng công nghệ Việt Nam đặt cho Gemini, ghép từ chữ “Ge” với tiếng cười “hihi” khi mô hình AI đưa ra câu trả lời ngơ ngác nhưng vẫn tự tin. Tuy nhiên, thay vì xem đó là điểm chê bai, đội ngũ phát triển nhận thấy đây là thực tế chung của công nghệ AI: <i>mô hình nào cũng có ưu và nhược điểm riêng</i>.</p>
+<p>Gehihi App mượn cái tên vui vẻ này để thể hiện một triết lý thiết kế cởi mở: thay vì tranh cãi model nào tốt hơn, hãy trao cho người dùng quyền chọn model phù hợp nhất cho từng việc. <i>Lưu ý: Gehihi App do SaoLabs phát triển độc lập và không liên kết với Google LLC hay thương hiệu Gemini.</i></p>
+
+<h2>Bảo mật và Quyền riêng tư</h2>
+<p>Gehihi App tôn trọng tối đa dữ liệu của bạn. Khách sử dụng được lưu trữ dữ liệu cục bộ trên trình duyệt. Khi bạn tạo tài khoản và thêm API key riêng, thông tin được mã hoá bảo mật ở tầng backend và chỉ sử dụng cho các yêu cầu xuất phát từ chính bạn.</p>
+
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn">Trải nghiệm Gehihi App ngay →</a> <a class="text-link" href="/#tinh-nang">Xem danh sách tính năng →</a></p>
+</div>
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Gehihi App có bắt buộc phải trả phí hoặc đăng ký không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Khách vào Gehihi App có thể bắt đầu trò chuyện, tạo dự án và sử dụng Deep Research ngay mà không cần tài khoản hay thẻ tín dụng. Tài khoản chỉ cần khi bạn muốn đồng bộ đa thiết bị hoặc gắn API key riêng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi App hỗ trợ những nhà cung cấp AI nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi App hỗ trợ các dòng model phổ biến từ Google Gemini, Anthropic Claude, OpenAI GPT, DeepSeek cùng các endpoint tương thích OpenAI.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Dữ liệu dự án và tài liệu của tôi có bị dùng để huấn luyện AI không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Dữ liệu của bạn chỉ được nạp làm ngữ cảnh cho phiên trò chuyện của bạn và không bị dùng cho mục đích đào tạo lại mô hình.</p></div></details>
+</section>
+<footer class="sources"><h2>Tài liệu và Liên kết tham khảo</h2><ul>
+<li><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">SaoLabs: Hệ sinh thái công nghệ và ứng dụng web đời mới</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn" target="_blank" rel="noopener">Gehihi App: Ứng dụng trò chuyện AI đa provider</a></li>
+<li><a data-nav="false" href="https://vi.wikipedia.org/wiki/Gemini_(chatbot)" target="_blank" rel="noopener">Wikipedia: Thông tin về mô hình Gemini của Google</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
