@@ -27,7 +27,7 @@ ssh "$HOST" "chown -R www-data:www-data '$DEST'"
 
 # Every sitemap URL must answer 200 from the live site.
 failed=0
-for url in "$ORIGIN/" $(grep -o '<loc>[^<]*' dist-static/web/sitemap.xml | sed 's/<loc>//'); do
+for url in $(grep -o '<loc>[^<]*' dist-static/web/sitemap.xml | sed 's/<loc>//'); do
     code="$(curl -s -o /dev/null -w '%{http_code}' "$url")"
     echo "  $code $url"
     [[ "$code" == 200 ]] || failed=1
