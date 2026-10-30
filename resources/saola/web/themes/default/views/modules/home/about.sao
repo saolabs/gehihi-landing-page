@@ -1,0 +1,63 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Giới thiệu Gehihi — Hệ thống AI agent của SaoLabs')
+@section('meta:description', 'Giới thiệu Gehihi của SaoLabs: hệ thống tạo và sử dụng AI agent với kỹ năng, tài liệu riêng, quy trình nhiều bước và lịch chạy, không cần lập trình.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'about')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Giới thiệu</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<h1 itemprop="headline">Giới thiệu Gehihi</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-10-30">30/10/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p><b>Gehihi</b> là hệ thống <b>AI agent</b> do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển. Bạn có thể chọn agent có sẵn hoặc tạo agent riêng, thêm kỹ năng và tài liệu, thiết lập quy trình rồi chạy theo yêu cầu hoặc đặt lịch.</p></div>
+<div class="prose" itemprop="articleBody">
+<h2>Agent hỗ trợ công việc như thế nào?</h2>
+<p>Biên tập bài viết, phân tích tài liệu hay soạn phản hồi khách hàng đều có những yêu cầu lặp lại. Với Gehihi, bạn lưu hướng dẫn và các bước xử lý thành agent. Lần sau, chỉ cần nhập yêu cầu hoặc chọn tài liệu mới để sử dụng lại.</p>
+<p>Bạn có thể tìm agent trong kho công khai (Agent Store), đọc hướng dẫn và thêm vào danh sách cá nhân. Nếu cần cách xử lý riêng, hãy tạo agent mới và chạy thử với dữ liệu của mình.</p>
+
+<h2>Tạo agent theo cách làm của bạn</h2>
+<ul>
+<li><b>Hướng dẫn:</b> mô tả việc cần làm, giọng văn và yêu cầu đối với kết quả.</li>
+<li><b>Thông tin đầu vào:</b> tạo các ô để nhập văn bản, số, lựa chọn, tài liệu, đường dẫn hoặc ảnh.</li>
+<li><b>Kỹ năng (skill):</b> thêm bộ hướng dẫn chuyên môn dùng lại được, chẳng hạn cách biên tập tiếng Việt hay soạn phản hồi.</li>
+<li><b>Quy trình:</b> sắp xếp các bước đọc tài liệu, xử lý bằng AI, hỏi thêm thông tin hoặc rẽ nhánh theo điều kiện.</li>
+</ul>
+<p>Bạn thực hiện các thao tác này trên giao diện, không cần lập trình. Agent có thể giữ riêng để sử dụng hoặc gửi lên kho công khai để được duyệt trước khi chia sẻ.</p>
+
+<h2>Tài liệu riêng và lịch chạy</h2>
+<p>Nếu agent hỗ trợ kiến thức riêng, bạn có thể thêm nội dung, câu hỏi thường gặp, tài liệu hoặc đường dẫn làm nguồn tham khảo. Tài nguyên riêng cho phép bổ sung tệp văn bản vào mỗi lần xử lý khi agent có bật tính năng này. Dữ liệu được lưu riêng theo người dùng và agent, không đi kèm phiên bản công khai.</p>
+<p>Với agent hỗ trợ đặt lịch, bạn chọn chạy một lần hoặc lặp lại theo ngày, tuần, tháng và múi giờ của mình. Bạn có thể xem lần chạy tiếp theo, sửa lịch, tạm dừng và xem lịch sử. Quy trình có bước gửi email chỉ gửi tới địa chỉ nhận đã xác nhận mà bạn chọn.</p>
+
+<h2>Các công cụ AI trong Gehihi</h2>
+<p>Gehihi hỗ trợ nhiều mô hình AI, tra cứu web, nghiên cứu chuyên sâu có liên kết nguồn, tạo và chỉnh sửa ảnh. Các công cụ dùng được phụ thuộc cấu hình và quyền truy cập của nhà cung cấp. Bạn cũng có thể kết nối nhà cung cấp AI bằng khóa API riêng.</p>
+<p>Trò chuyện là một cách tương tác với hệ thống: gọi agent bằng &#64;, chọn kỹ năng bằng / hoặc trao đổi để làm rõ yêu cầu. Các dự án giúp gom hội thoại và lưu hướng dẫn chung.</p>
+
+<h2>Tài khoản, dữ liệu và chi phí</h2>
+<p>Bạn có thể xem kho agent công khai trước khi đăng nhập. Tài khoản giúp bạn quản lý agent riêng, kỹ năng, tài liệu và lịch chạy. Chế độ trò chuyện dành cho khách có thời hạn lưu dữ liệu và hỗ trợ nhập dữ liệu vào tài khoản sau khi đăng nhập.</p>
+<p>Khóa API được mã hóa trên máy chủ. Khi xử lý yêu cầu, các phần tài liệu cần thiết được gửi tới nhà cung cấp AI đã chọn làm nội dung tham khảo. Đây không phải việc huấn luyện lại mô hình; cách nhà cung cấp xử lý dữ liệu tuân theo chính sách của dịch vụ đó.</p>
+<p>Chi phí và hạn mức phụ thuộc agent, nhà cung cấp và chính sách trong ứng dụng. Kiểm tra giá hoặc quyền sử dụng trên trang agent nếu có. Khi dùng khóa API riêng, bạn thanh toán theo chính sách của nhà cung cấp. Gói thuê bao chatbot và dịch vụ API được tính riêng.</p>
+
+<h2>Câu chuyện tên gọi</h2>
+<p>“Gehihi” là biệt danh vui được cộng đồng AI Việt dùng để gọi Gemini. <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> chọn cái tên gần gũi này cho một hệ thống giúp người dùng tạo agent phù hợp với công việc của mình.</p>
+<p>Gehihi do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển độc lập và không liên kết với Google. Gemini là thương hiệu của Google LLC.</p>
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/ai/agents">Khám phá kho agent →</a> <a class="text-link" href="/#tinh-nang">Xem các tính năng →</a></p>
+</div>
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Có cần biết lập trình để tạo agent không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Bạn viết hướng dẫn, tạo các ô nhập thông tin và sắp xếp các bước trên giao diện. Sau đó, chạy thử để điều chỉnh kết quả trước khi dùng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có thể giữ agent và tài liệu cho riêng mình không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Agent có thể giữ riêng để sử dụng. Kiến thức và tài nguyên của bạn được lưu riêng; công khai agent không chia sẻ kèm những dữ liệu này.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Mọi mô hình AI đều dùng được cho mọi tính năng không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Mỗi tính năng cần công cụ phù hợp: tạo ảnh cần mô hình hỗ trợ ảnh, nghiên cứu chuyên sâu cần dịch vụ tìm kiếm. Các lựa chọn dùng được sẽ xuất hiện trong ứng dụng.</p></div></details>
+</section>
+<footer class="sources"><h2>Liên kết hữu ích</h2><ul>
+<li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/ai/agents">Kho agent: tìm theo nhu cầu công việc</a></li>
+<li><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">SaoLabs: đội ngũ phát triển Gehihi</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>

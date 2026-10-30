@@ -2,13 +2,19 @@
 
 Trang giới thiệu [Gehihi App](../gehihi-app), xây trên Saola (Laravel SSR + SPA) và xuất được thành site tĩnh.
 
-Chiến lược SEO: tận dụng meme “Gehihi” (biệt danh cộng đồng AI Việt đặt cho Gemini) để chiếm truy vấn `gehihi`, `gehihi là gì`, `gehihi gemini`, rồi dẫn sang sản phẩm chat nhiều model.
+Nguồn view nằm ở `resources/saola/web/themes/default/views/`, logic dùng chung giữ tại `web/app/`. Context manifest khai theme mặc định; mapping tường minh trong `sao.config.json` dùng mode `published`, giữ namespace `web.themes.default.views.*`, route và pipeline xuất tĩnh với dependency đang ghim. Assets tại `public/assets/` giữ nguyên URL. Đây là cấu trúc local theme của project, không bắt cài gói web.
+
+Chiến lược SEO: tận dụng meme “Gehihi” (biệt danh cộng đồng AI Việt đặt cho Gemini) để chiếm truy vấn `gehihi`, `gehihi là gì`, `gehihi gemini`, rồi dẫn sang hệ thống AI Agent với Agent Store, trình tạo agent không cần lập trình, kỹ năng, kiến thức riêng, quy trình và lịch chạy. Chat là một phương thức tương tác trong hệ thống.
+
+## Thư viện Saola
+
+Bộ phiên bản đã nâng và kiểm tra ngày 30/10/2026: `saola/core` 2.7.0, `saola/compiler` 3.0.0, `@saolabs/builder` 1.3.3 và `@saolabs/client` 1.5.1. Hai gói JavaScript được cài từ tag GitHub chính thức; `composer.lock` và `package-lock.json` giữ phiên bản dùng để build/deploy.
 
 ## Trang
 
 | URL | View | Từ khoá chính |
 | --- | --- | --- |
-| `/` | `modules/home/index.sao` | gehihi, gehihi ai, chat ai nhiều model |
+| `/` | `modules/home/index.sao` | gehihi, gehihi ai, hệ thống ai agent, tạo agent không cần lập trình |
 | `/about.html` | `modules/home/about.sao` | gehihi là gì, gehihi gemini |
 
 Thêm trang: tạo view `.sao` rồi khai báo trong `config/site.php`; route, sitemap và test tự nhận.

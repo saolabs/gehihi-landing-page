@@ -1,0 +1,78 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Gehihi — Tạo AI agent cho công việc của bạn')
+@section('meta:description', 'Gehihi giúp bạn tạo và sử dụng AI agent, kết hợp kỹ năng, tài liệu riêng và quy trình tự động. Không cần lập trình, có thể đặt lịch và theo dõi kết quả.')
+@section('seo:path', '')
+@block('content')
+<section class="hero" itemscope="itemscope" itemtype="https://schema.org/WebApplication"><div class="container hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">Hệ thống AI agent</p>
+<h1><span itemprop="name">Gehihi</span>: tạo agent <mark>cho công việc của bạn</mark></h1>
+<p class="lead" itemprop="description">Chọn agent có sẵn hoặc tạo agent riêng. Thêm hướng dẫn, kỹ năng và tài liệu; thiết lập quy trình, đặt lịch và xem kết quả ngay trong Gehihi.</p>
+<meta itemprop="applicationCategory" content="ProductivityApplication">
+<meta itemprop="operatingSystem" content="Web">
+<meta itemprop="inLanguage" content="vi">
+<div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/ai/agents" itemprop="url">Khám phá kho agent →</a><a data-nav="false" class="btn btn-ghost" href="https://app.gehihi.vn/ai/my-agents/create">Tạo agent riêng</a></div>
+<p class="hero-note">Không cần lập trình · Dùng tài liệu riêng · Hỗ trợ đặt lịch</p>
+</div>
+<div class="chat-demo agent-preview" aria-label="Ví dụ minh họa quy trình agent biên tập nội dung" role="img">
+<div class="chat-bar"><span></span><span></span><span></span><b>Agent: Biên tập nội dung</b></div>
+<p class="agent-preview-label">Đầu vào</p>
+<div class="agent-preview-input">Tài liệu sản phẩm · Hướng dẫn thương hiệu</div>
+<ol class="agent-preview-steps">
+<li><span>01</span><div><b>Đọc tài liệu</b><p>Lấy thông tin cần thiết từ tài liệu bạn chọn.</p></div></li>
+<li><span>02</span><div><b>Biên tập theo hướng dẫn</b><p>Giữ giọng văn và cách trình bày của thương hiệu.</p></div></li>
+<li><span>03</span><div><b>Hoàn thiện bản nháp</b><p>Tổng hợp nội dung để bạn xem lại và sử dụng.</p></div></li>
+</ol>
+<div class="agent-preview-result"><b>Kết quả: bài giới thiệu sản phẩm</b><p>Lần sau, chỉ cần chọn tài liệu mới để dùng lại agent.</p></div>
+<p class="agent-preview-caption">Ví dụ minh họa quy trình biên tập nội dung</p>
+</div>
+</div></section>
+
+<section class="section" id="tinh-nang" aria-labelledby="features-title"><div class="container">
+<div class="section-head"><p class="eyebrow">Tính năng</p><h2 id="features-title">Tạo, sử dụng và quản lý agent trong cùng một nơi</h2></div>
+<div class="feature-grid">
+<article class="feature"><span class="feature-icon" aria-hidden="true">🤖</span><h3>Kho agent theo nhu cầu</h3><p>Tìm agent cho công việc của bạn, xem hướng dẫn và thêm vào danh sách cá nhân. Các agent công khai được duyệt trước khi xuất hiện trong kho.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🛠️</span><h3>Tạo agent không cần lập trình</h3><p>Đặt tên, viết hướng dẫn và thêm các ô nhập thông tin. Agent có thể nhận văn bản, số, lựa chọn, tài liệu, đường dẫn hoặc ảnh.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🧩</span><h3>Kỹ năng dùng lại được</h3><p>Thêm cách biên tập, phân tích hay soạn nội dung cho agent. Thêm kỹ năng bằng nội dung SKILL.md hoặc đường dẫn GitHub công khai được hỗ trợ.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">📚</span><h3>Kiến thức riêng cho agent</h3><p>Bổ sung nội dung, tài liệu hoặc đường dẫn để agent tham khảo khi tính năng này được bật. Mỗi người dùng có kho dữ liệu riêng.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🔀</span><h3>Quy trình nhiều bước</h3><p>Kết hợp các bước đọc tài liệu, xử lý bằng AI, hỏi thêm thông tin và rẽ nhánh theo điều kiện. Chạy thử để điều chỉnh trước khi sử dụng.</p></article>
+<article class="feature"><span class="feature-icon" aria-hidden="true">🗓️</span><h3>Đặt lịch và theo dõi</h3><p>Với agent có hỗ trợ, chọn chạy một lần hoặc lặp lại theo múi giờ của bạn. Xem kết quả, lịch sử và tạm dừng khi cần.</p></article>
+</div>
+</div></section>
+
+<section class="section meme" id="agents" aria-labelledby="agents-title"><div class="container meme-grid">
+<div class="dict-card"><p class="dict-word">Cách làm của bạn</p><p><b>Hướng dẫn:</b> việc cần làm và yêu cầu kết quả.<br><b>Kỹ năng:</b> cách xử lý từng loại công việc.<br><b>Kiến thức riêng:</b> tài liệu để agent tham khảo.<br><b>Quy trình:</b> thứ tự thực hiện các bước.</p><p class="dict-example">Ví dụ: đọc tài liệu → phân tích → hỏi thêm thông tin → hoàn thiện nội dung.</p></div>
+<div>
+<p class="eyebrow">Làm việc theo cách của bạn</p>
+<h2 id="agents-title">Lưu cách làm, dùng lại cho lần sau</h2>
+<p>Bạn thường biên tập bài viết, phân tích tài liệu hay soạn phản hồi khách hàng theo một cách nhất định? Lưu hướng dẫn thành agent để mỗi lần sử dụng chỉ cần nhập yêu cầu hoặc chọn tài liệu mới.</p>
+<p>Chạy thử để điều chỉnh kết quả. Bạn có thể giữ agent cho riêng mình hoặc gửi lên kho agent để được duyệt và chia sẻ với mọi người.</p>
+<div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/ai/agents">Tìm agent phù hợp →</a><a data-nav="false" class="text-link" href="https://app.gehihi.vn/ai/my-agents/create">Tạo agent riêng →</a></div>
+</div>
+</div></section>
+
+<section class="section" id="cach-su-dung" aria-labelledby="steps-title"><div class="container">
+<div class="section-head"><p class="eyebrow">Bắt đầu từ việc bạn cần làm</p><h2 id="steps-title">Bắt đầu với ba bước</h2></div>
+<ol class="steps">
+<li><b>Chọn hoặc tạo agent</b> Tìm agent phù hợp trong kho, thêm vào danh sách của bạn hoặc tạo agent mới từ hướng dẫn công việc.</li>
+<li><b>Thêm hướng dẫn và tài liệu</b> Chọn kỹ năng, bổ sung tài liệu nếu agent hỗ trợ rồi chạy thử để kiểm tra kết quả.</li>
+<li><b>Sử dụng và theo dõi kết quả</b> Gửi yêu cầu mới khi cần, hoặc đặt lịch cho agent có hỗ trợ. Xem kết quả và các lần chạy trước trong Gehihi.</li>
+</ol>
+</div></section>
+
+<section class="section" id="hoi-dap" aria-labelledby="faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage"><div class="container narrow">
+<div class="section-head"><p class="eyebrow">Hỏi đáp</p><h2 id="faq-title">Câu hỏi thường gặp</h2></div>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Gehihi là gì?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi là hệ thống AI agent do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển. Bạn có thể chọn agent có sẵn hoặc tạo agent riêng cho từng công việc, bổ sung kỹ năng và tài liệu, thiết lập quy trình, đặt lịch và theo dõi kết quả.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có cần tạo tài khoản không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể xem kho agent công khai trước khi đăng nhập. Để quản lý agent riêng, kỹ năng, tài liệu và lịch chạy, bạn cần có tài khoản. Chế độ trò chuyện dành cho khách vẫn có thể dùng thử mà không cần đăng ký; dữ liệu được lưu có thời hạn.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Agent và kỹ năng khác nhau thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Agent thực hiện một công việc theo hướng dẫn và quy trình bạn chọn. Kỹ năng (skill) là bộ hướng dẫn chuyên môn có thể dùng cho nhiều agent, chẳng hạn cách biên tập tiếng Việt hoặc phân tích tài liệu. Bạn có thể mở agent để nhập yêu cầu, hoặc gọi agent trong cuộc trò chuyện.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Không biết lập trình có tạo agent được không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn nhập hướng dẫn, tạo các ô điền thông tin và sắp xếp các bước ngay trên giao diện. Với agent hỗ trợ đặt lịch, bạn có thể chọn chạy một lần hoặc lặp lại, xem lịch sử và tạm dừng. Nếu quy trình có bước gửi email, bạn cần chọn địa chỉ nhận đã xác nhận.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tài liệu riêng có bị chia sẻ khi công khai agent không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Kiến thức và tài nguyên riêng được lưu theo người dùng và agent, không đi kèm phiên bản công khai. Khi xử lý yêu cầu, các phần nội dung cần thiết được gửi tới nhà cung cấp AI đã chọn để tham khảo; đây không phải việc huấn luyện lại mô hình.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Chi phí sử dụng được tính thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Chi phí và hạn mức phụ thuộc agent, nhà cung cấp AI và chính sách đang áp dụng trong Gehihi. Xem giá hoặc quyền sử dụng trên trang agent nếu có. Khi dùng khóa API riêng, bạn chịu chi phí theo nhà cung cấp; gói thuê bao chatbot không bao gồm quyền dùng API.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi hỗ trợ những công cụ AI nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi hỗ trợ nhiều mô hình AI, tra cứu web, nghiên cứu chuyên sâu có nguồn và tạo, chỉnh sửa ảnh. Công cụ dùng được phụ thuộc cấu hình và quyền truy cập của nhà cung cấp. Bạn có thể xem các lựa chọn hiện có trong ứng dụng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi có phải sản phẩm của Google không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Gehihi do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển độc lập và không liên kết với Google. “Gehihi” là biệt danh cộng đồng AI Việt dùng để gọi Gemini; Gemini là thương hiệu của Google LLC.</p></div></details>
+</div></section>
+
+<section class="container cta-band"><div><h2>Tạo agent đầu tiên của bạn</h2><p>Bắt đầu với agent có sẵn hoặc tạo quy trình phù hợp với công việc.</p></div><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/ai/agents">Khám phá kho agent →</a></section>
+@endblock
+</template>
