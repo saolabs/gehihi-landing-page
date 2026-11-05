@@ -40,9 +40,12 @@
 <li>Lạm dụng các công cụ tra cứu web hoặc tạo ảnh tự động vượt quá giới hạn hợp lý gây ảnh hưởng đến người dùng khác.</li>
 </ul>
 
-<h2>5. Dịch vụ bên thứ ba và tính chính xác của AI</h2>
-<p>Gehihi kết nối với các mô hình ngôn ngữ lớn và dịch vụ bên thứ ba để xử lý yêu cầu. Bạn hiểu và đồng ý rằng:</p>
-<p>Nội dung do các mô hình AI tạo ra có tính xác suất và có thể chứa sai sót hoặc thông tin chưa được kiểm chứng. Bạn nên luôn rà soát và tự chịu trách nhiệm khi đưa ra quyết định dựa trên kết quả đầu ra của agent, đặc biệt trong các lĩnh vực pháp lý, y tế hoặc tài chính.</p>
+<h2>5. Dịch vụ bên thứ ba, tích hợp Google Drive và tính chính xác của AI</h2>
+<p>Gehihi kết nối với các mô hình ngôn ngữ lớn và dịch vụ bên thứ ba để cung cấp tính năng mở rộng:</p>
+<ul>
+<li><b>Tích hợp Google Drive:</b> Bạn có thể tùy chọn kết nối tài khoản Google Drive để phục vụ việc sao lưu và đồng bộ tài liệu, dự án. Bạn cấp quyền cho Gehihi tạo thư mục và tệp sao lưu trong phạm vi ủy quyền OAuth của bạn. Bạn có thể ngắt kết nối hoặc xóa bản sao lưu bất kỳ lúc nào.</li>
+<li><b>Đầu ra từ mô hình AI:</b> Nội dung do các mô hình AI tạo ra có tính xác suất và có thể chứa sai sót hoặc thông tin chưa được kiểm chứng. Bạn nên luôn rà soát và tự chịu trách nhiệm khi đưa ra quyết định dựa trên kết quả đầu ra của agent, đặc biệt trong các lĩnh vực pháp lý, y tế hoặc tài chính.</li>
+</ul>
 
 <h2>6. Lịch chạy tự động và thông báo</h2>
 <p>Với các agent hỗ trợ đặt lịch (cron), hệ thống sẽ kích hoạt quy trình theo múi giờ và tần suất do bạn thiết lập. Đối với các bước gửi email tự động, hệ thống chỉ gửi đến địa chỉ người nhận đã được xác minh trước trong cài đặt tài khoản của bạn để phòng ngừa việc gửi thư ngoài ý muốn.</p>
@@ -56,6 +59,7 @@
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tôi có giữ bản quyền các agent và tài liệu do mình tạo ra không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn toàn quyền sở hữu prompt, cấu trúc quy trình, dữ liệu tài liệu riêng và kết quả đầu ra. Việc chia sẻ agent lên kho công khai hoàn toàn là quyết định chủ động của bạn.</p></div></details>
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Dùng khóa API riêng (BYOK) thì SaoLabs có tính phí gọi API không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. SaoLabs chỉ mã hóa và chuyển tiếp khóa API an toàn tới nhà cung cấp mô hình bạn chọn. Chi phí tiêu thụ API sẽ do nhà cung cấp đó thanh toán trực tiếp theo hóa đơn của bạn.</p></div></details>
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Nếu agent gửi email tự động thì ai chịu trách nhiệm về nội dung?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Người cấu hình agent chịu trách nhiệm về nội dung và người nhận. Hệ thống yêu cầu xác thực email người nhận trước khi cho phép kích hoạt luồng gửi tự động.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi kết nối Google Drive, tôi có thể ngắt quyền bất cứ lúc nào không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn có thể ngắt kết nối ngay trong cài đặt ứng dụng Gehihi hoặc thông qua trang quản lý tài khoản Google. Gehihi sẽ xóa mã xác thực ngay khi nhận được yêu cầu ngắt kết nối.</p></div></details>
 </section>
 <footer class="sources"><h2>Liên kết hữu ích</h2><ul>
 <li><a href="/about.html">Giới thiệu chi tiết về Gehihi</a></li>
