@@ -1,0 +1,76 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Chính sách bảo mật Gehihi — Bảo vệ dữ liệu cá nhân tại SaoLabs')
+@section('meta:description', 'Chính sách bảo mật Gehihi của SaoLabs: cam kết an toàn thông tin cá nhân, mã hóa khóa API, lưu trữ tài liệu riêng và nguyên tắc gửi dữ liệu tới các mô hình AI.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'privacy')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Chính sách bảo mật</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<h1 itemprop="headline">Chính sách bảo mật Gehihi</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-05">05/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p><b>Chính sách bảo mật Gehihi</b> mô tả cam kết của <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> trong việc thu thập, lưu trữ và bảo vệ thông tin người dùng. Chúng tôi cam kết tuyệt đối không bán dữ liệu cá nhân và không sử dụng tài liệu riêng của bạn để huấn luyện lại các mô hình AI.</p></div>
+<div class="prose" itemprop="articleBody">
+<h2>1. Thông tin chúng tôi thu thập</h2>
+<p>Để cung cấp và duy trì trải nghiệm AI agent tốt nhất, Gehihi thu thập các nhóm thông tin cần thiết sau:</p>
+<ul>
+<li><b>Thông tin tài khoản:</b> Địa chỉ email, tên hiển thị và mật khẩu đã qua băm bảo mật khi bạn đăng ký sử dụng tài khoản cá nhân.</li>
+<li><b>Khóa API người dùng (BYOK):</b> Khóa API của các nhà cung cấp bên thứ ba (Google Gemini, OpenAI, Anthropic, v.v.) do bạn tự cung cấp. Khóa này được mã hóa an toàn ở cấp máy chủ và chỉ giải mã tạm thời trong bộ nhớ khi thực thi tác vụ.</li>
+<li><b>Cấu hình agent và tài liệu riêng:</b> Hướng dẫn (prompt), kỹ năng tùy chỉnh, danh sách tham số đầu vào, tài liệu kiến thức đính kèm và thông số đặt lịch chạy.</li>
+<li><b>Dữ liệu kỹ thuật tự động:</b> Địa chỉ IP, loại trình duyệt, phiên bản hệ điều hành và nhật ký yêu cầu để đảm bảo an ninh mạng, chống lạm dụng và tối ưu hóa hệ thống.</li>
+</ul>
+
+<h2>2. Mục đích và cách thức sử dụng dữ liệu</h2>
+<p>Dữ liệu của bạn chỉ được sử dụng cho các mục đích cụ thể và rõ ràng:</p>
+<ul>
+<li>Xử lý yêu cầu tạo, chạy thử nghiệm và vận hành agent theo đúng chỉ thị bạn đặt ra.</li>
+<li>Nạp ngữ cảnh tài liệu kiến thức (RAG) vào mô hình AI khi agent cần tra cứu thông tin tham khảo để đưa ra câu trả lời chính xác.</li>
+<li>Kích hoạt tác vụ theo lịch đã cài đặt và gửi báo cáo kết quả đến các địa chỉ email đã được xác minh.</li>
+<li>Phát hiện, ngăn chặn các hành vi gian lận hoặc vi phạm <a href="/terms.html">Điều khoản dịch vụ</a>.</li>
+</ul>
+
+<h2>3. Nguyên tắc gửi dữ liệu tới các nhà cung cấp AI</h2>
+<p>Khi một agent xử lý tác vụ, Gehihi gửi nội dung câu hỏi và các đoạn tài liệu tham khảo cần thiết đến nhà cung cấp mô hình AI bạn đã chọn làm ngữ cảnh làm việc.</p>
+<p><b>Cam kết không huấn luyện mô hình:</b> SaoLabs sử dụng các API thương mại tiêu chuẩn và cam kết không cho phép các nhà cung cấp AI dùng dữ liệu cá nhân hay tài liệu riêng tư của bạn để huấn luyện (train hoặc fine-tune) các mô hình chung. Việc xử lý dữ liệu ở phía nhà cung cấp AI tuân thủ nghiêm ngặt chính sách bảo mật doanh nghiệp của nhà cung cấp đó.</p>
+
+<h2>4. Lưu trữ và an toàn tài liệu riêng</h2>
+<p>Tất cả tài liệu văn bản, ghi chú kiến thức và tài nguyên riêng bạn tải lên đều được lưu trữ phân tách độc lập theo từng tài khoản và từng agent. Không một người dùng nào khác có quyền truy cập vào các tài liệu này trừ khi bạn chủ động chia sẻ.</p>
+<p>Khi bạn xuất bản một agent lên kho chia sẻ cộng đồng (Agent Store), chỉ có cấu trúc, mô tả và hướng dẫn chung được chia sẻ. Các tài liệu riêng, khóa API và dữ liệu cá nhân của bạn hoàn toàn được giữ kín trên máy chủ cá nhân.</p>
+
+<h2>5. Quyền kiểm soát dữ liệu của bạn</h2>
+<p>Bạn luôn có toàn quyền kiểm soát dữ liệu của mình trên Gehihi:</p>
+<ul>
+<li><b>Xem và chỉnh sửa:</b> Dễ dàng xem lại, cập nhật hoặc thay thế tài liệu, prompt và khóa API bất cứ lúc nào qua giao diện web.</li>
+<li><b>Xóa dữ liệu:</b> Bạn có thể xóa vĩnh viễn từng agent, từng cuộc trò chuyện, từng tài liệu hoặc toàn bộ lịch sử hoạt động khỏi hệ thống.</li>
+<li><b>Chế độ dùng thử không đăng nhập:</b> Dữ liệu hội thoại ở chế độ khách chỉ lưu cục bộ trên trình duyệt trong thời gian ngắn và sẽ tự hủy khi hết hạn.</li>
+<li><b>Yêu cầu hủy tài khoản:</b> Nếu không còn nhu cầu sử dụng, bạn có thể gửi yêu cầu xóa hoàn toàn tài khoản và dữ liệu cá nhân tới hòm thư hỗ trợ của chúng tôi.</li>
+</ul>
+
+<h2>6. Cookie và công nghệ theo dõi</h2>
+<p>Trang web sử dụng cookie kỹ thuật để duy trì phiên làm việc an toàn của bạn. Ngoài ra, chúng tôi sử dụng công cụ thống kê ẩn danh (Google Analytics) với mã định danh tổng quát để đo lường lưu lượng truy cập và cải thiện chất lượng trang đích. Bạn có thể vô hiệu hóa cookie trong cài đặt trình duyệt mà không ảnh hưởng đến nội dung bài viết.</p>
+
+<h2>7. Cập nhật chính sách và thông tin liên hệ</h2>
+<p>Chính sách bảo mật này có thể được điều chỉnh để phù hợp với các quy định pháp luật mới hoặc sự thay đổi trong tính năng dịch vụ. Mọi điều chỉnh đều được công bố công khai tại đây.</p>
+<p>Nếu bạn có câu hỏi, thắc mắc hoặc khiếu nại về an toàn thông tin cá nhân, vui lòng liên hệ đội ngũ phụ trách bảo mật của SaoLabs qua email: <a data-nav="false" class="text-link" href="mailto:support@saolabs.org">support&#64;saolabs.org</a>.</p>
+</div>
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tài liệu và dữ liệu tải lên Gehihi có bị dùng để huấn luyện AI không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Dữ liệu của bạn chỉ được chuyển tiếp làm ngữ cảnh thực thi trong phiên làm việc qua API thương mại và không bị dùng để huấn luyện mô hình nền tảng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khóa API cá nhân (BYOK) được bảo vệ như thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Khóa API được mã hóa an toàn trên máy chủ của SaoLabs. Hệ thống chỉ giải mã trong bộ nhớ đệm khi cần gửi request tới nhà cung cấp mô hình tương ứng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có thể yêu cầu xóa vĩnh viễn toàn bộ dữ liệu cá nhân không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn có thể tự tay xóa dữ liệu trên ứng dụng hoặc gửi email tới support&#64;saolabs.org để yêu cầu xóa sạch tài khoản và toàn bộ dữ liệu đi kèm.</p></div></details>
+</section>
+<footer class="sources"><h2>Liên kết hữu ích</h2><ul>
+<li><a href="/about.html">Giới thiệu chi tiết về Gehihi</a></li>
+<li><a href="/terms.html">Điều khoản sử dụng dịch vụ</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi</a></li>
+<li><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">SaoLabs: đơn vị phát triển</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
+

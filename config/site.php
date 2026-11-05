@@ -6,5 +6,7 @@ return [
     'pages' => [
         '' => 'index',
         'about' => 'about',
+        'terms' => 'terms',
+        'privacy' => 'privacy',
     ],
 ];

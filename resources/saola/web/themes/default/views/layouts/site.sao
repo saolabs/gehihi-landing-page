@@ -19,6 +19,7 @@
 <div><a href="/" class="brand" aria-label="Gehihi, trang chủ"><img src="/assets/img/gehihi-mark.svg" width="36" height="36" alt=""><span>Gehihi</span></a>
 <p class="footer-description">Hệ thống tạo và sử dụng AI agent với kỹ năng, tài liệu riêng và lịch chạy cho công việc hằng ngày. Một sản phẩm của <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a>.</p></div>
 <div class="footer-links"><h2>Khám phá</h2><a href="/about.html">Giới thiệu</a><a href="/#tinh-nang">Tính năng</a><a href="/#cach-su-dung">Cách dùng</a><a href="/#hoi-dap">Hỏi đáp</a></div>
+<div class="footer-links"><h2>Pháp lý</h2><a href="/terms.html">Điều khoản dịch vụ</a><a href="/privacy.html">Chính sách bảo mật</a></div>
 <div class="footer-links"><h2>Liên hệ</h2><a data-nav="false" href="mailto:support@saolabs.org" itemprop="email">support&#64;saolabs.org</a><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">saolabs.org</a></div>
 </div>
 <div class="container footer-bottom"><p>Gehihi không liên kết với Google. Gemini là thương hiệu của Google LLC; “Gehihi” là biệt danh do cộng đồng đặt cho Gemini.</p><a data-nav="false" href="#top">Lên đầu trang ↑</a></div>

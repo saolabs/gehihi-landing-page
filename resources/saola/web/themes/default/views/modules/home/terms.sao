@@ -1,0 +1,69 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Điều khoản dịch vụ Gehihi — Nền tảng AI agent của SaoLabs')
+@section('meta:description', 'Điều khoản sử dụng dịch vụ Gehihi của SaoLabs: quyền và nghĩa vụ người dùng, bảo mật khóa API, sở hữu trí tuệ nội dung và quy định sử dụng hệ thống AI agent.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'terms')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Điều khoản dịch vụ</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<h1 itemprop="headline">Điều khoản dịch vụ Gehihi</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-05">05/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p><b>Điều khoản dịch vụ Gehihi</b> quy định quyền, trách nhiệm và nguyên tắc sử dụng hệ thống AI agent do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> cung cấp. Khi sử dụng Gehihi, bạn đồng ý tuân thủ các điều khoản này để đảm bảo môi trường an toàn và minh bạch.</p></div>
+<div class="prose" itemprop="articleBody">
+<h2>1. Chấp nhận điều khoản và phạm vi dịch vụ</h2>
+<p>Gehihi là nền tảng trực tuyến giúp người dùng tạo, cấu hình, thử nghiệm và vận hành các AI agent với kỹ năng chuyên biệt, tài liệu riêng và lịch chạy tự động. Dịch vụ được cung cấp bởi SaoLabs qua website và ứng dụng tại <a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>.</p>
+<p>Bằng việc đăng ký tài khoản, đăng nhập hoặc sử dụng bất kỳ tính năng nào của Gehihi (kể cả chế độ trải nghiệm không đăng nhập), bạn xác nhận đã đọc, hiểu và đồng ý chịu sự ràng buộc của Điều khoản dịch vụ này cùng <a href="/privacy.html">Chính sách bảo mật</a> của chúng tôi.</p>
+
+<h2>2. Tài khoản người dùng và bảo mật</h2>
+<p>Để lưu trữ agent cá nhân, cấu hình kỹ năng và quản lý lịch chạy, bạn cần đăng ký tài khoản. Bạn có trách nhiệm bảo mật mật khẩu và các thông tin xác thực của mình, đồng thời chịu hoàn toàn trách nhiệm đối với mọi hoạt động diễn ra dưới tài khoản đó.</p>
+<p>Nếu bạn sử dụng khóa API riêng (Bring Your Own Key - BYOK) để kết nối các mô hình AI như Gemini, OpenAI hay Claude, khóa của bạn sẽ được mã hóa an toàn trên hệ thống. Bạn chịu trách nhiệm về hạn mức, chi phí và tuân thủ điều khoản của nhà cung cấp API bên thứ ba tương ứng.</p>
+
+<h2>3. Quyền sở hữu trí tuệ và nội dung</h2>
+<ul>
+<li><b>Dữ liệu và tài liệu riêng của bạn:</b> Bạn giữ toàn bộ quyền sở hữu đối với nội dung bạn tải lên, prompt bạn tự viết, tệp tài nguyên kiến thức và kết quả do AI sinh ra từ yêu cầu của bạn. SaoLabs không tuyên bố quyền sở hữu đối với tài nguyên cá nhân của bạn.</li>
+<li><b>Chia sẻ lên Agent Store:</b> Khi bạn chủ động xuất bản một agent lên kho chung và được duyệt, bạn đồng ý cấp quyền cho cộng đồng người dùng Gehihi tham khảo và sử dụng cấu trúc agent đó. Tài liệu tri thức nội bộ và khóa API riêng của bạn không bao giờ bị công khai.</li>
+<li><b>Quyền sở hữu nền tảng:</b> Giao diện, mã nguồn, kiến trúc hệ thống và thương hiệu Gehihi thuộc quyền sở hữu của SaoLabs. “Gehihi” là biệt danh cộng đồng dành cho Gemini; dịch vụ do SaoLabs phát triển độc lập và không liên kết với Google LLC.</li>
+</ul>
+
+<h2>4. Quy tắc sử dụng được chấp nhận</h2>
+<p>Bạn đồng ý sử dụng Gehihi cho mục đích hợp pháp và có trách nhiệm. Nghiêm cấm các hành vi sau:</p>
+<ul>
+<li>Tạo agent hoặc kích hoạt luồng tự động nhằm phát tán thư rác, lừa đảo, phát tán mã độc hoặc nội dung kích động bạo lực, thù hận.</li>
+<li>Sử dụng agent để xâm phạm quyền riêng tư, danh dự, nhân phẩm hoặc quyền sở hữu trí tuệ của tổ chức, cá nhân khác.</li>
+<li>Can thiệp trái phép, tấn công từ chối dịch vụ (DoS/DDoS), đảo ngược kỹ thuật mã nguồn hoặc làm suy giảm hiệu năng hạ tầng máy chủ của SaoLabs.</li>
+<li>Lạm dụng các công cụ tra cứu web hoặc tạo ảnh tự động vượt quá giới hạn hợp lý gây ảnh hưởng đến người dùng khác.</li>
+</ul>
+
+<h2>5. Dịch vụ bên thứ ba và tính chính xác của AI</h2>
+<p>Gehihi kết nối với các mô hình ngôn ngữ lớn và dịch vụ bên thứ ba để xử lý yêu cầu. Bạn hiểu và đồng ý rằng:</p>
+<p>Nội dung do các mô hình AI tạo ra có tính xác suất và có thể chứa sai sót hoặc thông tin chưa được kiểm chứng. Bạn nên luôn rà soát và tự chịu trách nhiệm khi đưa ra quyết định dựa trên kết quả đầu ra của agent, đặc biệt trong các lĩnh vực pháp lý, y tế hoặc tài chính.</p>
+
+<h2>6. Lịch chạy tự động và thông báo</h2>
+<p>Với các agent hỗ trợ đặt lịch (cron), hệ thống sẽ kích hoạt quy trình theo múi giờ và tần suất do bạn thiết lập. Đối với các bước gửi email tự động, hệ thống chỉ gửi đến địa chỉ người nhận đã được xác minh trước trong cài đặt tài khoản của bạn để phòng ngừa việc gửi thư ngoài ý muốn.</p>
+
+<h2>7. Giới hạn trách nhiệm và thay đổi dịch vụ</h2>
+<p>SaoLabs nỗ lực đảm bảo Gehihi hoạt động liên tục, ổn định và bảo mật cao nhất. Tuy nhiên, chúng tôi không chịu trách nhiệm đối với các gián đoạn dịch vụ do sự cố mạng viễn thông, lỗi từ nhà cung cấp mô hình AI bên thứ ba hoặc các trường hợp bất khả kháng.</p>
+<p>SaoLabs có quyền điều chỉnh, bổ sung các điều khoản này theo thời gian. Mọi thay đổi quan trọng sẽ được cập nhật công khai trên website kèm ngày có hiệu lực.</p>
+</div>
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tôi có giữ bản quyền các agent và tài liệu do mình tạo ra không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn toàn quyền sở hữu prompt, cấu trúc quy trình, dữ liệu tài liệu riêng và kết quả đầu ra. Việc chia sẻ agent lên kho công khai hoàn toàn là quyết định chủ động của bạn.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Dùng khóa API riêng (BYOK) thì SaoLabs có tính phí gọi API không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. SaoLabs chỉ mã hóa và chuyển tiếp khóa API an toàn tới nhà cung cấp mô hình bạn chọn. Chi phí tiêu thụ API sẽ do nhà cung cấp đó thanh toán trực tiếp theo hóa đơn của bạn.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Nếu agent gửi email tự động thì ai chịu trách nhiệm về nội dung?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Người cấu hình agent chịu trách nhiệm về nội dung và người nhận. Hệ thống yêu cầu xác thực email người nhận trước khi cho phép kích hoạt luồng gửi tự động.</p></div></details>
+</section>
+<footer class="sources"><h2>Liên kết hữu ích</h2><ul>
+<li><a href="/about.html">Giới thiệu chi tiết về Gehihi</a></li>
+<li><a href="/privacy.html">Chính sách bảo mật thông tin</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi</a></li>
+<li><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">SaoLabs: đơn vị phát triển</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
+
