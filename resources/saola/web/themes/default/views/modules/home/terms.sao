@@ -17,7 +17,7 @@
 <div class="answer-box" itemprop="abstract"><p><b>Điều khoản dịch vụ Gehihi</b> quy định quyền, trách nhiệm và nguyên tắc sử dụng hệ thống AI agent do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> cung cấp. Khi sử dụng Gehihi, bạn đồng ý tuân thủ các điều khoản này để đảm bảo môi trường an toàn và minh bạch.</p></div>
 <div class="prose" itemprop="articleBody">
 <h2>1. Chấp nhận điều khoản và phạm vi dịch vụ</h2>
-<p>Gehihi là nền tảng trực tuyến giúp người dùng tạo, cấu hình, thử nghiệm và vận hành các AI agent với kỹ năng chuyên biệt, tài liệu riêng và lịch chạy tự động. Dịch vụ được cung cấp bởi SaoLabs qua website và ứng dụng tại <a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>.</p>
+<p>Gehihi là nền tảng làm việc với AI. Bạn có thể trò chuyện, nghiên cứu, soạn tài liệu và slide, tạo dự án web hoặc cấu hình agent với kỹ năng, tài liệu riêng và lịch chạy. Dịch vụ được cung cấp bởi SaoLabs qua website và ứng dụng tại <a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>.</p>
 <p>Bằng việc đăng ký tài khoản, đăng nhập hoặc sử dụng bất kỳ tính năng nào của Gehihi (kể cả chế độ trải nghiệm không đăng nhập), bạn xác nhận đã đọc, hiểu và đồng ý chịu sự ràng buộc của Điều khoản dịch vụ này cùng <a href="/privacy.html">Chính sách bảo mật</a> của chúng tôi.</p>
 
 <h2>2. Tài khoản người dùng và bảo mật</h2>
@@ -26,8 +26,8 @@
 
 <h2>3. Quyền sở hữu trí tuệ và nội dung</h2>
 <ul>
-<li><b>Dữ liệu và tài liệu riêng của bạn:</b> Bạn giữ toàn bộ quyền sở hữu đối với nội dung bạn tải lên, prompt bạn tự viết, tệp tài nguyên kiến thức và kết quả do AI sinh ra từ yêu cầu của bạn. SaoLabs không tuyên bố quyền sở hữu đối với tài nguyên cá nhân của bạn.</li>
-<li><b>Chia sẻ lên Agent Store:</b> Khi bạn chủ động xuất bản một agent lên kho chung và được duyệt, bạn đồng ý cấp quyền cho cộng đồng người dùng Gehihi tham khảo và sử dụng cấu trúc agent đó. Tài liệu tri thức nội bộ và khóa API riêng của bạn không bao giờ bị công khai.</li>
+<li><b>Dữ liệu và tài liệu riêng của bạn:</b> Bạn giữ các quyền mình có đối với nội dung đưa vào Gehihi. Bạn cho phép SaoLabs lưu trữ, xử lý và chuyển nội dung cần thiết để cung cấp tính năng bạn sử dụng theo Chính sách bảo mật. Quyền sử dụng kết quả AI còn phụ thuộc vào pháp luật, quyền của bên thứ ba và điều khoản của nhà cung cấp có liên quan.</li>
+<li><b>Chia sẻ lên Agent Store:</b> Khi bạn chủ động xuất bản một agent lên kho chung và được duyệt, bạn đồng ý cấp quyền cho cộng đồng người dùng Gehihi tham khảo và sử dụng cấu trúc agent đó. Việc xuất bản agent không tự động kèm theo tài liệu riêng hoặc khóa API. Bạn chịu trách nhiệm rà soát thông tin nhập trực tiếp vào cấu hình công khai.</li>
 <li><b>Quyền sở hữu nền tảng:</b> Giao diện, mã nguồn, kiến trúc hệ thống và thương hiệu Gehihi thuộc quyền sở hữu của SaoLabs. “Gehihi” là biệt danh cộng đồng dành cho Gemini; dịch vụ do SaoLabs phát triển độc lập và không liên kết với Google LLC.</li>
 </ul>
 
@@ -41,9 +41,11 @@
 </ul>
 
 <h2>5. Dịch vụ bên thứ ba, tích hợp Google Drive và tính chính xác của AI</h2>
-<p>Gehihi kết nối với các mô hình ngôn ngữ lớn và dịch vụ bên thứ ba để cung cấp tính năng mở rộng:</p>
+<p>Khi dùng tính năng kết nối, bạn chọn tài khoản và cấp quyền qua màn hình xác nhận của dịch vụ tương ứng.</p>
 <ul>
-<li><b>Tích hợp Google Drive:</b> Bạn có thể tùy chọn kết nối tài khoản Google Drive để phục vụ việc sao lưu và đồng bộ tài liệu, dự án. Bạn cấp quyền cho Gehihi tạo thư mục và tệp sao lưu trong phạm vi ủy quyền OAuth của bạn. Bạn có thể ngắt kết nối hoặc xóa bản sao lưu bất kỳ lúc nào.</li>
+<li><b>Đăng nhập Google:</b> Gehihi dùng thông tin định danh cơ bản để xác thực hoặc liên kết tài khoản. Quyền Drive được cấp theo lựa chọn của bạn khi tính năng tương ứng được cung cấp.</li>
+<li><b>Sao lưu trên Google Drive:</b> Bạn có thể sao lưu thủ công hoặc bật sao lưu theo phiên bản cho nội dung được hỗ trợ. Khôi phục tạo một mục mới. Khi bạn ngắt kết nối, các lượt sao lưu tự động dừng và bản sao đã tải lên vẫn nằm trong Drive của bạn.</li>
+<li><b>Google Drive cho agent:</b> Khi kết nối MCP được bật và bạn cho phép agent dùng kết nối, agent có thể tìm và đọc tệp theo quyền Google đã cấp. Bạn chỉ nên cấp quyền và giao tác vụ liên quan đến dữ liệu mà bạn có quyền sử dụng. Cách Gehihi xử lý kết quả đọc được mô tả trong <a href="/privacy.html">Chính sách bảo mật</a>.</li>
 <li><b>Đầu ra từ mô hình AI:</b> Nội dung do các mô hình AI tạo ra có tính xác suất và có thể chứa sai sót hoặc thông tin chưa được kiểm chứng. Bạn nên luôn rà soát và tự chịu trách nhiệm khi đưa ra quyết định dựa trên kết quả đầu ra của agent, đặc biệt trong các lĩnh vực pháp lý, y tế hoặc tài chính.</li>
 </ul>
 
@@ -56,10 +58,10 @@
 </div>
 <section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
 <h2 id="article-faq-title">Câu hỏi thường gặp</h2>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tôi có giữ bản quyền các agent và tài liệu do mình tạo ra không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn toàn quyền sở hữu prompt, cấu trúc quy trình, dữ liệu tài liệu riêng và kết quả đầu ra. Việc chia sẻ agent lên kho công khai hoàn toàn là quyết định chủ động của bạn.</p></div></details>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Dùng khóa API riêng (BYOK) thì SaoLabs có tính phí gọi API không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. SaoLabs chỉ mã hóa và chuyển tiếp khóa API an toàn tới nhà cung cấp mô hình bạn chọn. Chi phí tiêu thụ API sẽ do nhà cung cấp đó thanh toán trực tiếp theo hóa đơn của bạn.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tôi có giữ bản quyền các agent và tài liệu do mình tạo ra không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn giữ các quyền mình có đối với prompt, quy trình và tài liệu do bạn cung cấp. Việc sử dụng kết quả AI cần tôn trọng quyền của các bên liên quan. Việc chia sẻ agent lên kho công khai hoàn toàn là quyết định chủ động của bạn.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Dùng khóa API riêng (BYOK) thì SaoLabs có tính phí gọi API không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Nhà cung cấp AI tính phí sử dụng khóa API theo tài khoản của bạn tại dịch vụ đó. Phí hoặc hạn mức của Gehihi, nếu có, được hiển thị riêng trong ứng dụng.</p></div></details>
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Nếu agent gửi email tự động thì ai chịu trách nhiệm về nội dung?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Người cấu hình agent chịu trách nhiệm về nội dung và người nhận. Hệ thống yêu cầu xác thực email người nhận trước khi cho phép kích hoạt luồng gửi tự động.</p></div></details>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi kết nối Google Drive, tôi có thể ngắt quyền bất cứ lúc nào không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn có thể ngắt kết nối ngay trong cài đặt ứng dụng Gehihi hoặc thông qua trang quản lý tài khoản Google. Gehihi sẽ xóa mã xác thực ngay khi nhận được yêu cầu ngắt kết nối.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi kết nối Google Drive, tôi có thể ngắt quyền bất cứ lúc nào không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể ngắt kết nối trong Gehihi hoặc thu hồi quyền trên trang quản lý tài khoản Google. Để xóa bản sao đã tải lên, hãy quản lý tệp trực tiếp trong Drive.</p></div></details>
 </section>
 <footer class="sources"><h2>Liên kết hữu ích</h2><ul>
 <li><a href="/about.html">Giới thiệu chi tiết về Gehihi</a></li>
