@@ -9,6 +9,7 @@ return [
         'features' => 'features',
         'workspace' => 'workspace',
         'guide' => 'guide',
+        'contact' => 'contact',
         'terms' => 'terms',
         'privacy' => 'privacy',
     ],

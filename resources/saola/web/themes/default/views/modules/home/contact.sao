@@ -1,0 +1,195 @@
+<script setup lang="ts">
+    @state(submitted: boolean = false)
+    @state(senderName: string = '')
+    @state(mailtoUrl: string = 'mailto:doanln16@gmail.com')
+
+    function handleSubmit(event: Event) {
+        event.preventDefault();
+        const form = event.currentTarget as HTMLFormElement;
+        const data = new FormData(form);
+        const name = String(data.get('name') || '').trim();
+        const phone = String(data.get('phone') || '').trim();
+        const email = String(data.get('email') || '').trim();
+        const organization = String(data.get('organization') || '').trim();
+        const topic = String(data.get('topic') || 'Tư vấn sử dụng Gehihi').trim();
+        const message = String(data.get('message') || '').trim();
+
+        const subject = '[Gehihi Liên hệ] ' + topic + (name ? ' — ' + name : '');
+        const lines = [
+            'Họ và tên: ' + name,
+            'Số điện thoại / Zalo: ' + phone,
+            'Email: ' + email,
+            organization ? 'Đơn vị / Tổ chức: ' + organization : '',
+            'Nhu cầu: ' + topic,
+            '',
+            'Nội dung chi tiết:',
+            message,
+        ].filter(Boolean).join('\n');
+
+        const href = 'mailto:doanln16@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines);
+        setSenderName(name || 'bạn');
+        setMailtoUrl(href);
+        setSubmitted(true);
+    }
+
+    function resetForm() {
+        setSubmitted(false);
+    }
+</script>
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Liên hệ Gehihi — Tư vấn giải pháp AI Agent Platform & Hỗ trợ kỹ thuật')
+@section('meta:description', 'Liên hệ Gehihi và SaoLabs qua Lê Ngọc Doãn (0382434682, doanln16@gmail.com, Phú Thọ) hoặc gửi biểu mẫu để được tư vấn giải pháp AI Agent Platform, Work và GenOffice.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'contact')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/ContactPage">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Liên hệ</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<p class="eyebrow">Kết nối &amp; Hỗ trợ</p>
+<h1 itemprop="headline">Liên hệ với Gehihi</h1>
+<p class="article-meta">Hỗ trợ trực tiếp từ đội ngũ phát triển <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> · Phản hồi nhanh trong ngày làm việc</p>
+</header>
+<div class="answer-box" itemprop="description"><p>Bạn cần tư vấn triển khai <b>Gehihi AI Agent Platform</b>, đăng ký gói <b>Workspace Nhóm / Tổ chức</b>, thiết kế trợ lý theo nghiệp vụ riêng hay cần hỗ trợ kỹ thuật? Hãy kết nối trực tiếp qua thông tin dưới đây hoặc để lại lời nhắn trong biểu mẫu.</p></div>
+
+<section class="contact-grid" aria-label="Thông tin và biểu mẫu liên hệ">
+    <div class="contact-info-col">
+        <div class="contact-card" itemscope="itemscope" itemtype="https://schema.org/Person">
+            <h2>Thông tin liên hệ trực tiếp</h2>
+            <p class="contact-card-lead">Mọi yêu cầu tư vấn sản phẩm, hợp tác triển khai và hỗ trợ kỹ thuật được tiếp nhận trực tiếp bởi người phụ trách dự án.</p>
+            <ul class="contact-list">
+                <li>
+                    <span class="contact-icon" aria-hidden="true">👤</span>
+                    <div>
+                        <small>Người phụ trách / Đại diện liên hệ</small>
+                        <strong itemprop="name">Lê Ngọc Doãn</strong>
+                        <span>Nhà sáng lập &amp; Phát triển hệ sinh thái SaoLabs</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">📞</span>
+                    <div>
+                        <small>Điện thoại / Zalo hỗ trợ nhanh</small>
+                        <a data-nav="false" href="tel:0382434682" itemprop="telephone">0382 434 682</a>
+                        <span>Hỗ trợ cuộc gọi &amp; tin nhắn trong giờ hành chính</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">✉️</span>
+                    <div>
+                        <small>Hộp thư điện tử (Email)</small>
+                        <a data-nav="false" href="mailto:doanln16@gmail.com" itemprop="email">doanln16&#64;gmail.com</a>
+                        <span>Email hệ thống: <a data-nav="false" href="mailto:support@saolabs.org">support&#64;saolabs.org</a></span>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">💬</span>
+                    <div>
+                        <small>Mạng xã hội (Facebook)</small>
+                        <a data-nav="false" href="https://facebook.com/LeNgocDoan" target="_blank" rel="noopener" itemprop="sameAs">facebook.com/LeNgocDoan</a>
+                        <span>Nhắn tin trao đổi trực tiếp qua Messenger</span>
+                    </div>
+                </li>
+                <li itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+                    <span class="contact-icon" aria-hidden="true">📍</span>
+                    <div>
+                        <small>Địa chỉ làm việc</small>
+                        <strong><span itemprop="streetAddress">Số 172, đường Bà Triệu, phường Thống Nhất</span>, <span itemprop="addressRegion">tỉnh Phú Thọ</span></strong>
+                        <span>Việt Nam</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-topics-card">
+            <h3>Các nội dung hỗ trợ trọng tâm</h3>
+            <ul>
+                <li><b>Tư vấn gói Nhóm &amp; Tổ chức:</b> Cấu hình số chỗ ngồi (seats), tên miền riêng, phân quyền phòng ban và gói hợp đồng.</li>
+                <li><b>Thiết kế Agent &amp; Hành chính công:</b> Xây dựng bộ kỹ năng <code>SKILL.md</code>, mẫu văn bản Nghị định 30/2020/NĐ-CP và quy trình tự động.</li>
+                <li><b>Tích hợp kỹ thuật &amp; MCP:</b> Kết nối Google Drive, GitHub, Notion, Webhook hoặc triển khai MCP Server cho đơn vị.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact-form-col">
+        <div class="contact-form-card">
+            <h2>Để lại thông tin liên hệ</h2>
+            <p class="contact-card-lead">Điền thông tin và nhu cầu của bạn vào biểu mẫu dưới đây. Hệ thống sẽ chuẩn bị nội dung và kết nối ngay với bộ phận phụ trách.</p>
+
+            @if(submitted)
+                <div class="contact-success" role="status">
+                    <span class="contact-success-badge">✓ Đã ghi nhận thông tin</span>
+                    <h3>Cảm ơn {{ senderName }} đã để lại thông tin!</h3>
+                    <p>Nội dung yêu cầu của bạn đã sẵn sàng. Bấm nút bên dưới để hoàn tất gửi qua ứng dụng Email tới <b>doanln16&#64;gmail.com</b>, hoặc liên hệ trực tiếp qua số <b>0382 434 682</b> để được phản hồi ngay.</p>
+                    <div class="hero-actions">
+                        <a data-nav="false" class="btn btn-primary" href="{{ mailtoUrl }}">Mở ứng dụng Email để gửi →</a>
+                        <button type="button" class="btn btn-ghost" @click(resetForm())>Sửa lại thông tin</button>
+                    </div>
+                </div>
+            @else
+                <form class="contact-form" action="mailto:doanln16@gmail.com" method="get" enctype="text/plain" @submit(handleSubmit(event))>
+                    <div class="form-row two-cols">
+                        <div class="form-field">
+                            <label for="contact-name">Họ và tên <span>*</span></label>
+                            <input id="contact-name" name="name" type="text" required="required" placeholder="Nguyễn Văn A" autocomplete="name">
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-phone">Số điện thoại / Zalo <span>*</span></label>
+                            <input id="contact-phone" name="phone" type="tel" required="required" placeholder="09xx xxx xxx" autocomplete="tel">
+                        </div>
+                    </div>
+
+                    <div class="form-row two-cols">
+                        <div class="form-field">
+                            <label for="contact-email">Địa chỉ Email <span>*</span></label>
+                            <input id="contact-email" name="email" type="email" required="required" placeholder="ban@congty.vn" autocomplete="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-org">Đơn vị / Tổ chức</label>
+                            <input id="contact-org" name="organization" type="text" placeholder="Tên công ty, cơ quan hoặc phòng ban" autocomplete="organization">
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-topic">Nhu cầu quan tâm <span>*</span></label>
+                        <select id="contact-topic" name="topic" required="required">
+                            <option value="Tư vấn sử dụng Gehihi AI Agent Platform">Tư vấn sử dụng Gehihi AI Agent Platform</option>
+                            <option value="Đăng ký gói Nhóm / Tổ chức &amp; Hợp đồng">Đăng ký gói Nhóm / Tổ chức &amp; Hợp đồng</option>
+                            <option value="Triển khai Gehihi Work &amp; Văn bản Hành chính công">Triển khai Gehihi Work &amp; Văn bản Hành chính công</option>
+                            <option value="Hợp tác phát triển Agent, Kỹ năng &amp; Kết nối MCP">Hợp tác phát triển Agent, Kỹ năng &amp; Kết nối MCP</option>
+                            <option value="Hỗ trợ kỹ thuật &amp; Góp ý sản phẩm">Hỗ trợ kỹ thuật &amp; Góp ý sản phẩm</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-message">Nội dung trao đổi <span>*</span></label>
+                        <textarea id="contact-message" name="message" rows="5" required="required" placeholder="Mô tả ngắn gọn công việc bạn muốn tự động hóa, số lượng thành viên dự kiến hoặc vấn đề cần hỗ trợ…"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary contact-submit">Gửi thông tin liên hệ →</button>
+                    <p class="form-note">Thông tin của bạn chỉ được dùng để phản hồi yêu cầu tư vấn theo <a href="/privacy.html">Chính sách bảo mật</a>.</p>
+                </form>
+            @endif
+        </div>
+    </div>
+</section>
+
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp khi liên hệ</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Kênh liên hệ nào nhận được phản hồi nhanh nhất?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Với các yêu cầu cần hỗ trợ gấp, bạn có thể gọi trực tiếp hoặc nhắn Zalo qua số <b>0382 434 682</b> (Lê Ngọc Doãn), hoặc gửi email tới <b>doanln16&#64;gmail.com</b> để kèm theo tài liệu và mô tả chi tiết.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Cơ quan, doanh nghiệp muốn đăng ký gói Nhóm theo hợp đồng riêng thì làm thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn hãy chọn mục <i>Đăng ký gói Nhóm / Tổ chức &amp; Hợp đồng</i> trong biểu mẫu liên hệ kèm số lượng thành viên dự kiến. Đội ngũ phụ trách sẽ tư vấn cấu hình hạn mức, tên miền riêng và kích hoạt gói phù hợp cho workspace của đơn vị.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có thể yêu cầu hỗ trợ thiết kế luồng Agent theo quy trình riêng của đơn vị không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bên cạnh việc tự dùng tính năng <b>AI thiết kế luồng</b> trong ứng dụng, bạn có thể liên hệ để được hướng dẫn chuẩn hóa bộ kỹ năng <code>SKILL.md</code>, biểu mẫu Word/Excel và cấu hình thư mục Work phù hợp với nghiệp vụ thực tế.</p></div></details>
+</section>
+
+<footer class="sources"><h2>Liên kết hữu ích</h2><ul>
+<li><a href="/about.html">Giới thiệu về Gehihi &amp; SaoLabs</a></li>
+<li><a href="/features.html">Khám phá các tính năng mới của nền tảng</a></li>
+<li><a href="/guide.html">Hướng dẫn sử dụng từng bước có ảnh minh họa</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi (app.gehihi.vn)</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
