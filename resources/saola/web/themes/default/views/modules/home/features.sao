@@ -1,0 +1,89 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Tính năng mới Gehihi — AI Agent Platform, Công cụ xác định & Kết nối MCP')
+@section('meta:description', 'Khám phá các tính năng mới của Gehihi: trình tạo trợ lý 3 chế độ, AI thiết kế luồng, công cụ tính toán xác định, OCR tiếng Việt, kết nối MCP và làm việc nhóm.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'features')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Tính năng mới</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<p class="eyebrow">Cập nhật tính năng mới</p>
+<h1 itemprop="headline">Tính năng mới trên hệ thống AI Agent Platform Gehihi</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-09">09/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-11-09"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p><b>Gehihi AI Agent Platform</b> mở rộng từ khung trò chuyện đa mô hình thành nền tảng làm việc toàn diện: tích hợp <b>Trình tạo trợ lý 3 chế độ</b> (có AI tự thiết kế luồng), <b>công cụ tính toán &amp; tra cứu xác định</b>, <b>OCR tiếng Việt nhiều trang</b>, <b>không gian Work &amp; GenOffice</b>, <b>Studio dựng web</b>, <b>kết nối MCP</b> và <b>Workspace Nhóm</b>.</p></div>
+
+<figure class="visual-showcase">
+<img src="/assets/img/platform-overview.svg" width="960" height="540" alt="Sơ đồ tổng quan các tính năng mới trong hệ sinh thái Gehihi AI Agent Platform" loading="lazy">
+<figcaption>Toàn cảnh các phân hệ trong Gehihi: Trợ lý AI làm trung tâm điều phối tài liệu, thư mục công việc, mã nguồn và kết nối bên ngoài.</figcaption>
+</figure>
+
+<div class="prose" itemprop="articleBody">
+<h2 id="agent-builder">1. Trình tạo Trợ lý 3 chế độ &amp; AI thiết kế luồng</h2>
+<p>Tại <a data-nav="false" href="https://app.gehihi.vn/agents/builder" target="_blank" rel="noopener">trình tạo trợ lý (<code>/agents/builder</code>)</a>, bạn có thể chuyển đổi linh hoạt giữa ba chế độ ngay trên thanh đầu trang mà không sợ mất cấu hình đang soạn:</p>
+<ul>
+<li><b>Chế độ Cơ bản:</b> Dành cho các tác vụ gọn nhẹ một bước. Bạn chỉ cần viết hướng dẫn chính (Prompt), khai báo các ô nhập dữ liệu (văn bản, số, danh sách chọn, tệp tài liệu, URL hoặc hình ảnh), lưu và chạy thử ngay.</li>
+<li><b>Chế độ Nâng cao:</b> Mở khóa luồng quy trình nhiều bước tuần tự hoặc rẽ nhánh. Kết hợp bước đọc tệp, gọi AI phân tích, tra cứu web, nghiên cứu chuyên sâu, xử lý ảnh (đóng dấu watermark, đổi kích thước), hỏi thêm thông tin người dùng (<code>input</code>), rẽ nhánh điều kiện (<code>if</code>) và lặp qua từng phần tài liệu (<code>foreach_input</code>).</li>
+<li><b>AI thiết kế luồng:</b> Bạn chỉ cần nhập mô tả công việc bằng tiếng Việt tự nhiên. Hệ thống chạy nền qua 5 giai đoạn (Phân tích → Lập kế hoạch → Viết cấu hình → Kiểm tra → Tự sửa lỗi) để sinh ra toàn bộ ô nhập liệu và các bước quy trình chuẩn xác.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Giao diện trình tạo trợ lý AI với 3 chế độ Cơ bản, Nâng cao và AI thiết kế luồng tự động" loading="lazy">
+<figcaption>Minh họa trình tạo trợ lý tại /agents/builder: khai báo ô nhập liệu bên trái, thiết kế quy trình nhiều bước bằng AI bên phải.</figcaption>
+</figure>
+
+<h2 id="cong-cu-xac-dinh">2. Công cụ xác định, OCR tiếng Việt &amp; Cổng kiểm soát độ mật</h2>
+<p>Để giải quyết triệt để hạn chế “ước lượng số liệu” của các mô hình ngôn ngữ lớn, Gehihi bổ sung lớp công cụ xác định (deterministic tools) và kiểm soát tuân thủ phục vụ tốt cho cả doanh nghiệp lẫn nghiệp vụ hành chính công:</p>
+<ul>
+<li><b>Tính toán &amp; Đọc số thành chữ:</b> Hành động <code>calc.evaluate</code> tính chính xác biểu thức toán học phức tạp và tổng nhiều dòng; <code>number.to_words</code> chuyển con số thành chữ tiếng Việt chuẩn chứng từ kế toán và kiểm tra chéo sự khớp nhau giữa số và chữ.</li>
+<li><b>Ngày làm việc &amp; Cấp số liên tiếp:</b> Công cụ <code>date.workdays</code> cộng/lùi hạn xử lý theo lịch nghỉ lễ; <code>sequence.next</code> cấp số văn bản/sổ đăng ký tự động không trùng lặp theo từng năm; <code>law.lookup</code> đối chiếu tình trạng hiệu lực và văn bản thay thế.</li>
+<li><b>OCR tiếng Việt &amp; Đọc tài liệu dài theo khúc:</b> Tệp PDF bản quét (scan) hoặc ảnh chụp văn bản được nhận diện chữ tiếng Việt và tiếng Anh tự động, giữ nguyên đánh dấu <code>[Trang N]</code> trước mỗi trang. Với hồ sơ dày hàng trăm trang, cơ chế chia khúc giúp trợ lý đọc lần lượt từng phần mà không làm đứt đoạn nội dung.</li>
+<li><b>Cổng kiểm soát độ mật &amp; Ẩn dữ liệu cá nhân (PII Masking):</b> Tự động phát hiện dấu hiệu tài liệu mật để chặn gửi ra mô hình đám mây công cộng; đồng thời che tự động thông tin nhạy cảm (số điện thoại, CCCD, email cá nhân) khi gửi tới mô hình AI nhưng vẫn hiển thị nguyên vẹn cho người dùng.</li>
+</ul>
+
+<h2 id="work-genoffice-studio">3. Ba không gian chuyên biệt: Work, GenOffice &amp; Studio</h2>
+<p>Không dừng lại ở kết quả dạng tin nhắn chat, Gehihi cung cấp ba không gian làm việc trực quan để bạn tạo và hoàn thiện sản phẩm đầu ra:</p>
+<ul>
+<li><b>Gehihi Work (<code>/work</code>):</b> Cây thư mục tài liệu chung của workspace, nơi mọi tệp đều mang nhãn nguồn gốc (tải lên, trợ lý tạo, nghiên cứu xuất, từ chat hoặc Google Drive), tự động bóc tách số ký hiệu, cơ quan ban hành, ngày tháng và cho phép gọi &#64;trợ lý phân tích cả thư mục kèm trích dẫn bấm được.</li>
+<li><b>Bộ văn phòng GenOffice (<code>/documents</code>):</b> Tích hợp trình soạn thảo <b>Word</b> (bôi đen nhờ AI viết lại, xuất chuẩn thể thức Nghị định 30/2020/NĐ-CP), <b>Bảng tính Univer</b> (công thức, lọc, đồng bộ Google Sheets), <b>Trình chiếu Slide</b> (AI dựng slide 16:9, nhập/xuất <code>.pptx</code>) và <b>PDF</b> (khoanh vùng hỏi AI, chuyển PDF sang Word).</li>
+<li><b>Gehihi Studio (<code>/studio</code>):</b> Tách bạch rõ <b>Landing Page Builder</b> (AI hỏi làm rõ và dựng trang đích từng mục) với <b>Code Studio</b> (trình sửa mã nhiều tệp Monaco, nhập/xuất ZIP, trợ lý AI sửa code, đẩy GitHub và gắn tên miền riêng có HTTPS).</li>
+</ul>
+<p>Xem chi tiết hình ảnh giao diện từng không gian tại trang <a href="/workspace.html">Không gian làm việc Work, GenOffice &amp; Studio →</a></p>
+
+<h2 id="mcp-ket-noi">4. Kết nối MCP, Sự kiện tự động &amp; Làm việc Nhóm</h2>
+<p>Hệ thống kết nối và quản trị tài nguyên được nâng cấp toàn diện cho nhu cầu vận hành liên tục của cá nhân và tổ chức:</p>
+<ul>
+<li><b>Kết nối OAuth &amp; MCP (<code>/connections</code>):</b> Kết nối một chạm với Google Drive, GitHub, Notion, Linear và Context7. Bạn toàn quyền chọn tài khoản và cấp quyền đọc/ghi cụ thể cho từng trợ lý. Ngược lại, bạn cũng có thể tạo khóa <code>ghm_…</code> để biến Gehihi thành một MCP Server cho ứng dụng bên ngoài gọi vào.</li>
+<li><b>Đặt lịch Cron, Trigger sự kiện &amp; Webhook (<code>/ai/schedules</code>):</b> Ngoài lịch chạy định kỳ theo ngày/tuần/tháng, trợ lý có thể tự động thức dậy khi tài liệu được cập nhật (<code>resource.updated</code>), khi một trợ lý khác vừa hoàn tất (<code>run.finished</code>) hoặc khi nhận tín hiệu qua đường dẫn Webhook riêng.</li>
+<li><b>Luồng Model dự phòng (Model Flows):</b> Cấu hình model chính kèm tối đa 4 model dự phòng cho từng tác vụ (Chat, Trợ lý, Nghiên cứu, Ảnh, Thiết kế luồng) hoặc gán model chuyên biệt theo vai trò từng bước (Phân tích dữ liệu, Viết nội dung, Kiểm tra kết quả).</li>
+<li><b>Workspace Nhóm &amp; Gói thuê bao linh hoạt (<code>/account/team</code>, <code>/account/plans</code>):</b> Tạo nhóm làm việc, phân quyền Chủ sở hữu / Quản trị / Thành viên và phòng ban, quản lý số chỗ ngồi (seats), dùng chung ví Credits và thiết lập địa chỉ tên miền riêng cho nhóm.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/mcp-connections-team.svg" width="960" height="540" alt="Sơ đồ Kết nối MCP, Luồng Model dự phòng và Quản lý Workspace Nhóm trên Gehihi" loading="lazy">
+<figcaption>Ba trụ cột vận hành nâng cao: Kết nối MCP &amp; Google Drive an toàn, Luồng Model dự phòng 4 cấp và Quản trị Workspace Nhóm.</figcaption>
+</figure>
+
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore">Trải nghiệm trên ứng dụng →</a> <a class="btn btn-ghost" href="/guide.html">Xem hướng dẫn sử dụng chi tiết →</a></p>
+</div>
+
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp về tính năng mới</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tôi có thể chuyển kết quả chạy trợ lý sang trình soạn thảo Word để sửa tiếp không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Trong phần cấu hình đầu ra của trợ lý, bạn có thể chọn hiển thị kết quả bằng <b>Trình soạn tài liệu</b>, hoặc mở bất kỳ kết quả nào trong GenOffice Word để bôi đen từng đoạn nhờ AI viết lại và tải về tệp <code>.docx</code>.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi model AI chính bị quá tải hoặc hết hạn mức thì quy trình có bị gián đoạn không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Với tính năng <b>Luồng model (Model Flows)</b>, bạn có thể thiết lập tối đa 4 model dự phòng bên dưới model chính cho từng tác vụ. Nếu model đang gọi gặp sự cố, hệ thống tự động chuyển sang model dự phòng kế tiếp mà vẫn giữ nguyên ngữ cảnh lượt chạy.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Các thành viên trong cùng Workspace Nhóm có nhìn thấy mọi cuộc trò chuyện của nhau không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Trong Workspace Nhóm, các cuộc trò chuyện mặc định vẫn ở chế độ riêng tư của người tạo. Chỉ các thư mục hoặc tài liệu trong Work được phân quyền chia sẻ chung cho nhóm hoặc phòng ban mới hiển thị với các thành viên liên quan.</p></div></details>
+</section>
+
+<footer class="sources"><h2>Khám phá tiếp</h2><ul>
+<li><a href="/workspace.html">Chi tiết không gian làm việc Work, GenOffice &amp; Studio</a></li>
+<li><a href="/guide.html">Hướng dẫn sử dụng hệ thống AI Agent Platform từng bước</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/agents/builder">Mở Trình tạo Trợ lý trên Gehihi App</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
+

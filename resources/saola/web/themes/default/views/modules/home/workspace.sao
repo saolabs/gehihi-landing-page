@@ -1,0 +1,81 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Không gian làm việc Gehihi — Work, GenOffice (Word, Sheets, Slide, PDF) & Studio')
+@section('meta:description', 'Trải nghiệm không gian làm việc AI trên Gehihi: cây thư mục Work rõ nguồn gốc, bộ văn phòng GenOffice (Word, Sheets, Slide, PDF) và Studio dựng Landing Page, Code.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'workspace')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Work, GenOffice &amp; Studio</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<p class="eyebrow">Không gian làm việc trực quan</p>
+<h1 itemprop="headline">Gehihi Work, Bộ văn phòng GenOffice &amp; Studio dựng Web</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-09">09/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-11-09"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p>Thay vì để tài liệu nằm rải rác trong từng cuộc trò chuyện, <b>Gehihi</b> mang đến ba không gian làm việc chuyên biệt: <b>Gehihi Work</b> quản lý cây thư mục hồ sơ và chat có trích dẫn nguồn, <b>GenOffice</b> soạn thảo Word, Bảng tính, Slide, PDF tích hợp AI, và <b>Studio</b> thiết kế Landing Page cùng dự án mã nguồn.</p></div>
+
+<div class="prose" itemprop="articleBody">
+<h2 id="gehihi-work">1. Gehihi Work (<code>/work</code>) — Cây thư mục tài liệu &amp; Chat theo hồ sơ</h2>
+<p>Khi làm việc với hàng chục văn bản, báo cáo và bảng số liệu, việc phải tải đính kèm lại từng tệp vào mỗi cuộc chat gây mất thời gian và khó kiểm soát phiên bản. <a data-nav="false" href="https://app.gehihi.vn/work" target="_blank" rel="noopener">Gehihi Work (<code>/work</code>)</a> tổ chức toàn bộ tài liệu của cá nhân và nhóm thành một cây thư mục trực quan như trình quản lý tệp quen thuộc:</p>
+<ul>
+<li><b>Mọi tệp đều có nguồn gốc rõ ràng:</b> Mỗi tệp trong thư mục tự động gắn nhãn nguồn gốc (do người dùng tải lên, do trợ lý AI tạo ra, xuất từ bài Nghiên cứu, lưu từ cuộc trò chuyện hay nhập từ Google Drive) kèm liên kết ngược tới các tệp nguồn đã dùng để tổng hợp nên nó.</li>
+<li><b>Chat với trợ lý ngay bên cạnh thư mục:</b> Khung chat bên phải tự động lấy phạm vi đọc là thư mục đang mở (hoặc các thư mục bạn chọn thêm). Bạn chỉ cần gõ <code>&#64;</code> để gọi trợ lý phân tích, tổng hợp số liệu và trả lời kèm <b>trích dẫn bấm được</b> mở thẳng tới đúng số trang PDF hoặc tọa độ ô bảng tính.</li>
+<li><b>Bóc tách thông tin văn bản &amp; Lập mục lục hồ sơ:</b> Hỗ trợ chế độ hiển thị chuyên biệt cho công việc văn phòng và hành chính: tự động bóc tách <i>Số ký hiệu, Cơ quan ban hành, Ngày ban hành, Trích yếu nội dung</i>, quét ảnh chụp giấy thành PDF có lớp chữ và lập mục lục văn bản trong hồ sơ lưu trữ.</li>
+<li><b>Không lo mất dữ liệu:</b> Kết quả do trợ lý xuất ra luôn được tạo thành tệp mới ngay trong thư mục, có lịch sử phiên bản, thùng rác lưu 30 ngày và phân quyền chia sẻ Xem / Sửa theo từng thành viên hoặc phòng ban.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/work-folder-chat.svg" width="960" height="540" alt="Giao diện Gehihi Work với cây thư mục bên trái, danh sách tệp kèm nguồn gốc ở giữa và khung chat trợ lý có trích dẫn bên phải" loading="lazy">
+<figcaption>Giao diện Gehihi Work (/work): Quản lý cây thư mục hồ sơ, theo dõi nguồn gốc từng tệp và gọi &#64;trợ lý đối chiếu dữ liệu ngay trong thư mục.</figcaption>
+</figure>
+
+<h2 id="genoffice">2. Bộ công cụ văn phòng GenOffice (<code>/documents</code> · <code>/genoffice</code>)</h2>
+<p>Mọi tệp tài liệu trong Gehihi đều có thể mở và chỉnh sửa trực tiếp trên trình duyệt qua bộ bốn ứng dụng <a data-nav="false" href="https://app.gehihi.vn/documents" target="_blank" rel="noopener">GenOffice</a> mà không cần cài đặt phần mềm ngoài:</p>
+<ul>
+<li><b>Trình soạn thảo Word (<code>/documents/docs</code>):</b> Soạn thảo văn bản giàu định dạng, nhập tệp <code>.docx</code>, <code>.doc</code>, <code>.odt</code> để sửa tiếp. Bạn có thể bôi đen bất kỳ đoạn văn, tiêu đề hay danh sách nào để yêu cầu AI viết lại, rút gọn hoặc đổi giọng văn, xem trước đề xuất rồi bấm <b>Áp dụng</b>. Đặc biệt hỗ trợ xuất tệp Word (<code>.docx</code>) chuẩn thể thức văn bản hành chính theo Nghị định 30/2020/NĐ-CP.</li>
+<li><b>Bảng tính Univer (<code>/documents/sheets</code>):</b> Trình bảng tính trực tuyến mạnh mẽ hỗ trợ công thức, lọc, sắp xếp, tìm kiếm/thay thế, kiểm tra dữ liệu và định dạng có điều kiện (tối đa 50 trang tính, 500.000 ô). Hỗ trợ nhập/xuất <code>.xlsx</code>, <code>.csv</code>, cho phép trợ lý AI tự động thêm dòng mới (<code>sheet.append_rows</code>) và đồng bộ hai chiều với <b>Google Sheets</b>.</li>
+<li><b>Trình chiếu Slide (<code>/documents/slides</code>):</b> Nhờ AI tự động lên dàn ý và dựng bộ slide theo bố cục chuẩn 16:9 hoặc 4:3, hoặc tự kéo thả hộp chữ, hình khối, bảng biểu và ảnh minh họa. Hỗ trợ nhập tệp PowerPoint (<code>.pptx</code>) để chỉnh sửa, trình chiếu toàn màn hình kèm khung ghi chú diễn giả và xuất ra <code>.pptx</code>, PDF hoặc bộ ảnh PNG.</li>
+<li><b>Trình PDF &amp; OCR (<code>/documents/pdf</code>):</b> Đọc tệp PDF nhiều trang, chạy nhận diện chữ OCR tiếng Việt/Anh cho tài liệu quét, khoanh vùng bất kỳ trên trang PDF để hỏi trợ lý AI về bảng biểu/đoạn văn đó, điền biểu mẫu và chuyển đổi PDF sang tài liệu Word để biên tập.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/genoffice-suite.svg" width="960" height="540" alt="Bốn công cụ trong bộ văn phòng GenOffice trên Gehihi: Word, Bảng tính Univer, Trình chiếu Slide và PDF OCR" loading="lazy">
+<figcaption>Bộ 4 ứng dụng trong GenOffice (/documents): Word chuẩn thể thức NĐ 30, Bảng tính Univer đồng bộ Google Sheets, Slide 16:9 và PDF tích hợp OCR.</figcaption>
+</figure>
+
+<h2 id="gehihi-studio">3. Gehihi Studio (<code>/studio</code>) — Dựng Landing Page &amp; Dự án Code</h2>
+<p>Khi cần xây dựng trang giới thiệu sản phẩm, trang sự kiện hay bảng báo cáo trực tuyến, <a data-nav="false" href="https://app.gehihi.vn/studio" target="_blank" rel="noopener">Gehihi Studio (<code>/studio</code>)</a> cung cấp hai luồng làm việc chuyên biệt trên cùng một nền tảng lưu trữ và xuất bản:</p>
+<ul>
+<li><b>Landing Page Builder (<code>/studio/landing</code>):</b> Dành cho người dùng không chuyên lập trình. Bạn chỉ cần nhập mô tả ngắn và đính kèm tài liệu sản phẩm; AI sẽ đặt câu hỏi làm rõ mục tiêu, lập dàn trang rồi tự động thiết kế giao diện từng phần. Sau khi hoàn tất, bạn có thể chỉnh sửa trực tiếp bằng lời hoặc trong trình soạn.</li>
+<li><b>Code Studio (<code>/studio/code</code>):</b> Dành cho người muốn làm chủ mã nguồn web tĩnh nhiều tệp (HTML, CSS, JS, JSON, Markdown). Khởi tạo nhanh từ các mẫu có sẵn hoặc tải gói ZIP lên, chỉnh sửa bằng trình soạn Monaco kèm khung xem trước trực tiếp, nhờ trợ lý Code đề xuất bản vá (diff) và quản lý lịch sử từng phiên bản (revisions).</li>
+<li><b>Xuất bản &amp; Cập nhật tự động bởi Trợ lý:</b> Dự án trong Studio có thể tải về dạng ZIP, sao lưu lên Google Drive, đồng bộ lên kho GitHub hoặc xuất bản trực tiếp với subdomain / tên miền riêng có chứng chỉ HTTPS tự động. Hơn nữa, các trợ lý chạy theo lịch có thể tự động ghi dữ liệu mới vào <code>data.json</code> và kích hoạt xuất bản lại trang web (<code>site.publish</code>).</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/studio-builder.svg" width="960" height="540" alt="Giao diện Gehihi Studio với Landing Page Builder bên trái và Code Studio đa tệp bên phải" loading="lazy">
+<figcaption>Gehihi Studio (/studio): Kết hợp trình dựng Landing Page tự động theo từng bước và Code Studio đa tệp có hỗ trợ xuất bản tên miền riêng.</figcaption>
+</figure>
+
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/work">Mở Gehihi Work →</a> <a data-nav="false" class="btn btn-ghost" href="https://app.gehihi.vn/documents">Mở GenOffice →</a> <a class="text-link" href="/guide.html">Xem hướng dẫn từng bước →</a></p>
+</div>
+
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp về Work, GenOffice &amp; Studio</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tài liệu tạo trong GenOffice có xuất hiện trong thư mục Gehihi Work không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Work và GenOffice dùng chung kho tài liệu của workspace. Mọi văn bản Word, bảng tính, bộ slide hay tệp PDF đều có thể sắp xếp vào cây thư mục tại <code>/work</code> và mở ra chỉnh sửa bằng trình soạn GenOffice tương ứng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi AI sửa văn bản trong Word hoặc sửa mã trong Studio, dữ liệu cũ có bị mất không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. AI luôn tạo đề xuất thay đổi để bạn xem trước và chọn <b>Áp dụng</b> hoặc <b>Bỏ qua</b>. Ngoài ra, mỗi lần lưu đều tạo một phiên bản (revision) bất biến trong lịch sử để bạn xem lại hoặc khôi phục bất cứ lúc nào.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có thể sao lưu tài liệu và dự án Studio lên Google Drive cá nhân không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Bạn có thể kết nối Google Drive để sao lưu thủ công hoặc bật sao lưu tự động mỗi khi có phiên bản mới. Bảng tính trong GenOffice cũng hỗ trợ liên kết đẩy và kéo dữ liệu hai chiều với Google Sheets.</p></div></details>
+</section>
+
+<footer class="sources"><h2>Liên kết hữu ích</h2><ul>
+<li><a href="/features.html">Tổng quan các tính năng mới của Gehihi</a></li>
+<li><a href="/guide.html">Hướng dẫn sử dụng chi tiết kèm ảnh minh họa</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/documents">Trải nghiệm GenOffice trên Gehihi App</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/studio">Mở Gehihi Studio dựng Landing Page &amp; Code</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
+

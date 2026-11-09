@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Giao diện Gehihi Studio gồm Landing Page Builder tự động và Code Studio đa tệp">
+  <defs>
+    <linearGradient id="stBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#fff1f2"/>
+    </linearGradient>
+    <linearGradient id="stCoral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6e4a"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <filter id="stShadow" x="-6%" y="-6%" width="112%" height="116%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="540" rx="24" fill="url(#stBg)" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Top Bar -->
+  <rect x="24" y="20" width="912" height="46" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="48" cy="43" r="6" fill="#ff5f56"/>
+  <circle cx="68" cy="43" r="6" fill="#ffbd2e"/>
+  <circle cx="88" cy="43" r="6" fill="#27c93f"/>
+  <text x="112" y="48" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Gehihi Studio (/studio) — Landing Page Builder &amp; Dự án Code</text>
+  <rect x="650" y="29" width="132" height="28" rx="14" fill="url(#stCoral)"/>
+  <text x="716" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">🚀 Xuất bản &amp; HTTPS</text>
+  <rect x="792" y="29" width="128" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="856" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#334155">Đồng bộ GitHub</text>
+
+  <!-- Left Half: Landing Page Builder -->
+  <g filter="url(#stShadow)">
+    <rect x="24" y="82" width="444" height="434" rx="18" fill="#ffffff" stroke="#fecdd3" stroke-width="1.5"/>
+    <rect x="44" y="102" width="184" height="28" rx="8" fill="#fff1f2"/>
+    <text x="136" y="120" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="800" fill="#e11d48">✨ Landing Page (/studio/landing)</text>
+
+    <text x="44" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13.5" font-weight="800" fill="#0f172a">Dựng trang đích từ mô tả ngắn</text>
+    <text x="44" y="172" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">AI hỏi làm rõ nhu cầu rồi tự thiết kế và viết mã từng mục</text>
+
+    <!-- Pipeline steps -->
+    <rect x="44" y="190" width="404" height="52" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="60" y="212" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">1. Nhập mô tả &amp; Đính kèm tư liệu</text>
+    <text x="60" y="230" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">Chọn phong cách màu sắc, đối tượng khách hàng và tệp tài liệu sản phẩm</text>
+
+    <rect x="44" y="252" width="404" height="52" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="60" y="274" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">2. AI trả lời câu hỏi làm rõ &amp; Lên dàn trang</text>
+    <text x="60" y="292" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">Tự động chia mục: Hero, Lợi ích, Bảng giá, Câu hỏi thường gặp, Liên hệ</text>
+
+    <rect x="44" y="314" width="404" height="52" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="60" y="336" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#065f46">3. Sinh giao diện &amp; Chỉnh sửa bằng lời</text>
+    <text x="60" y="354" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#047857">Xem trước trực tiếp trên máy tính/điện thoại, yêu cầu trợ lý AI sửa từng khối</text>
+
+    <!-- Mini preview box -->
+    <rect x="44" y="380" width="404" height="116" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="60" y="404" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#c2410c">XEM TRƯỚC TRANG ĐÍCH · Tự động cập nhật data.json</text>
+    <rect x="60" y="414" width="240" height="66" rx="8" fill="#ffffff" stroke="#fdba74"/>
+    <text x="74" y="438" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="800" fill="#0f172a">Ra mắt Sản phẩm Mới 2026</text>
+    <text x="74" y="456" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" fill="#475569">Đặt lịch tư vấn &amp; tải bảng giá ngay</text>
+    <rect x="314" y="424" width="118" height="46" rx="10" fill="url(#stCoral)"/>
+    <text x="373" y="451" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Xuất bản ngay</text>
+  </g>
+
+  <!-- Right Half: Code Studio -->
+  <g filter="url(#stShadow)">
+    <rect x="492" y="82" width="444" height="434" rx="18" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.5"/>
+    <rect x="512" y="102" width="180" height="28" rx="8" fill="#eef2ff"/>
+    <text x="602" y="120" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="800" fill="#4338ca">&lt;/&gt; Code Studio (/studio/code)</text>
+
+    <text x="512" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13.5" font-weight="800" fill="#0f172a">Trình sửa mã đa tệp &amp; Trợ lý Code</text>
+    <text x="512" y="172" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">Khởi tạo từ mẫu HTML/CSS/JS, nhiều trang hoặc nhập gói ZIP</text>
+
+    <!-- Code editor mockup -->
+    <rect x="512" y="190" width="404" height="196" rx="12" fill="#0f172a"/>
+    <rect x="512" y="190" width="404" height="32" rx="12" fill="#1e293b"/>
+    <text x="528" y="210" font-family="monospace" font-size="11" font-weight="700" fill="#38bdf8">index.html</text>
+    <text x="614" y="210" font-family="monospace" font-size="11" fill="#94a3b8">styles.css</text>
+    <text x="694" y="210" font-family="monospace" font-size="11" fill="#94a3b8">app.js</text>
+    <text x="756" y="210" font-family="monospace" font-size="11" fill="#a7f3d0">data.json</text>
+
+    <text x="528" y="244" font-family="monospace" font-size="11.5" fill="#94a3b8">1  &lt;!DOCTYPE html&gt;</text>
+    <text x="528" y="264" font-family="monospace" font-size="11.5" fill="#e2e8f0">2  &lt;section class=<tspan fill="#fde047">"hero-container"</tspan>&gt;</text>
+    <text x="528" y="284" font-family="monospace" font-size="11.5" fill="#e2e8f0">3    &lt;h1 id=<tspan fill="#86efac">"headline"</tspan>&gt;Báo cáo Trực tuyến&lt;/h1&gt;</text>
+    <text x="528" y="304" font-family="monospace" font-size="11.5" fill="#38bdf8">4    &lt;!-- Trợ lý AI đề xuất thêm bảng biểu động --&gt;</text>
+    <text x="528" y="324" font-family="monospace" font-size="11.5" fill="#e2e8f0">5    &lt;div id=<tspan fill="#86efac">"chart-grid"</tspan>&gt;&lt;/div&gt;</text>
+    <text x="528" y="344" font-family="monospace" font-size="11.5" fill="#e2e8f0">6  &lt;/section&gt;</text>
+
+    <rect x="526" y="354" width="376" height="24" rx="6" fill="#1e293b"/>
+    <text x="538" y="370" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" fill="#a5b4fc">✨ Trợ lý Code: Xem diff thay đổi → [Áp dụng] · Lưu Revision v4</text>
+
+    <!-- Publishing & Domain features -->
+    <rect x="512" y="398" width="404" height="98" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="528" y="420" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Xuất bản linh hoạt &amp; Kết nối dữ liệu với Trợ lý</text>
+    <text x="528" y="440" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Đẩy mã nguồn lên kho GitHub hoặc tải gói ZIP về máy</text>
+    <text x="528" y="458" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Gắn subdomain hoặc tên miền riêng có chứng chỉ TLS/HTTPS tự động</text>
+    <text x="528" y="476" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#059669" font-weight="600">• Trợ lý theo lịch có thể cập nhật `data.json` và tự xuất bản lại (`site.publish`)</text>
+  </g>
+</svg>
+

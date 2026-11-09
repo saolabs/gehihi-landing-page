@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" role="img" aria-label="Minh họa cơ chế đặt lịch tự động, kích hoạt theo sự kiện, Webhook và gửi báo cáo an toàn trong Gehihi">
+  <defs>
+    <linearGradient id="gsBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <filter id="gsShadow" x="-6%" y="-6%" width="112%" height="116%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="500" rx="24" fill="url(#gsBg)" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Top Bar -->
+  <rect x="24" y="20" width="912" height="46" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="48" cy="43" r="6" fill="#ff5f56"/>
+  <circle cx="68" cy="43" r="6" fill="#ffbd2e"/>
+  <circle cx="88" cy="43" r="6" fill="#27c93f"/>
+  <text x="112" y="48" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Lịch tự động &amp; Trigger sự kiện (/ai/schedules · /ai/notifications)</text>
+  <rect x="736" y="29" width="184" height="28" rx="14" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="828" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#047857">Múi giờ: Asia/Ho_Chi_Minh</text>
+
+  <!-- Left Box: 3 Trigger Sources -->
+  <g filter="url(#gsShadow)">
+    <rect x="24" y="84" width="286" height="392" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="44" y="114" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">1. Nguồn kích hoạt (Triggers)</text>
+
+    <rect x="44" y="130" width="246" height="92" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="58" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#c2410c">🗓️ Lịch định kỳ (Cron)</text>
+    <text x="58" y="172" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Chạy 1 lần hoặc lặp theo ngày,</text>
+    <text x="58" y="190" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  tuần, tháng đúng múi giờ của bạn</text>
+    <text x="58" y="208" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#ea580c">VD: 07:30 sáng Thứ Hai hằng tuần</text>
+
+    <rect x="44" y="236" width="246" height="98" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+    <text x="58" y="258" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#4338ca">⚡ Sự kiện hệ thống (Event)</text>
+    <text x="58" y="278" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• `resource.updated`: khi tài liệu,</text>
+    <text x="58" y="296" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  slide hoặc trang web được cập nhật</text>
+    <text x="58" y="314" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• `run.finished`: nối tiếp trợ lý khác</text>
+
+    <rect x="44" y="348" width="246" height="106" rx="12" fill="#ecfeff" stroke="#a5f3fc"/>
+    <text x="58" y="370" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0e7490">🔗 Webhook riêng tư</text>
+    <text x="58" y="390" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• URL kèm mã bí mật riêng cho lịch</text>
+    <text x="58" y="408" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Hệ thống ngoài gửi JSON vào để</text>
+    <text x="58" y="426" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  đánh thức trợ lý xử lý tự động</text>
+  </g>
+
+  <!-- Center Box: Execution & Grants -->
+  <g filter="url(#gsShadow)">
+    <rect x="334" y="84" width="292" height="392" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="354" y="114" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">2. Thực thi &amp; Quyền (Grants)</text>
+
+    <rect x="354" y="130" width="252" height="104" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="368" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">🔒 Ghim phiên bản &amp; Quyền tự làm</text>
+    <text x="368" y="172" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Chỉ chạy các hành động ghi/xuất bản</text>
+    <text x="368" y="190" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  mà bạn đã tích chọn “Cho phép tự làm”</text>
+    <text x="368" y="208" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#059669" font-weight="600">• Chống ghi trùng lặp (Idempotent key)</text>
+
+    <rect x="354" y="248" width="252" height="104" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="368" y="270" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">⚙️ Tạo tài nguyên &amp; Cập nhật</text>
+    <text x="368" y="290" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Tạo báo cáo Word, bộ Slide hoặc</text>
+    <text x="368" y="308" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  ghi thêm dòng vào bảng tính Univer</text>
+    <text x="368" y="326" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Tự động sao lưu revision lên Drive</text>
+
+    <rect x="354" y="366" width="252" height="88" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="368" y="388" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#b45309">⏸️ Tạm dừng &amp; Tiếp tục</text>
+    <text x="368" y="408" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Xem trước 5 lần chạy tiếp theo</text>
+    <text x="368" y="426" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Hết hạn mức ngày có thể tiếp tục</text>
+    <text x="368" y="442" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  ngay từ bước dừng sau khi gia hạn</text>
+  </g>
+
+  <!-- Right Box: Delivery & Notifications -->
+  <g filter="url(#gsShadow)">
+    <rect x="650" y="84" width="286" height="392" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="670" y="114" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">3. Nhận kết quả &amp; Theo dõi</text>
+
+    <rect x="670" y="130" width="246" height="104" rx="12" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="684" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#065f46">✉️ Email người nhận đã xác minh</text>
+    <text x="684" y="172" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Chỉ gửi tới địa chỉ email đã bấm</text>
+    <text x="684" y="190" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  liên kết xác nhận trong tài khoản</text>
+    <text x="684" y="208" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#047857" font-weight="600">• Hỗ trợ gửi lại nếu lỗi đường truyền</text>
+
+    <rect x="670" y="248" width="246" height="104" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="684" y="270" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">🔔 Trung tâm Thông báo</text>
+    <text x="684" y="290" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Thông báo ngay khi lượt chạy hoàn tất</text>
+    <text x="684" y="308" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  hoặc khi bước con cần bạn kiểm tra</text>
+    <text x="684" y="326" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#4f46e5" font-weight="600">• Bấm mở thẳng phiên chạy hoặc tệp</text>
+
+    <rect x="670" y="366" width="246" height="88" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="684" y="388" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">📊 Lịch sử &amp; Sổ lượt chạy</text>
+    <text x="684" y="408" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Lưu chi tiết từng bước, nguồn đã đọc,</text>
+    <text x="684" y="426" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">  token tiêu thụ và các tài liệu sinh ra</text>
+  </g>
+</svg>
+

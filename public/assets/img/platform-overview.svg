@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Sơ đồ tổng quan hệ sinh thái Gehihi AI Agent Platform">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="coralGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6e4a"/>
+      <stop offset="60%" stop-color="#ff5a36"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="540" rx="24" fill="url(#bgGrad)" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Top window bar -->
+  <rect x="24" y="20" width="912" height="44" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="48" cy="42" r="6" fill="#ff5f56"/>
+  <circle cx="68" cy="42" r="6" fill="#ffbd2e"/>
+  <circle cx="88" cy="42" r="6" fill="#27c93f"/>
+  <text x="114" y="47" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">app.gehihi.vn — Hệ sinh thái AI Agent Platform</text>
+  <rect x="748" y="30" width="172" height="24" rx="12" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <circle cx="764" cy="42" r="4" fill="#059669"/>
+  <text x="776" y="46" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#047857">Đa mô hình · Đa không gian</text>
+
+  <!-- Connector lines from center hub -->
+  <g stroke="#cbd5e1" stroke-width="2.5" stroke-dasharray="6 5" fill="none">
+    <path d="M350 245 L260 155"/>
+    <path d="M350 280 L260 280"/>
+    <path d="M350 315 L260 405"/>
+    <path d="M610 245 L700 155"/>
+    <path d="M610 280 L700 280"/>
+    <path d="M610 315 L700 405"/>
+  </g>
+
+  <!-- Center Hub: Gehihi AI Agent Core -->
+  <g filter="url(#cardShadow)">
+    <rect x="340" y="162" width="280" height="236" rx="22" fill="#ffffff" stroke="#ffd2c7" stroke-width="2"/>
+    <rect x="358" y="180" width="244" height="46" rx="14" fill="url(#coralGrad)"/>
+    <text x="480" y="209" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">LÕI ĐIỀU PHỐI GEHIHI AI</text>
+
+    <rect x="360" y="240" width="116" height="60" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="418" y="264" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#c2410c">Agent Store</text>
+    <text x="418" y="284" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">Khám phá &amp; dùng ngay</text>
+
+    <rect x="484" y="240" width="116" height="60" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+    <text x="542" y="264" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#4338ca">AI Thiết kế luồng</text>
+    <text x="542" y="284" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">Tự sinh quy trình</text>
+
+    <rect x="360" y="310" width="240" height="68" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="480" y="333" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Công cụ xác định &amp; Kiểm soát độ mật</text>
+    <text x="480" y="352" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Tính toán chuẩn · Đọc số thành chữ · Ngày làm việc</text>
+    <text x="480" y="368" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#059669" font-weight="600">OCR tiếng Việt · Ẩn dữ liệu cá nhân (PII)</text>
+  </g>
+
+  <!-- Left Top: Trò chuyện & Nghiên cứu sâu -->
+  <g filter="url(#cardShadow)">
+    <rect x="32" y="88" width="256" height="114" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="48" y="104" width="38" height="38" rx="10" fill="#eef2ff"/>
+    <text x="67" y="129" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="18" font-weight="800" fill="#4f46e5">@</text>
+    <text x="98" y="121" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Trò chuyện &amp; Nghiên cứu</text>
+    <text x="98" y="139" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">Gọi @trợ lý, chọn /kỹ năng</text>
+    <text x="48" y="165" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Hội thoại phân nhánh, công thức KaTeX</text>
+    <text x="48" y="184" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Research lập kế hoạch &amp; trích dẫn nguồn</text>
+  </g>
+
+  <!-- Left Middle: Kỹ năng SKILL.md & Tri thức riêng -->
+  <g filter="url(#cardShadow)">
+    <rect x="32" y="222" width="256" height="114" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="48" y="238" width="38" height="38" rx="10" fill="#fff7ed"/>
+    <text x="67" y="263" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="16" font-weight="800" fill="#ea580c">SK</text>
+    <text x="98" y="255" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Kỹ năng &amp; Tri thức riêng</text>
+    <text x="98" y="273" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">SKILL.md · Tài liệu tham khảo</text>
+    <text x="48" y="299" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Nhập SKILL.md hoặc từ GitHub công khai</text>
+    <text x="48" y="318" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Đọc PDF dài theo khúc kèm số [Trang N]</text>
+  </g>
+
+  <!-- Left Bottom: Lịch chạy, Trigger & Kết nối MCP -->
+  <g filter="url(#cardShadow)">
+    <rect x="32" y="356" width="256" height="114" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="48" y="372" width="38" height="38" rx="10" fill="#ecfdf5"/>
+    <text x="67" y="397" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="15" font-weight="800" fill="#059669">MCP</text>
+    <text x="98" y="389" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Lịch tự động &amp; Kết nối</text>
+    <text x="98" y="407" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">Cron · Trigger sự kiện · OAuth</text>
+    <text x="48" y="433" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Google Drive, GitHub, Notion, Linear</text>
+    <text x="48" y="452" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Gửi báo cáo qua email đã xác minh</text>
+  </g>
+
+  <!-- Right Top: Gehihi Work (/work) -->
+  <g filter="url(#cardShadow)">
+    <rect x="672" y="88" width="256" height="114" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="688" y="104" width="38" height="38" rx="10" fill="#ecfeff"/>
+    <text x="707" y="129" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="15" font-weight="800" fill="#0891b2">WK</text>
+    <text x="738" y="121" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Gehihi Work (/work)</text>
+    <text x="738" y="139" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">Cây thư mục &amp; Hồ sơ công việc</text>
+    <text x="688" y="165" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Nhãn nguồn gốc tệp &amp; bóc tách văn bản</text>
+    <text x="688" y="184" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Chat ngay trong thư mục có trích dẫn</text>
+  </g>
+
+  <!-- Right Middle: GenOffice (/documents) -->
+  <g filter="url(#cardShadow)">
+    <rect x="672" y="222" width="256" height="114" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="688" y="238" width="38" height="38" rx="10" fill="#f3e8ff"/>
+    <text x="707" y="263" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="15" font-weight="800" fill="#7c3aed">GO</text>
+    <text x="738" y="255" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">GenOffice &amp; Tài liệu</text>
+    <text x="738" y="273" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">Word · Bảng tính · Slide · PDF</text>
+    <text x="688" y="299" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Bôi đen sửa bằng AI, xuất chuẩn NĐ 30</text>
+    <text x="688" y="318" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Bảng tính Univer &amp; đồng bộ Google Sheets</text>
+  </g>
+
+  <!-- Right Bottom: Gehihi Studio (/studio) -->
+  <g filter="url(#cardShadow)">
+    <rect x="672" y="356" width="256" height="114" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="688" y="372" width="38" height="38" rx="10" fill="#ffe4e6"/>
+    <text x="707" y="397" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="15" font-weight="800" fill="#e11d48">&lt;/&gt;</text>
+    <text x="738" y="389" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Gehihi Studio (/studio)</text>
+    <text x="738" y="407" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">Landing Page &amp; Dự án Code</text>
+    <text x="688" y="433" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• AI dựng Landing Page theo từng mục</text>
+    <text x="688" y="452" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Monaco Editor, đẩy GitHub &amp; tên miền riêng</text>
+  </g>
+
+  <!-- Bottom bar: Workspace & Model Flows -->
+  <rect x="32" y="486" width="896" height="36" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="480" y="509" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="600" fill="#334155">Nền tảng chung: Workspace Cá nhân &amp; Nhóm · Ví Credits &amp; Gói theo chỗ ngồi · Luồng Model chính + 4 dự phòng · Khóa API riêng (BYOK)</text>
+</svg>
+

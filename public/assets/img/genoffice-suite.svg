@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Bộ công cụ văn phòng GenOffice trên Gehihi gồm Word, Bảng tính Univer, Slide thuyết trình và PDF OCR">
+  <defs>
+    <linearGradient id="goBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+    <filter id="goShadow" x="-6%" y="-6%" width="112%" height="116%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="540" rx="24" fill="url(#goBg)" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Top Bar -->
+  <rect x="24" y="20" width="912" height="46" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="48" cy="43" r="6" fill="#ff5f56"/>
+  <circle cx="68" cy="43" r="6" fill="#ffbd2e"/>
+  <circle cx="88" cy="43" r="6" fill="#27c93f"/>
+  <text x="112" y="48" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">GenOffice &amp; Không gian Tài liệu (/documents · /genoffice)</text>
+
+  <!-- App Switcher Tabs -->
+  <rect x="520" y="28" width="94" height="30" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="567" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1d4ed8">📘 Word</text>
+  <rect x="622" y="28" width="106" height="30" rx="8" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="675" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#047857">📗 Bảng tính</text>
+  <rect x="736" y="28" width="90" height="30" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="781" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#c2410c">📙 Slide</text>
+  <rect x="834" y="28" width="88" height="30" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="878" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#b91c1c">📕 PDF</text>
+
+  <!-- Card 1: Word Editor -->
+  <g filter="url(#goShadow)">
+    <rect x="24" y="82" width="446" height="210" rx="16" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <rect x="40" y="98" width="130" height="26" rx="8" fill="#eff6ff"/>
+    <text x="105" y="115" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#1d4ed8">1. Trình soạn Word</text>
+    <text x="182" y="115" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">/documents/docs · Nhập &amp; xuất .docx</text>
+
+    <rect x="40" y="134" width="414" height="84" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="54" y="154" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">TỜ TRÌNH Về việc phê duyệt kế hoạch triển khai AI Agent</text>
+    <rect x="50" y="162" width="394" height="24" rx="6" fill="#fef3c7" stroke="#fde68a"/>
+    <text x="58" y="178" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#92400e">✨ Đang bôi đen đoạn 2 → Yêu cầu AI: “Viết lại trang trọng, ngắn gọn hơn”</text>
+    <text x="54" y="206" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#059669" font-weight="700">[✓ Áp dụng đề xuất]   [✕ Bỏ qua]   [📄 Xuất chuẩn NĐ 30/2020]</text>
+
+    <text x="40" y="244" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Sửa trực tiếp kết quả chạy trợ lý hoặc soạn văn bản mới trên trình duyệt</text>
+    <text x="40" y="266" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Tự lưu lịch sử phiên bản (revisions) &amp; sao lưu lên Google Drive</text>
+  </g>
+
+  <!-- Card 2: Sheets (Univer) -->
+  <g filter="url(#goShadow)">
+    <rect x="490" y="82" width="446" height="210" rx="16" fill="#ffffff" stroke="#a7f3d0" stroke-width="1.5"/>
+    <rect x="506" y="98" width="150" height="26" rx="8" fill="#ecfdf5"/>
+    <text x="581" y="115" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#047857">2. Bảng tính Univer</text>
+    <text x="668" y="115" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">/documents/sheets · .xlsx / .csv</text>
+
+    <!-- Mini spreadsheet grid -->
+    <rect x="506" y="134" width="414" height="84" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <line x1="506" y1="162" x2="920" y2="162" stroke="#cbd5e1"/>
+    <line x1="506" y1="190" x2="920" y2="190" stroke="#e2e8f0"/>
+    <line x1="630" y1="134" x2="630" y2="218" stroke="#cbd5e1"/>
+    <line x1="770" y1="134" x2="770" y2="218" stroke="#cbd5e1"/>
+    <text x="520" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#334155">Hạng mục</text>
+    <text x="644" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#334155">Chi phí (VNĐ)</text>
+    <text x="784" y="152" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#334155">Công thức / Trạng thái</text>
+    <text x="520" y="180" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Hạ tầng AI</text>
+    <text x="644" y="180" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#0f172a" font-weight="600">450.000.000</text>
+    <text x="784" y="180" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#059669" font-weight="600">=SUM(B2:B5) · Đã khớp</text>
+    <text x="520" y="208" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Đào tạo</text>
+    <text x="644" y="208" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#0f172a" font-weight="600">120.000.000</text>
+    <text x="784" y="208" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#4f46e5" font-weight="600">⇄ Đồng bộ Google Sheets</text>
+
+    <text x="506" y="244" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Đầy đủ công thức, lọc, sắp xếp, định dạng có điều kiện (tối đa 500.000 ô)</text>
+    <text x="506" y="266" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Trợ lý AI tự động đọc/ghi dòng dữ liệu (`sheet.append_rows`) &amp; đẩy lên Sheets</text>
+  </g>
+
+  <!-- Card 3: Slides (16:9 Deck) -->
+  <g filter="url(#goShadow)">
+    <rect x="24" y="308" width="446" height="208" rx="16" fill="#ffffff" stroke="#fed7aa" stroke-width="1.5"/>
+    <rect x="40" y="324" width="146" height="26" rx="8" fill="#fff7ed"/>
+    <text x="113" y="341" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#c2410c">3. Trình chiếu Slide</text>
+    <text x="198" y="341" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">/documents/slides · .pptx / PDF / PNG</text>
+
+    <rect x="40" y="360" width="414" height="82" rx="10" fill="#fffbeb" stroke="#fde68a"/>
+    <rect x="52" y="370" width="90" height="62" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="97" y="396" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#ea580c">Slide 01 · 16:9</text>
+    <text x="97" y="414" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="9.5" fill="#64748b">Bố cục tiêu đề</text>
+    <text x="156" y="386" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">AI dựng bộ slide từ dàn ý hoặc tài liệu</text>
+    <text x="156" y="406" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Kéo thả hộp chữ, bảng, khối hình, ảnh minh họa AI</text>
+    <text x="156" y="426" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#c2410c" font-weight="600">▶ Trình chiếu toàn màn hình kèm ghi chú diễn giả</text>
+
+    <text x="40" y="468" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Nhập tệp PowerPoint (.pptx) có sẵn để chỉnh sửa tiếp trên trình duyệt</text>
+    <text x="40" y="490" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Xuất ra .pptx, PDF giữ nguyên font tiếng Việt hoặc bộ ảnh PNG</text>
+  </g>
+
+  <!-- Card 4: PDF & OCR -->
+  <g filter="url(#goShadow)">
+    <rect x="490" y="308" width="446" height="208" rx="16" fill="#ffffff" stroke="#fecaca" stroke-width="1.5"/>
+    <rect x="506" y="324" width="144" height="26" rx="8" fill="#fef2f2"/>
+    <text x="578" y="341" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#b91c1c">4. Trình PDF &amp; OCR</text>
+    <text x="662" y="341" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">/documents/pdf · Nhận diện tiếng Việt</text>
+
+    <rect x="506" y="360" width="414" height="82" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="520" y="370" width="180" height="62" rx="6" fill="#ffffff" stroke="#f87171" stroke-dasharray="4 3"/>
+    <text x="610" y="394" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#dc2626">⬚ Vùng khoanh trên Trang 4</text>
+    <text x="610" y="414" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" fill="#475569">“Giải thích bảng số liệu này”</text>
+    <text x="716" y="388" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">OCR &amp; Hỏi AI theo vùng</text>
+    <text x="716" y="408" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">• Bóc chữ từ PDF scan nhiều trang</text>
+    <text x="716" y="426" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#059669" font-weight="600">• Chuyển PDF sang Word (.docx)</text>
+
+    <text x="506" y="468" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Khoanh bất kỳ đoạn văn hay bảng biểu trên trang PDF để hỏi trợ lý AI</text>
+    <text x="506" y="490" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">• Điền biểu mẫu PDF, sửa đối tượng văn bản trực tiếp và lưu phiên bản</text>
+  </g>
+</svg>
+

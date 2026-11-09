@@ -36,6 +36,38 @@
                     {
                         "from": "public/assets/img/og-gehihi.png",
                         "to": "assets/img/og-gehihi.png"
+                    },
+                    {
+                        "from": "public/assets/img/platform-overview.svg",
+                        "to": "assets/img/platform-overview.svg"
+                    },
+                    {
+                        "from": "public/assets/img/agent-builder-flow.svg",
+                        "to": "assets/img/agent-builder-flow.svg"
+                    },
+                    {
+                        "from": "public/assets/img/work-folder-chat.svg",
+                        "to": "assets/img/work-folder-chat.svg"
+                    },
+                    {
+                        "from": "public/assets/img/genoffice-suite.svg",
+                        "to": "assets/img/genoffice-suite.svg"
+                    },
+                    {
+                        "from": "public/assets/img/studio-builder.svg",
+                        "to": "assets/img/studio-builder.svg"
+                    },
+                    {
+                        "from": "public/assets/img/mcp-connections-team.svg",
+                        "to": "assets/img/mcp-connections-team.svg"
+                    },
+                    {
+                        "from": "public/assets/img/guide-quickstart.svg",
+                        "to": "assets/img/guide-quickstart.svg"
+                    },
+                    {
+                        "from": "public/assets/img/guide-schedule-automation.svg",
+                        "to": "assets/img/guide-schedule-automation.svg"
                     }
                 ]
             },

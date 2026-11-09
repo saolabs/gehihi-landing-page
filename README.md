@@ -15,7 +15,12 @@ Bộ phiên bản đã nâng và kiểm tra ngày 30/10/2026: `saola/core` 2.7.0
 | URL | View | Từ khoá chính |
 | --- | --- | --- |
 | `/` | `modules/home/index.sao` | gehihi, gehihi ai, hệ thống ai agent, tạo agent không cần lập trình |
+| `/features.html` | `modules/home/features.sao` | tính năng gehihi, ai thiết kế luồng, công cụ xác định, kết nối mcp |
+| `/workspace.html` | `modules/home/workspace.sao` | gehihi work, genoffice, gehihi studio, soạn văn bản ai |
+| `/guide.html` | `modules/home/guide.sao` | hướng dẫn sử dụng gehihi, cách tạo ai agent, đặt lịch agent |
 | `/about.html` | `modules/home/about.sao` | gehihi là gì, gehihi gemini |
+| `/terms.html` | `modules/home/terms.sao` | điều khoản dịch vụ gehihi |
+| `/privacy.html` | `modules/home/privacy.sao` | chính sách bảo mật gehihi |
 
 Thêm trang: tạo view `.sao` rồi khai báo trong `config/site.php`; route, sitemap và test tự nhận.
 

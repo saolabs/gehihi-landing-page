@@ -1,0 +1,109 @@
+<template>
+@extends(__layout__ + "site")
+@section('meta:title', 'Hướng dẫn sử dụng Gehihi — Cẩm nang AI Agent Platform có ảnh minh họa')
+@section('meta:description', 'Hướng dẫn sử dụng nền tảng AI Agent Gehihi từng bước kèm ảnh minh họa: cách chạy trợ lý, tự tạo quy trình, dùng Work, GenOffice, Studio và đặt lịch tự động.')
+@section('meta:og_type', 'article')
+@section('seo:path', 'guide')
+@block('content')
+<article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Hướng dẫn sử dụng</span><meta itemprop="position" content="2"></li>
+</ol></nav>
+<header class="article-head">
+<p class="eyebrow">Cẩm nang thực hành từng bước</p>
+<h1 itemprop="headline">Hướng dẫn sử dụng Hệ thống AI Agent Platform (Gehihi App)</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-09">09/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-11-09"><meta itemprop="inLanguage" content="vi"></p>
+</header>
+<div class="answer-box" itemprop="abstract"><p>Trang này hướng dẫn bạn từng bước làm chủ <b>Gehihi App</b> (<a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>) kèm hình ảnh minh họa: từ cách gọi trợ lý trong khung chat, tự thiết kế trợ lý nhiều bước, làm việc trên cây thư mục <b>Work</b> và bộ văn phòng <b>GenOffice</b>, đến cách đặt lịch tự động và quản lý nhóm.</p></div>
+
+<figure class="visual-showcase">
+<img src="/assets/img/guide-quickstart.svg" width="960" height="520" alt="Sơ đồ hướng dẫn 4 bước bắt đầu sử dụng Gehihi AI Agent Platform" loading="lazy">
+<figcaption>Lộ trình 4 bước làm quen và khai thác tối đa sức mạnh của Gehihi AI Agent Platform.</figcaption>
+</figure>
+
+<div class="prose" itemprop="articleBody">
+<h2 id="buoc-1-kham-pha-va-chat">Bước 1: Khám phá Kho trợ lý &amp; Trò chuyện đa năng</h2>
+<p>Ngay khi mở <a data-nav="false" href="https://app.gehihi.vn" target="_blank" rel="noopener">trang chủ ứng dụng</a> hoặc <a data-nav="false" href="https://app.gehihi.vn/agents/explore" target="_blank" rel="noopener">Kho trợ lý (<code>/agents/explore</code>)</a>, bạn có thể bắt đầu ngay cả khi chưa đăng nhập:</p>
+<ul>
+<li><b>Chạy trực tiếp từ Kho trợ lý:</b> Chọn một trợ lý theo danh mục công việc (Biên tập, Marketing, Hành chính công, Phân tích dữ liệu…), điền các ô thông tin đầu vào trên biểu mẫu và bấm <b>Chạy trợ lý</b>. Các trợ lý vừa dùng sẽ xuất hiện ngay dưới khung soạn thảo ở trang chủ để bạn mở lại nhanh.</li>
+<li><b>Gọi trợ lý và kỹ năng trong ô Chat:</b> Trong màn hình Trò chuyện (<code>/</code>), gõ ký tự <code>&#64;</code> để chọn trợ lý muốn phối hợp, hoặc gõ <code>/</code> để đính kèm một kỹ năng chuyên môn (<code>SKILL.md</code>) vào câu hỏi hiện tại.</li>
+<li><b>Tra cứu Web &amp; Nghiên cứu chuyên sâu (Research):</b> Bật công cụ <b>Nghiên cứu</b> khi bạn cần báo cáo tổng hợp dài. Hệ thống sẽ tự lập kế hoạch → tìm kiếm đa nguồn → đọc trang → đánh giá phần còn thiếu → tìm bổ sung và xuất báo cáo hoàn chỉnh kèm sổ nguồn trích dẫn.</li>
+<li><b>Gợi ý công cụ thông minh:</b> Sau mỗi câu trả lời trong chat, nếu nội dung phù hợp để chuyển thành văn bản Word, bộ Slide hay trang đích, Gehihi sẽ hiển thị nút gợi ý ngay bên dưới để bạn mở sang công cụ tương ứng chỉ với một cú nhấp chuột.</li>
+</ul>
+
+<h2 id="buoc-2-tao-tro-ly">Bước 2: Tự tạo Trợ lý AI của riêng bạn tại <code>/agents/builder</code></h2>
+<p>Khi có một quy trình lặp đi lặp lại hằng tuần, hãy mở mục <b>Trợ lý → Tạo trợ lý</b> (<a data-nav="false" href="https://app.gehihi.vn/agents/builder" target="_blank" rel="noopener"><code>/agents/builder</code></a>) và thực hiện theo trình tự sau:</p>
+<ul>
+<li><b>Chọn chế độ thiết kế:</b>
+  <ul>
+    <li>Chọn <b>Cơ bản</b> nếu trợ lý chỉ cần nhận thông tin đầu vào và xử lý bằng một hướng dẫn chính (Prompt).</li>
+    <li>Chọn <b>Nâng cao</b> nếu bạn muốn tự ghép nhiều bước: đọc tệp/URL, nhận diện chữ OCR, tính toán công thức (<code>calc.evaluate</code>), đọc số thành chữ (<code>number.to_words</code>), tính ngày làm việc (<code>date.workdays</code>), hỏi thêm người chạy (<code>input</code>), rẽ nhánh điều kiện (<code>if</code>) hoặc tạo tài liệu mới.</li>
+    <li>Chọn <b>AI thiết kế luồng</b> nếu bạn muốn mô tả yêu cầu bằng một đoạn văn ngắn và để AI tự động sinh toàn bộ các ô nhập liệu cùng các bước quy trình.</li>
+  </ul>
+</li>
+<li><b>Khai báo ô nhập thông tin (Inputs):</b> Đặt câu hỏi hiển thị rõ ràng, chọn kiểu dữ liệu (Văn bản ngắn/dài, Số, Lựa chọn một/nhiều, Tệp đính kèm, Hình ảnh hoặc Tài nguyên tài liệu) và đánh dấu bắt buộc nếu cần.</li>
+<li><b>Chọn cách hiển thị đầu ra:</b> Trong mục <i>Thiết lập khác → Đầu ra của agent</i>, bạn có thể đổi từ hiển thị thông thường sang <b>Trình soạn tài liệu</b> để kết quả trả về mở ngay trong trình biên tập Word trực tuyến.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Hướng dẫn cấu hình ô nhập liệu và quy trình nhiều bước trên trình tạo trợ lý Gehihi" loading="lazy">
+<figcaption>Giao diện Trình tạo trợ lý (/agents/builder): Khai báo ô nhập thông tin một lần ở cột trái và sắp xếp các bước xử lý ở khung phải.</figcaption>
+</figure>
+
+<h2 id="buoc-3-ky-nang-tri-thuc-lich-chay">Bước 3: Gắn Kỹ năng (<code>SKILL.md</code>), Tri thức riêng &amp; Đặt lịch tự động</h2>
+<p>Để trợ lý làm việc chuẩn xác theo quy chuẩn của đơn vị bạn và tự vận hành đúng giờ:</p>
+<ul>
+<li><b>Thêm Kỹ năng (<code>/ai/skills</code>):</b> Dán nội dung hướng dẫn theo chuẩn <code>SKILL.md</code> hoặc nhập đường dẫn kho GitHub công khai được hỗ trợ. Kỹ năng sau khi lưu có thể gắn cho nhiều trợ lý khác nhau hoặc gọi bằng phím <code>/</code> trong chat.</li>
+<li><b>Nạp Tri thức &amp; Tài nguyên riêng:</b> Trong màn hình chỉnh sửa trợ lý, mở thẻ <b>Tri thức riêng</b> để thêm văn bản quy định, biểu mẫu mẫu, câu hỏi thường gặp hoặc tệp tài liệu. Khi công khai trợ lý lên Store, kho tri thức riêng này tuyệt đối không bị chia sẻ ra ngoài.</li>
+<li><b>Đặt lịch chạy &amp; Trigger sự kiện (<code>/ai/schedules</code>):</b> Chọn trợ lý, thiết lập chạy một lần hoặc lặp lại theo ngày, tuần, tháng theo múi giờ của bạn; hoặc chọn kích hoạt theo sự kiện (khi tệp tài liệu cập nhật <code>resource.updated</code>, khi lượt chạy khác hoàn tất <code>run.finished</code>, hoặc qua URL Webhook riêng).</li>
+<li><b>Xác minh người nhận Email:</b> Nếu quy trình có bước gửi báo cáo qua email, hãy thêm địa chỉ nhận và bấm liên kết xác nhận gửi về hộp thư đó trước khi kích hoạt lịch.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/guide-schedule-automation.svg" width="960" height="500" alt="Hướng dẫn đặt lịch chạy tự động, kích hoạt theo sự kiện hoặc Webhook và nhận báo cáo qua email xác minh" loading="lazy">
+<figcaption>Cơ chế tự động hóa tại /ai/schedules: Chọn nguồn kích hoạt (Cron, Sự kiện, Webhook), cấp quyền tự làm (Grants) và nhận báo cáo an toàn.</figcaption>
+</figure>
+
+<h2 id="buoc-4-work-genoffice-studio">Bước 4: Làm việc trên Thư mục Work, GenOffice &amp; Studio</h2>
+<p>Sau khi trợ lý tạo ra kết quả hoặc khi bạn cần xử lý bộ hồ sơ lớn, hãy kết hợp ba không gian làm việc trên thanh điều hướng bên trái:</p>
+<ul>
+<li><b>Quản lý hồ sơ tại Work (<code>/work</code>):</b> Tạo thư mục theo dự án hoặc phòng ban, tải tệp lên hoặc dùng tính năng <i>Quét giấy</i> trên điện thoại để chuyển ảnh chụp văn bản thành PDF có chữ. Mở khung chat bên phải thư mục, gõ <code>&#64;</code> chọn trợ lý để yêu cầu đối chiếu số liệu giữa các tệp và bấm trực tiếp vào thẻ trích dẫn <code>[Trang N]</code> để kiểm tra nguồn.</li>
+<li><b>Soạn thảo tại GenOffice (<code>/documents</code>):</b> Mở văn bản Word để bôi đen đoạn cần AI trau chuốt và xuất <code>.docx</code> chuẩn thể thức NĐ 30/2020; mở <b>Bảng tính</b> để tính toán công thức và đồng bộ hai chiều với Google Sheets; mở <b>Slide</b> để nhờ AI dựng bài thuyết trình <code>.pptx</code>; hoặc mở <b>PDF</b> để khoanh vùng hỏi AI.</li>
+<li><b>Dựng trang web tại Studio (<code>/studio</code>):</b> Chọn <i>Landing page mới</i> để AI hỏi làm rõ và dựng trang đích từng mục, hoặc chọn <i>Dự án Code mới</i> để viết mã đa tệp, đẩy lên GitHub và gắn tên miền riêng.</li>
+</ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/genoffice-suite.svg" width="960" height="540" alt="Hướng dẫn sử dụng bộ công cụ GenOffice gồm Word, Bảng tính Univer, Slide và PDF trên Gehihi" loading="lazy">
+<figcaption>Chỉnh sửa và xuất bản tài liệu chuyên nghiệp ngay trên trình duyệt với bốn công cụ trong GenOffice (/documents).</figcaption>
+</figure>
+
+<h2 id="buoc-5-ket-noi-ai-nhom">Bước 5: Thiết lập Luồng Model, Kết nối MCP &amp; Quản lý Nhóm</h2>
+<p>Để tối ưu độ ổn định và cộng tác cùng đồng nghiệp, bạn có thể cấu hình tại menu Tài khoản ở góc dưới thanh bên:</p>
+<ul>
+<li><b>Thiết lập AI &amp; Luồng Model (<code>/account/ai</code>):</b> Nhập khóa API riêng (BYOK) cho Gemini, Vertex AI, OpenAI, Claude hoặc dịch vụ tìm kiếm (Tavily, Serper, Brave, Exa). Tại mục <b>Luồng model</b>, chọn model chính và xếp tối đa 4 model dự phòng bên dưới cho từng tác vụ.</li>
+<li><b>Kết nối tài khoản ngoài (<code>/connections</code>):</b> Bấm <b>Kết nối</b> trên thẻ Google Drive, GitHub, Notion hoặc Linear để cấp quyền OAuth. Sau đó gắn kết nối vào trợ lý và chọn đúng các công cụ đọc/ghi được phép sử dụng.</li>
+<li><b>Tạo nhóm &amp; Quản lý gói (<code>/account/team</code>, <code>/account/plans</code>):</b> Tạo Workspace Nhóm, sao chép liên kết mời thành viên, phân quyền phòng ban và chuyển đổi nhanh giữa không gian Cá nhân và Nhóm ngay trên thanh điều hướng.</li>
+</ul>
+
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn">Mở ứng dụng Gehihi và thực hành ngay →</a> <a class="btn btn-ghost" href="/features.html">Xem lại danh sách tính năng mới</a></p>
+</div>
+
+<section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+<h2 id="article-faq-title">Câu hỏi thường gặp khi sử dụng</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Làm sao để tiếp tục một lượt chạy bị tạm dừng do hết hạn mức ngày?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Khi bạn đăng nhập, nâng cấp gói hoặc sang ngày mới có lại hạn mức, bạn chỉ cần mở lại phiên chạy đó và bấm <b>Tiếp tục</b>. Hệ thống giữ nguyên trạng thái các bước đã hoàn thành để chạy tiếp mà không phải làm lại từ đầu.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi tải lên tệp PDF bản quét (scan) không chọn được chữ thì trợ lý có đọc được không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Hệ thống tự động nhận diện chữ bằng OCR tiếng Việt và tiếng Anh (tối đa 15 trang mỗi tệp trong luồng chạy, hoặc OCR toàn bộ trong trình PDF) và đánh dấu số trang <code>[Trang N]</code> để trợ lý trích dẫn chính xác.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Làm thế nào để chia sẻ trợ lý tôi tạo cho đồng nghiệp dùng?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể mời đồng nghiệp vào chung một <b>Workspace Nhóm</b> tại <code>/account/team</code> để cùng làm việc, hoặc chuyển chế độ hiển thị của trợ lý sang <i>Chỉ qua liên kết</i> / xuất bản lên <i>Kho trợ lý công khai</i> sau khi được duyệt.</p></div></details>
+</section>
+
+<footer class="sources"><h2>Liên kết nhanh vào ứng dụng</h2><ul>
+<li><a data-nav="false" href="https://app.gehihi.vn/agents/explore">Kho trợ lý công khai (/agents/explore)</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/agents/builder">Trình tạo trợ lý 3 chế độ (/agents/builder)</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/work">Không gian thư mục công việc (/work)</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/documents">Bộ công cụ văn phòng GenOffice (/documents)</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/studio">Gehihi Studio dựng Landing Page &amp; Code (/studio)</a></li>
+</ul></footer>
+</article>
+@endblock
+</template>
+

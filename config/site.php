@@ -5,6 +5,9 @@ return [
     // URLs end in .html so the static export can be served as plain files.
     'pages' => [
         '' => 'index',
+        'features' => 'features',
+        'workspace' => 'workspace',
+        'guide' => 'guide',
         'about' => 'about',
         'terms' => 'terms',
         'privacy' => 'privacy',

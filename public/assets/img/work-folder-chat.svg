@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Giao diện Gehihi Work: cây thư mục tài liệu, nhãn nguồn gốc tệp và trò chuyện với trợ lý AI theo thư mục">
+  <defs>
+    <linearGradient id="wkBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="wkBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6e4a"/>
+      <stop offset="100%" stop-color="#ff5a36"/>
+    </linearGradient>
+    <filter id="wkShadow" x="-6%" y="-6%" width="112%" height="116%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="540" rx="24" fill="url(#wkBg)" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Top Bar -->
+  <rect x="24" y="20" width="912" height="46" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="48" cy="43" r="6" fill="#ff5f56"/>
+  <circle cx="68" cy="43" r="6" fill="#ffbd2e"/>
+  <circle cx="88" cy="43" r="6" fill="#27c93f"/>
+  <text x="112" y="48" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Gehihi Work (/work) — Thư mục: Hồ sơ Đấu thầu &amp; Văn bản Quý IV/2026</text>
+  <rect x="756" y="30" width="164" height="26" rx="13" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="838" y="47" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0e7490">Mọi tệp đều rõ nguồn gốc</text>
+
+  <!-- Left Column: Folder Tree -->
+  <g filter="url(#wkShadow)">
+    <rect x="24" y="80" width="204" height="436" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="40" y="108" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="800" fill="#0f172a">CÂY THƯ MỤC</text>
+
+    <rect x="36" y="122" width="180" height="34" rx="8" fill="#fff1ee" stroke="#ffd2c7"/>
+    <text x="48" y="143" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="700" fill="#c23315">📂 Hồ sơ Quý IV/2026</text>
+
+    <text x="52" y="176" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#334155">├─ 📁 Văn bản đến (14)</text>
+    <text x="52" y="200" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#334155">├─ 📁 Văn bản đi - Dự thảo</text>
+    <text x="52" y="224" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#334155">├─ 📁 Số liệu &amp; Bảng tính</text>
+    <text x="52" y="248" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#0891b2">└─ 🗂️ Hồ sơ lưu trữ A7</text>
+
+    <line x1="40" y1="272" x2="212" y2="272" stroke="#e2e8f0"/>
+    <text x="40" y="296" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="800" fill="#0f172a">NGUỒN GỐC TỆP</text>
+
+    <rect x="40" y="310" width="172" height="26" rx="6" fill="#eef2ff"/>
+    <text x="50" y="327" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="600" fill="#4338ca">🤖 Do trợ lý AI tạo (8)</text>
+
+    <rect x="40" y="344" width="172" height="26" rx="6" fill="#ecfdf5"/>
+    <text x="50" y="361" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="600" fill="#047857">🔍 Xuất từ Nghiên cứu (3)</text>
+
+    <rect x="40" y="378" width="172" height="26" rx="6" fill="#fffbeb"/>
+    <text x="50" y="395" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="600" fill="#b45309">☁️ Nhập từ Google Drive (5)</text>
+
+    <rect x="40" y="412" width="172" height="26" rx="6" fill="#f1f5f9"/>
+    <text x="50" y="429" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="600" fill="#475569">📤 Người dùng tải lên (9)</text>
+
+    <rect x="40" y="462" width="172" height="36" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="126" y="484" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">📷 Quét giấy → PDF có chữ</text>
+  </g>
+
+  <!-- Center Column: File List with Metadata & Origin -->
+  <g filter="url(#wkShadow)">
+    <rect x="242" y="80" width="406" height="436" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="262" y="108" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="800" fill="#0f172a">Tệp trong thư mục &amp; Trích yếu tự động</text>
+    <rect x="524" y="90" width="108" height="26" rx="8" fill="#f1f5f9"/>
+    <text x="578" y="107" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#334155">Mục lục hồ sơ</text>
+
+    <!-- File 1 -->
+    <rect x="258" y="124" width="374" height="78" rx="12" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.5"/>
+    <text x="274" y="146" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">📕 TB-214-KHLCNT.pdf</text>
+    <rect x="520" y="131" width="98" height="20" rx="10" fill="#f1f5f9"/>
+    <text x="569" y="145" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#475569">Tải lên · Đã OCR</text>
+    <text x="274" y="166" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Số: 214/TB-UBND · Ngày: 02/11/2026 · Cơ quan: Sở KH&amp;ĐT</text>
+    <text x="274" y="184" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#2563eb">✓ Trợ lý đang đọc [Trang 3, Mục 2] để đối chiếu</text>
+
+    <!-- File 2 -->
+    <rect x="258" y="212" width="374" height="78" rx="12" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.5"/>
+    <text x="274" y="234" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">📗 Du-toan-goi-thau-2026.xlsx</text>
+    <rect x="514" y="219" width="104" height="20" rx="10" fill="#fffbeb"/>
+    <text x="566" y="233" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#b45309">Nhập từ Drive</text>
+    <text x="274" y="254" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Bảng tổng hợp khối lượng &amp; đơn giá 4 hạng mục</text>
+    <text x="274" y="272" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#2563eb">✓ Trợ lý đang đọc [Ô F32: Tổng cộng 1.250.000.000 đ]</text>
+
+    <!-- File 3 (Generated by Agent) -->
+    <rect x="258" y="300" width="374" height="84" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+    <text x="274" y="322" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#065f46">📘 Bao-cao-tham-dinh-ND30.docx</text>
+    <rect x="502" y="307" width="116" height="20" rx="10" fill="#d1fae5"/>
+    <text x="560" y="321" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#047857">🤖 Do trợ lý tạo</text>
+    <text x="274" y="342" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#047857">Dựng từ: TB-214-KHLCNT.pdf + Du-toan-goi-thau-2026.xlsx</text>
+    <text x="274" y="360" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#065f46" font-weight="600">Thể thức: Chuẩn Nghị định 30/2020/NĐ-CP · Bấm để mở GenOffice</text>
+
+    <!-- File 4 -->
+    <rect x="258" y="394" width="374" height="68" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="274" y="416" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">📙 Tom-tat-hoi-dong.pptx</text>
+    <rect x="502" y="401" width="116" height="20" rx="10" fill="#eef2ff"/>
+    <text x="560" y="415" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#4338ca">🤖 Do trợ lý tạo</text>
+    <text x="274" y="438" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#475569">Bộ slide 10 trang báo cáo tóm tắt cho cuộc họp</text>
+
+    <text x="262" y="494" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">💡 Mẹo: Bấm chuột phải vào tệp để xem lịch sử phiên bản và cây nguồn gốc</text>
+  </g>
+
+  <!-- Right Column: Folder Chat with Citations -->
+  <g filter="url(#wkShadow)">
+    <rect x="662" y="80" width="274" height="436" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="680" y="108" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="800" fill="#0f172a">Chat trong thư mục</text>
+    <text x="680" y="125" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" fill="#059669" font-weight="600">Phạm vi đọc: Hồ sơ Quý IV/2026 (4 tệp)</text>
+
+    <!-- User message -->
+    <rect x="688" y="140" width="232" height="58" rx="12" fill="#2563eb"/>
+    <text x="700" y="160" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#bfdbfe">Bạn · Gọi @Trợ lý Thẩm định</text>
+    <text x="700" y="178" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#ffffff">Kiểm tra chéo dự toán với TB-214</text>
+    <text x="700" y="192" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#ffffff">và xuất tờ trình chuẩn NĐ 30.</text>
+
+    <!-- AI response with citations -->
+    <rect x="678" y="210" width="242" height="232" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="692" y="230" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#4f46e5">🤖 Trợ lý Thẩm định</text>
+    <text x="692" y="250" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#334155">Đã đối chiếu 2 tệp trong thư mục:</text>
+    <text x="692" y="270" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" fill="#475569">1. Căn cứ kế hoạch tại</text>
+    <rect x="692" y="276" width="168" height="20" rx="6" fill="#e0e7ff"/>
+    <text x="700" y="290" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#3730a3">📄 TB-214.pdf · Trang 3 ↗</text>
+
+    <text x="692" y="314" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" fill="#475569">2. Tổng mức dự toán khớp:</text>
+    <rect x="692" y="320" width="194" height="20" rx="6" fill="#d1fae5"/>
+    <text x="700" y="334" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="700" fill="#065f46">📊 Du-toan.xlsx · Ô F32 ↗</text>
+
+    <text x="692" y="358" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10.5" fill="#475569">(Một tỷ hai trăm năm mươi triệu đồng)</text>
+
+    <!-- Output file card in chat -->
+    <rect x="692" y="372" width="214" height="54" rx="10" fill="#ffffff" stroke="#6ee7b7"/>
+    <text x="704" y="392" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#065f46">📘 Bao-cao-tham-dinh-ND30.docx</text>
+    <text x="704" y="412" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="10" font-weight="600" fill="#0891b2">Đã lưu vào thư mục · Mở trình soạn →</text>
+
+    <!-- Composer -->
+    <rect x="678" y="456" width="242" height="44" rx="12" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="692" y="482" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" fill="#64748b">Gõ @ chọn trợ lý, hỏi trên thư mục…</text>
+  </g>
+</svg>
+

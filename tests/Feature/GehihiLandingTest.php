@@ -39,6 +39,9 @@ class GehihiLandingTest extends TestCase
             foreach ($xpath->query('//img[starts-with(@src,"/")]') as $image) {
                 $this->assertFileExists(public_path(ltrim($image->getAttribute('src'), '/')));
             }
+            if (in_array($slug, ['', 'features', 'workspace', 'guide', 'about'], true)) {
+                $this->assertGreaterThan(0, $xpath->query('//main//img')->length, $path);
+            }
         }
         $this->assertFileExists(public_path('assets/img/og-gehihi.png'));
     }
