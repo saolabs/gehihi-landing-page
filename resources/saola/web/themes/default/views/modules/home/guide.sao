@@ -17,11 +17,6 @@
 </header>
 <div class="answer-box" itemprop="abstract"><p>Trang này hướng dẫn bạn từng bước làm chủ <b>Gehihi App</b> (<a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>) kèm hình ảnh minh họa: từ cách gọi trợ lý trong khung chat, tự thiết kế trợ lý nhiều bước, khai thác không gian <b>Work đa nghiệp vụ</b> và bộ văn phòng <b>GenOffice</b>, đến cấu hình <b>bảo mật AI Server riêng</b> và đặt lịch tự động.</p></div>
 
-<figure class="visual-showcase">
-<img src="/assets/img/gehihi-agent-store.webp" width="1440" height="900" alt="Kho trợ lý Gehihi với các bộ lọc và danh sách trợ lý có sẵn" loading="lazy">
-<figcaption>Kho trợ lý Gehihi. Bạn có thể lọc theo chủ đề, chi phí hoặc khả năng đặt lịch.</figcaption>
-</figure>
-
 <div class="prose" itemprop="articleBody">
 <h2 id="buoc-1-kham-pha-va-chat">Bước 1: Khám phá Kho trợ lý &amp; Trò chuyện đa năng</h2>
 <p>Ngay khi mở <a data-nav="false" href="https://app.gehihi.vn" target="_blank" rel="noopener">trang chủ ứng dụng</a> hoặc <a data-nav="false" href="https://app.gehihi.vn/agents/explore" target="_blank" rel="noopener">Kho trợ lý (<code>/agents/explore</code>)</a>, bạn có thể bắt đầu ngay cả khi chưa đăng nhập:</p>
@@ -81,8 +76,8 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/gehihi-genoffice.webp" width="1440" height="900" alt="Trình soạn văn bản GenOffice đang mở biên bản họp mẫu" loading="lazy">
-<figcaption>Trình soạn văn bản GenOffice đang mở một biên bản họp mẫu.</figcaption>
+<img src="/assets/img/gehihi-work.webp" width="1440" height="900" alt="Thư mục Chứng từ trong Gehihi Work với danh sách tệp mẫu và khung Trợ lý" loading="lazy">
+<figcaption>Thư mục Chứng từ trong Work. Bấm Trợ lý để mở khung hỏi đáp bên cạnh danh sách tệp.</figcaption>
 </figure>
 
 <h2 id="buoc-5-bao-mat-ai-server-nhom">Bước 5: Cấu hình Bảo mật, AI Server riêng &amp; Quản trị Nhóm</h2>

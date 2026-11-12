@@ -17,8 +17,8 @@
 <div class="answer-box" itemprop="abstract"><p><b>Gehihi</b> là hệ thống <b>AI Agent Platform</b> do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển. Nền tảng kết hợp Trợ lý AI thông minh, không gian làm việc <b>Work</b> đa nghiệp vụ chuyên môn, bộ công cụ văn phòng <b>GenOffice</b>, <b>Studio</b> dựng web và cam kết an toàn thông tin với tùy chọn kết nối <b>AI Server riêng</b>.</p></div>
 
 <figure class="visual-showcase">
-<img src="/assets/img/gehihi-agent-store.webp" width="1440" height="900" alt="Kho trợ lý Gehihi với các bộ lọc và danh sách trợ lý có sẵn" loading="lazy">
-<figcaption>Kho trợ lý Gehihi. Bạn có thể lọc theo chủ đề, chi phí hoặc khả năng đặt lịch.</figcaption>
+<img src="/assets/img/platform-overview.svg" width="960" height="540" alt="Sơ đồ minh họa Trợ lý, Work, GenOffice, Studio và Kết nối" loading="lazy">
+<figcaption>Tổng quan các phân hệ của Gehihi.</figcaption>
 </figure>
 
 <div class="prose" itemprop="articleBody">

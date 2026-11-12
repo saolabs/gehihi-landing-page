@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Giao diện trình tạo trợ lý AI 3 chế độ Cơ bản, Nâng cao và AI thiết kế luồng">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Minh họa luồng làm việc của trợ lý xử lý hồ sơ">
   <defs>
     <linearGradient id="abBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f8fafc"/>
@@ -20,7 +20,7 @@
   <circle cx="48" cy="44" r="6" fill="#ff5f56"/>
   <circle cx="68" cy="44" r="6" fill="#ffbd2e"/>
   <circle cx="88" cy="44" r="6" fill="#27c93f"/>
-  <text x="112" y="49" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Trình tạo Trợ lý (/agents/builder) — Thẩm định hồ sơ &amp; Tổng hợp báo cáo</text>
+  <text x="112" y="49" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Trợ lý thẩm định hồ sơ &amp; tổng hợp báo cáo</text>
 
   <!-- Mode Switcher Pills -->
   <rect x="556" y="28" width="364" height="32" rx="16" fill="#f1f5f9" stroke="#e2e8f0"/>
@@ -28,7 +28,7 @@
   <rect x="652" y="31" width="110" height="26" rx="13" fill="#ffffff" stroke="#cbd5e1"/>
   <text x="707" y="48" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">Nâng cao</text>
   <rect x="768" y="31" width="148" height="26" rx="13" fill="url(#abCoral)"/>
-  <text x="842" y="48" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">✨ AI thiết kế luồng</text>
+  <text x="842" y="48" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">Ví dụ minh họa</text>
 
   <!-- Left Panel: Inputs, Models, Skills -->
   <g filter="url(#abShadow)">
@@ -71,10 +71,10 @@
 
     <!-- AI Workflow Designer Prompt Banner -->
     <rect x="364" y="102" width="552" height="58" rx="12" fill="#fff1ee" stroke="#ffd2c7"/>
-    <text x="382" y="124" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="800" fill="#c23315">✨ AI thiết kế luồng làm việc tự động</text>
+    <text x="382" y="124" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="12" font-weight="800" fill="#c23315">✨ Trợ lý hướng dẫn tạo</text>
     <text x="382" y="144" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11.5" fill="#475569">“Đọc hồ sơ PDF scan, tra cứu quy định, tính dự toán + ngày làm việc, xuất báo cáo Word”</text>
     <rect x="812" y="114" width="90" height="32" rx="16" fill="url(#abCoral)"/>
-    <text x="857" y="134" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Đã sinh 4 bước</text>
+    <text x="857" y="134" text-anchor="middle" font-family="Be Vietnam Pro, system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Luồng 4 bước</text>
 
     <!-- Step 1 -->
     <rect x="364" y="176" width="552" height="64" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>

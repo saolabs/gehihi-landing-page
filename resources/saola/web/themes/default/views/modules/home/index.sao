@@ -15,21 +15,29 @@
                     <div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore" itemprop="url">Khám phá kho trợ lý →</a><a class="btn btn-ghost" href="/workspace.html">Khám phá Work &amp; Nghiệp vụ</a></div>
                     <p class="hero-note">Thư mục Work đa nghiệp vụ · Bảo mật dữ liệu &amp; AI Server riêng · GenOffice &amp; MCP</p>
                 </div>
-                <figure class="visual-showcase hero-screenshot">
-                    <img src="/assets/img/gehihi-chat.webp" width="1440" height="900" alt="Trang Trò chuyện của Gehihi với ô nhập câu hỏi và các trợ lý gợi ý" fetchpriority="high">
-                    <figcaption>Màn hình Trò chuyện trên Gehihi App.</figcaption>
-                </figure>
+                <div class="chat-demo agent-preview" aria-label="Ví dụ minh họa quy trình trợ lý AI thẩm định và soạn tài liệu" role="img">
+                    <div class="chat-bar"><span></span><span></span><span></span><b>Ví dụ minh họa · Xử lý hồ sơ</b></div>
+                    <p class="agent-preview-label">Đầu vào &amp; Phạm vi đọc theo thư mục</p>
+                    <div class="agent-preview-input">Thư mục Work · Tệp PDF scan (OCR tiếng Việt) · Bảng số liệu</div>
+                    <ol class="agent-preview-steps">
+                        <li><span>01</span><div><b>Đọc tệp, OCR &amp; Bóc tách thông tin</b><p>Trích xuất văn bản có số trang [Trang N], tự bóc số ký hiệu, cơ quan ban hành và kiểm soát độ mật.</p></div></li>
+                        <li><span>02</span><div><b>Tính toán &amp; Đối chiếu nghiệp vụ xác định</b><p>Kiểm tra số liệu bằng công cụ xác định (calc, number_to_words), tính ngày công vụ và tra cứu pháp lý.</p></div></li>
+                        <li><span>03</span><div><b>Xuất tài liệu mới vào thư mục Work</b><p>Tạo văn bản Word chuẩn thể thức NĐ 30/2020 hoặc slide thuyết trình kèm trích dẫn kiểm chứng.</p></div></li>
+                    </ol>
+                    <div class="agent-preview-result"><b>Kết quả: Tài liệu Word kèm trích dẫn [Trang N, Ô A1:D20]</b><p>Mở tài liệu trong GenOffice để rà soát và biên tập.</p></div>
+                    <p class="agent-preview-caption">Quy trình khép kín kết hợp Trợ lý AI, Thư mục Work đa ngành và GenOffice</p>
+                </div>
             </div></section>
 
         <section class="section" id="he-sinh-thai" aria-labelledby="ecosystem-title"><div class="container">
                 <div class="section-head"><p class="eyebrow">Toàn cảnh nền tảng</p><h2 id="ecosystem-title">Một hệ sinh thái AI Agent đồng bộ cho công việc chuyên sâu</h2><p class="lead">Từ trợ lý chuyên môn, thư mục hồ sơ minh bạch nguồn gốc, bộ văn phòng GenOffice đến dựng trang web Studio và bảo mật dữ liệu cấp doanh nghiệp.</p></div>
                 <figure class="visual-showcase">
-                    <img src="/assets/img/gehihi-agent-store.webp" width="1440" height="900" alt="Kho trợ lý Gehihi với các bộ lọc và danh sách trợ lý có sẵn" loading="lazy">
-                    <figcaption>Kho trợ lý Gehihi. Bạn có thể lọc theo chủ đề, chi phí hoặc khả năng đặt lịch.</figcaption>
+                    <img src="/assets/img/platform-overview.svg" width="960" height="540" alt="Sơ đồ minh họa Trợ lý, Work, GenOffice, Studio và Kết nối" loading="lazy">
+                    <figcaption>Tổng quan các phân hệ của Gehihi.</figcaption>
                 </figure>
                 <div class="showcase-grid">
                     <article class="showcase-card">
-                        <img src="/assets/img/gehihi-work.webp" width="1440" height="900" alt="Thư mục Chứng từ trong Gehihi Work với bảng tệp mẫu và khung Trợ lý" loading="lazy">
+                        <img src="/assets/img/work-folder-chat.svg" width="960" height="540" alt="Minh họa thư mục hồ sơ, nguồn gốc tệp và trao đổi với trợ lý trong Work" loading="lazy">
                         <div class="showcase-body">
                             <span class="badge-tag">Không gian làm việc số</span>
                             <h3>Gehihi Work: Phục vụ đa dạng nghiệp vụ chuyên môn</h3>
@@ -38,7 +46,7 @@
                         </div>
                     </article>
                     <article class="showcase-card">
-                        <img src="/assets/img/gehihi-agent-builder.webp" width="1440" height="900" alt="Trình tạo trợ lý ở chế độ Nâng cao, có ô nhập và các bước của luồng làm việc" loading="lazy">
+                        <img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Minh họa các ô nhập và quy trình xử lý hồ sơ nhiều bước" loading="lazy">
                         <div class="showcase-body">
                             <span class="badge-tag">Trợ lý &amp; Tự động hóa</span>
                             <h3>Trình tạo trợ lý và luồng làm việc</h3>

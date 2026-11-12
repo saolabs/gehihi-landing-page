@@ -18,8 +18,8 @@
 <div class="answer-box" itemprop="abstract"><p><b>Gehihi AI Agent Platform</b> phát triển toàn diện: tích hợp <b>Không gian Work đa nghiệp vụ chuyên môn</b> (Hành chính, Kế toán, Marketing, Kỹ thuật, Nhân sự), <b>Trình tạo trợ lý</b> (có AI thiết kế luồng), <b>công cụ tính toán &amp; tra cứu xác định</b>, <b>OCR tiếng Việt</b>, <b>bảo mật kết nối AI Server riêng</b>, <b>bộ văn phòng GenOffice</b>, <b>Studio dựng web</b> và <b>kết nối MCP</b>.</p></div>
 
 <figure class="visual-showcase">
-<img src="/assets/img/gehihi-agent-store.webp" width="1440" height="900" alt="Kho trợ lý Gehihi với các bộ lọc và danh sách trợ lý có sẵn" loading="lazy">
-<figcaption>Kho trợ lý Gehihi. Bạn có thể lọc theo chủ đề, chi phí hoặc khả năng đặt lịch.</figcaption>
+<img src="/assets/img/platform-overview.svg" width="960" height="540" alt="Sơ đồ minh họa Trợ lý, Work, GenOffice, Studio và Kết nối" loading="lazy">
+<figcaption>Tổng quan các phân hệ của Gehihi.</figcaption>
 </figure>
 
 <div class="prose" itemprop="articleBody">
@@ -42,8 +42,8 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/gehihi-agent-builder.webp" width="1440" height="900" alt="Trình tạo trợ lý ở chế độ Nâng cao, có ô nhập và các bước của luồng làm việc" loading="lazy">
-<figcaption>Chế độ Nâng cao trong Trình tạo trợ lý. Khai báo dữ liệu đầu vào và sắp xếp các bước trong Luồng làm việc.</figcaption>
+<img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Minh họa các ô nhập và quy trình xử lý hồ sơ nhiều bước" loading="lazy">
+<figcaption>Ví dụ luồng trợ lý xử lý hồ sơ, từ đọc tài liệu đến xuất kết quả.</figcaption>
 </figure>
 
 <h2 id="bao-mat-ai-server">3. Bảo mật dữ liệu, Kết nối AI Server riêng &amp; Minh bạch chính sách đối tác</h2>
@@ -73,8 +73,8 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/gehihi-connections.webp" width="1440" height="900" alt="Trang Kết nối Gehihi hiển thị các dịch vụ và mục quản lý khóa MCP" loading="lazy">
-<figcaption>Trang Kết nối liệt kê các dịch vụ tích hợp và mục quản lý khóa MCP cho ứng dụng bên ngoài.</figcaption>
+<img src="/assets/img/mcp-connections-team.svg" width="960" height="540" alt="Sơ đồ minh họa kết nối MCP, luồng model và workspace nhóm" loading="lazy">
+<figcaption>Tổng quan về kết nối dịch vụ, luồng model và làm việc nhóm.</figcaption>
 </figure>
 
 <p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore">Trải nghiệm trên ứng dụng →</a> <a class="btn btn-ghost" href="/workspace.html">Xem chi tiết Work &amp; Nghiệp vụ →</a></p>
