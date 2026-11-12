@@ -22,13 +22,13 @@
 <p>Khi làm việc với hàng chục văn bản, báo cáo và bảng số liệu, việc phải tải đính kèm lại từng tệp vào mỗi cuộc chat gây mất thời gian và khó kiểm soát phiên bản. <a data-nav="false" href="https://app.gehihi.vn/work" target="_blank" rel="noopener">Gehihi Work (<code>/work</code>)</a> tổ chức toàn bộ tài liệu của cá nhân và nhóm thành một cây thư mục trực quan như trình quản lý tệp quen thuộc:</p>
 <ul>
 <li><b>Mọi tệp đều có nguồn gốc rõ ràng (File Lineage):</b> Mỗi tệp trong thư mục tự động gắn nhãn nguồn gốc (do người dùng tải lên, do trợ lý AI tạo ra, xuất từ bài Nghiên cứu, lưu từ cuộc trò chuyện hay nhập từ Google Drive) kèm liên kết ngược tới các tệp nguồn đã dùng để tổng hợp nên nó.</li>
-<li><b>Chat với trợ lý ngay bên cạnh thư mục:</b> Khung chat bên phải tự động lấy phạm vi đọc là thư mục đang mở (hoặc các thư mục bạn chọn thêm). Bạn chỉ cần gõ <code>&#64;</code> để gọi trợ lý phân tích, tổng hợp số liệu và trả lời kèm <b>trích dẫn bấm được</b> mở thẳng tới đúng số trang PDF <code>[Trang N]</code> hoặc tọa độ ô bảng tính <code>[Trang 1!C12]</code>.</li>
+<li><b>Chat với trợ lý ngay bên cạnh thư mục:</b> Khung chat bên phải tự động lấy phạm vi đọc là thư mục đang mở (hoặc các thư mục bạn chọn thêm). Bấm <b>Trợ lý</b> để mở khung chat và gõ <code>&#64;</code> để chọn tệp hoặc thư mục. Bạn có thể yêu cầu tổng hợp số liệu và trả lời kèm <b>trích dẫn bấm được</b> mở thẳng tới đúng số trang PDF <code>[Trang N]</code> hoặc tọa độ ô bảng tính <code>[Trang 1!C12]</code>.</li>
 <li><b>An toàn dữ liệu &amp; Không bao giờ mất tệp:</b> Trợ lý AI trong Work không bao giờ tự ý xóa hoặc ghi đè tệp gốc của bạn. Mọi tài liệu mới do trợ lý xuất ra đều được lưu thành tệp độc lập trong thư mục, hỗ trợ lịch sử phiên bản (revisions), thùng rác lưu trữ 30 ngày và phân quyền xem/sửa linh hoạt theo thành viên hoặc phòng ban.</li>
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/work-folder-chat.svg" width="960" height="540" alt="Giao diện Gehihi Work với cây thư mục bên trái, danh sách tệp kèm nguồn gốc ở giữa và khung chat trợ lý có trích dẫn bên phải" loading="lazy">
-<figcaption>Giao diện Gehihi Work (/work): Quản lý cây thư mục hồ sơ, theo dõi nguồn gốc từng tệp và gọi &#64;trợ lý đối chiếu dữ liệu ngay trong thư mục.</figcaption>
+<img src="/assets/img/gehihi-work.webp" width="1440" height="900" alt="Thư mục Chứng từ trong Gehihi Work với bảng tệp mẫu và khung Trợ lý" loading="lazy">
+<figcaption>Thư mục Chứng từ trong mẫu Kế toán doanh nghiệp, với các cột thông tin và khung Trợ lý của thư mục.</figcaption>
 </figure>
 
 <h2 id="nghiep-vu-chuyen-mon">2. Giải pháp Work cho các loại công việc và nghiệp vụ chuyên môn</h2>
@@ -85,8 +85,8 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/genoffice-suite.svg" width="960" height="540" alt="Bốn công cụ trong bộ văn phòng GenOffice trên Gehihi: Word, Bảng tính Univer, Trình chiếu Slide và PDF OCR" loading="lazy">
-<figcaption>Bộ 4 ứng dụng trong GenOffice (/documents): Word chuẩn thể thức NĐ 30, Bảng tính Univer đồng bộ Google Sheets, Slide 16:9 và PDF tích hợp OCR.</figcaption>
+<img src="/assets/img/gehihi-genoffice.webp" width="1440" height="900" alt="Trình soạn văn bản GenOffice đang mở biên bản họp mẫu" loading="lazy">
+<figcaption>Trình soạn văn bản GenOffice đang mở một biên bản họp mẫu.</figcaption>
 </figure>
 
 <h2 id="gehihi-studio">4. Gehihi Studio (<code>/studio</code>) — Dựng Landing Page &amp; Dự án Code</h2>
@@ -98,8 +98,13 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/studio-builder.svg" width="960" height="540" alt="Giao diện Gehihi Studio với Landing Page Builder bên trái và Code Studio đa tệp bên phải" loading="lazy">
-<figcaption>Gehihi Studio (/studio): Kết hợp trình dựng Landing Page tự động theo từng bước và Code Studio đa tệp có hỗ trợ xuất bản tên miền riêng.</figcaption>
+<img src="/assets/img/gehihi-studio.webp" width="1440" height="900" alt="Màn hình Studio với hai lựa chọn tạo landing page và tạo dự án Code" loading="lazy">
+<figcaption>Trang Studio có hai điểm bắt đầu: Tạo landing page và Tạo dự án Code.</figcaption>
+</figure>
+
+<figure class="visual-showcase">
+<img src="/assets/img/gehihi-studio-code.webp" width="1440" height="900" alt="Dự án Code mẫu trong Studio với bản xem trước, danh sách tệp và lịch sử phiên bản" loading="lazy">
+<figcaption>Bản xem trước của một dự án Code tạo từ mẫu HTML, CSS và JavaScript có sẵn trong Studio.</figcaption>
 </figure>
 
 <p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/work">Mở Gehihi Work →</a> <a data-nav="false" class="btn btn-ghost" href="https://app.gehihi.vn/documents">Mở GenOffice →</a> <a class="text-link" href="/guide.html">Xem hướng dẫn từng bước →</a></p>

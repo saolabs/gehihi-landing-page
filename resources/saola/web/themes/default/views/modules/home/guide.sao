@@ -18,8 +18,8 @@
 <div class="answer-box" itemprop="abstract"><p>Trang này hướng dẫn bạn từng bước làm chủ <b>Gehihi App</b> (<a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>) kèm hình ảnh minh họa: từ cách gọi trợ lý trong khung chat, tự thiết kế trợ lý nhiều bước, khai thác không gian <b>Work đa nghiệp vụ</b> và bộ văn phòng <b>GenOffice</b>, đến cấu hình <b>bảo mật AI Server riêng</b> và đặt lịch tự động.</p></div>
 
 <figure class="visual-showcase">
-<img src="/assets/img/guide-quickstart.svg" width="960" height="520" alt="Sơ đồ hướng dẫn 4 bước bắt đầu sử dụng Gehihi AI Agent Platform" loading="lazy">
-<figcaption>Lộ trình làm quen và khai thác tối đa sức mạnh của Gehihi AI Agent Platform.</figcaption>
+<img src="/assets/img/gehihi-agent-store.webp" width="1440" height="900" alt="Kho trợ lý Gehihi với các bộ lọc và danh sách trợ lý có sẵn" loading="lazy">
+<figcaption>Kho trợ lý Gehihi. Bạn có thể lọc theo chủ đề, chi phí hoặc khả năng đặt lịch.</figcaption>
 </figure>
 
 <div class="prose" itemprop="articleBody">
@@ -39,7 +39,7 @@
   <ul>
     <li>Chọn <b>Cơ bản</b> nếu trợ lý chỉ cần nhận thông tin đầu vào và xử lý bằng một hướng dẫn chính (Prompt).</li>
     <li>Chọn <b>Nâng cao</b> nếu bạn muốn tự ghép nhiều bước: đọc tệp/URL, nhận diện chữ OCR, tính toán công thức (<code>calc.evaluate</code>), đọc số thành chữ (<code>number.to_words</code>), tính ngày làm việc (<code>date.workdays</code>), hỏi thêm người chạy (<code>input</code>), rẽ nhánh điều kiện (<code>if</code>) hoặc tạo tài liệu mới.</li>
-    <li>Chọn <b>AI thiết kế luồng</b> nếu bạn muốn mô tả yêu cầu bằng một đoạn văn ngắn và để AI tự động sinh toàn bộ các ô nhập liệu cùng các bước quy trình.</li>
+    <li>Mô tả yêu cầu trong khung <b>Trợ lý hướng dẫn tạo</b> để được gợi ý cấu hình, ô nhập liệu và các bước xử lý.</li>
   </ul>
 </li>
 <li><b>Khai báo ô nhập thông tin (Inputs):</b> Đặt câu hỏi hiển thị rõ ràng, chọn kiểu dữ liệu (Văn bản ngắn/dài, Số, Lựa chọn một/nhiều, Tệp đính kèm, Hình ảnh hoặc Tài nguyên tài liệu) và đánh dấu bắt buộc nếu cần.</li>
@@ -47,8 +47,8 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Hướng dẫn cấu hình ô nhập liệu và quy trình nhiều bước trên trình tạo trợ lý Gehihi" loading="lazy">
-<figcaption>Giao diện Trình tạo trợ lý (/agents/builder): Khai báo ô nhập thông tin một lần ở cột trái và sắp xếp các bước xử lý ở khung phải.</figcaption>
+<img src="/assets/img/gehihi-agent-builder.webp" width="1440" height="900" alt="Trình tạo trợ lý ở chế độ Nâng cao, có ô nhập và các bước của luồng làm việc" loading="lazy">
+<figcaption>Chế độ Nâng cao trong Trình tạo trợ lý. Khai báo dữ liệu đầu vào và sắp xếp các bước trong Luồng làm việc.</figcaption>
 </figure>
 
 <h2 id="buoc-3-ky-nang-tri-thuc-lich-chay">Bước 3: Gắn Kỹ năng (<code>SKILL.md</code>), Tri thức riêng &amp; Đặt lịch tự động</h2>
@@ -61,8 +61,8 @@
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/guide-schedule-automation.svg" width="960" height="500" alt="Hướng dẫn đặt lịch chạy tự động, kích hoạt theo sự kiện hoặc Webhook và nhận báo cáo qua email xác minh" loading="lazy">
-<figcaption>Cơ chế tự động hóa tại /ai/schedules: Chọn nguồn kích hoạt (Cron, Sự kiện, Webhook), cấp quyền tự làm (Grants) và nhận báo cáo an toàn.</figcaption>
+<img src="/assets/img/gehihi-schedule.webp" width="1440" height="900" alt="Biểu mẫu lên lịch tự động cho trợ lý với giờ chạy, múi giờ và tần suất lặp" loading="lazy">
+<figcaption>Biểu mẫu Lên lịch tự động trong màn hình chạy trợ lý. Chọn tần suất, giờ chạy và múi giờ trước khi lưu.</figcaption>
 </figure>
 
 <h2 id="buoc-4-work-da-nghiep-vu">Bước 4: Khai thác Không gian Work đa nghiệp vụ &amp; GenOffice</h2>
@@ -75,14 +75,14 @@
     <li><i>Marketing &amp; Kỹ thuật &amp; Nhân sự:</i> Phân tích dữ liệu chiến dịch quảng cáo, quản lý PRD kỹ thuật, sàng lọc CV ứng viên và tạo slide thuyết trình 16:9 tự động.</li>
   </ul>
 </li>
-<li><b>Chat trực tiếp theo thư mục:</b> Mở khung chat bên phải thư mục, gõ <code>&#64;</code> chọn trợ lý để yêu cầu đối chiếu số liệu giữa các tệp. Bấm trực tiếp vào thẻ trích dẫn <code>[Trang N]</code> hoặc <code>[Ô A1:F50]</code> để nhảy tới vị trí dữ liệu nguồn.</li>
+<li><b>Chat trực tiếp theo thư mục:</b> Bấm <b>Trợ lý</b> trong thư mục đang mở. Gõ <code>&#64;</code> để chọn tệp hoặc thư mục cần đưa vào câu hỏi. Bấm trực tiếp vào thẻ trích dẫn <code>[Trang N]</code> hoặc <code>[Ô A1:F50]</code> để nhảy tới vị trí dữ liệu nguồn.</li>
 <li><b>Biên tập với GenOffice (<code>/documents</code>):</b> Mở văn bản Word để bôi đen đoạn cần AI trau chuốt và xuất <code>.docx</code> chuẩn NĐ 30; mở <b>Bảng tính Univer</b> đồng bộ Google Sheets; mở <b>Slide</b> dựng bài thuyết trình; hoặc mở <b>PDF</b> để khoanh vùng hỏi AI.</li>
-<li><b>Dựng trang web tại Studio (<code>/studio</code>):</b> Chọn <i>Landing page mới</i> để AI hỏi làm rõ và dựng trang đích từng mục, hoặc chọn <i>Dự án Code mới</i> để viết mã đa tệp, đẩy lên GitHub và gắn tên miền riêng.</li>
+<li><b>Dựng trang web tại Studio (<code>/studio</code>):</b> Chọn <b>Tạo landing page</b> để AI hỏi làm rõ và dựng trang đích từng mục, hoặc chọn <b>Tạo dự án Code</b> để viết mã đa tệp, đẩy lên GitHub và gắn tên miền riêng.</li>
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/genoffice-suite.svg" width="960" height="540" alt="Hướng dẫn sử dụng bộ công cụ GenOffice gồm Word, Bảng tính Univer, Slide và PDF trên Gehihi" loading="lazy">
-<figcaption>Chỉnh sửa và xuất bản tài liệu chuyên nghiệp ngay trên trình duyệt với bốn công cụ trong GenOffice (/documents).</figcaption>
+<img src="/assets/img/gehihi-genoffice.webp" width="1440" height="900" alt="Trình soạn văn bản GenOffice đang mở biên bản họp mẫu" loading="lazy">
+<figcaption>Trình soạn văn bản GenOffice đang mở một biên bản họp mẫu.</figcaption>
 </figure>
 
 <h2 id="buoc-5-bao-mat-ai-server-nhom">Bước 5: Cấu hình Bảo mật, AI Server riêng &amp; Quản trị Nhóm</h2>

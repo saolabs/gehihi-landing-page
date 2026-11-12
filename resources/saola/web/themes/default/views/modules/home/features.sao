@@ -15,16 +15,16 @@
 <h1 itemprop="headline">Tính năng trên hệ thống AI Agent Platform Gehihi</h1>
 <p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-12">12/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-11-09"><meta itemprop="inLanguage" content="vi"></p>
 </header>
-<div class="answer-box" itemprop="abstract"><p><b>Gehihi AI Agent Platform</b> phát triển toàn diện: tích hợp <b>Không gian Work đa nghiệp vụ chuyên môn</b> (Hành chính, Kế toán, Marketing, Kỹ thuật, Nhân sự), <b>Trình tạo trợ lý 3 chế độ</b> (có AI thiết kế luồng), <b>công cụ tính toán &amp; tra cứu xác định</b>, <b>OCR tiếng Việt</b>, <b>bảo mật kết nối AI Server riêng</b>, <b>bộ văn phòng GenOffice</b>, <b>Studio dựng web</b> và <b>kết nối MCP</b>.</p></div>
+<div class="answer-box" itemprop="abstract"><p><b>Gehihi AI Agent Platform</b> phát triển toàn diện: tích hợp <b>Không gian Work đa nghiệp vụ chuyên môn</b> (Hành chính, Kế toán, Marketing, Kỹ thuật, Nhân sự), <b>Trình tạo trợ lý</b> (có AI thiết kế luồng), <b>công cụ tính toán &amp; tra cứu xác định</b>, <b>OCR tiếng Việt</b>, <b>bảo mật kết nối AI Server riêng</b>, <b>bộ văn phòng GenOffice</b>, <b>Studio dựng web</b> và <b>kết nối MCP</b>.</p></div>
 
 <figure class="visual-showcase">
-<img src="/assets/img/platform-overview.svg" width="960" height="540" alt="Sơ đồ tổng quan các tính năng mới trong hệ sinh thái Gehihi AI Agent Platform" loading="lazy">
-<figcaption>Toàn cảnh các phân hệ trong Gehihi: Trợ lý AI làm trung tâm điều phối không gian Work đa ngành, bộ văn phòng, hạ tầng AI bảo mật và kết nối bên ngoài.</figcaption>
+<img src="/assets/img/gehihi-agent-store.webp" width="1440" height="900" alt="Kho trợ lý Gehihi với các bộ lọc và danh sách trợ lý có sẵn" loading="lazy">
+<figcaption>Kho trợ lý Gehihi. Bạn có thể lọc theo chủ đề, chi phí hoặc khả năng đặt lịch.</figcaption>
 </figure>
 
 <div class="prose" itemprop="articleBody">
 <h2 id="work-nghiep-vu">1. Không gian Work phục vụ đa dạng nghiệp vụ chuyên môn</h2>
-<p>Khác biệt với việc đính kèm tệp rời rạc, <a href="/workspace.html">Gehihi Work (<code>/work</code>)</a> tổ chức tài liệu thành một cây thư mục nghiệp vụ thống nhất, nơi mọi tệp đều lưu vết nguồn gốc và cho phép gọi <code>&#64;trợ lý</code> đối chiếu số liệu ngay trong thư mục:</p>
+<p>Khác biệt với việc đính kèm tệp rời rạc, <a href="/workspace.html">Gehihi Work (<code>/work</code>)</a> tổ chức tài liệu thành một cây thư mục nghiệp vụ thống nhất, nơi mọi tệp đều lưu vết nguồn gốc và có khung Trợ lý để hỏi về các tệp trong thư mục:</p>
 <ul>
 <li><b>Hành chính công &amp; Văn phòng:</b> Tự động bóc tách số ký hiệu, cơ quan ban hành, ngày tháng, trích yếu văn bản đến/đi; hỗ trợ soạn thảo văn bản dự thảo chuẩn thể thức Nghị định 30/2020/NĐ-CP; tính ngày làm việc công vụ (<code>date.workdays</code>); cấp số liên tiếp (<code>sequence.next</code>); tra cứu căn cứ pháp lý còn hiệu lực (<code>law.lookup</code>); chụp ảnh quét giấy thành PDF có lớp chữ.</li>
 <li><b>Kế toán &amp; Tài chính:</b> Bóc tách hóa đơn, chứng từ, phiếu thu chi vào bảng tính Univer; tính toán chính xác bằng công cụ xác định (<code>calc.evaluate</code>); đọc số tiền thành chữ tiếng Việt (<code>number.to_words</code>) khớp đúng theo quy chuẩn kế toán.</li>
@@ -33,17 +33,17 @@
 <li><b>Nhân sự &amp; Đào tạo nội bộ:</b> Sàng lọc CV ứng viên theo tiêu chí tuyển dụng, soạn thảo quy chế và hợp đồng lao động, sinh bài giảng đào tạo nội bộ.</li>
 </ul>
 
-<h2 id="agent-builder">2. Trình tạo Trợ lý 3 chế độ &amp; AI thiết kế luồng</h2>
-<p>Tại <a data-nav="false" href="https://app.gehihi.vn/agents/builder" target="_blank" rel="noopener">trình tạo trợ lý (<code>/agents/builder</code>)</a>, bạn có thể chuyển đổi linh hoạt giữa ba chế độ ngay trên thanh đầu trang mà không sợ mất cấu hình đang soạn:</p>
+<h2 id="agent-builder">2. Trình tạo trợ lý và luồng làm việc</h2>
+<p>Tại <a data-nav="false" href="https://app.gehihi.vn/agents/builder" target="_blank" rel="noopener">trình tạo trợ lý (<code>/agents/builder</code>)</a>, chọn Cơ bản hoặc Nâng cao trong biểu mẫu. Khung Trợ lý hướng dẫn tạo hỗ trợ bạn soạn và chỉnh cấu hình:</p>
 <ul>
 <li><b>Chế độ Cơ bản:</b> Dành cho các tác vụ gọn nhẹ một bước. Bạn chỉ cần viết hướng dẫn chính (Prompt), khai báo các ô nhập dữ liệu (văn bản, số, danh sách chọn, tệp tài liệu, URL hoặc hình ảnh), lưu và chạy thử ngay.</li>
 <li><b>Chế độ Nâng cao:</b> Mở khóa luồng quy trình nhiều bước tuần tự hoặc rẽ nhánh. Kết hợp bước đọc tệp, gọi AI phân tích, tra cứu web, nghiên cứu chuyên sâu, xử lý ảnh, hỏi thêm thông tin người dùng (<code>input</code>), rẽ nhánh điều kiện (<code>if</code>) và lặp qua từng phần tài liệu (<code>foreach_input</code>).</li>
-<li><b>AI thiết kế luồng:</b> Bạn chỉ cần nhập mô tả công việc bằng tiếng Việt tự nhiên. Hệ thống chạy qua 5 giai đoạn (Phân tích → Lập kế hoạch → Viết cấu hình → Kiểm tra → Tự sửa lỗi) để sinh ra toàn bộ ô nhập liệu và các bước quy trình chuẩn xác.</li>
+<li><b>AI thiết kế luồng:</b> Mô tả công việc trong khung Trợ lý hướng dẫn tạo để nhận gợi ý cho ô nhập liệu và các bước xử lý.</li>
 </ul>
 
 <figure class="visual-showcase">
-<img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Giao diện trình tạo trợ lý AI với 3 chế độ Cơ bản, Nâng cao và AI thiết kế luồng tự động" loading="lazy">
-<figcaption>Minh họa trình tạo trợ lý tại /agents/builder: khai báo ô nhập liệu bên trái, thiết kế quy trình nhiều bước bằng AI bên phải.</figcaption>
+<img src="/assets/img/gehihi-agent-builder.webp" width="1440" height="900" alt="Trình tạo trợ lý ở chế độ Nâng cao, có ô nhập và các bước của luồng làm việc" loading="lazy">
+<figcaption>Chế độ Nâng cao trong Trình tạo trợ lý. Khai báo dữ liệu đầu vào và sắp xếp các bước trong Luồng làm việc.</figcaption>
 </figure>
 
 <h2 id="bao-mat-ai-server">3. Bảo mật dữ liệu, Kết nối AI Server riêng &amp; Minh bạch chính sách đối tác</h2>
@@ -64,11 +64,6 @@
 <li><b>Gehihi Studio:</b> Dựng Landing Page từng phần từ mô tả ngắn, hoặc lập trình dự án Code tĩnh đa tệp bằng Monaco Editor, đồng bộ GitHub và gắn tên miền riêng có HTTPS.</li>
 </ul>
 
-<figure class="visual-showcase">
-<img src="/assets/img/mcp-connections-team.svg" width="960" height="540" alt="Sơ đồ Kết nối MCP, Luồng Model dự phòng và Quản lý Workspace Nhóm trên Gehihi" loading="lazy">
-<figcaption>Ba trụ cột vận hành nâng cao: Kết nối MCP &amp; Google Drive an toàn, Luồng Model dự phòng 4 cấp và Quản trị Workspace Nhóm.</figcaption>
-</figure>
-
 <h2 id="mcp-tu-dong-hoa">5. Kết nối MCP, Tự động hóa &amp; Làm việc Nhóm</h2>
 <ul>
 <li><b>Kết nối MCP &amp; OAuth (<code>/connections</code>):</b> Kết nối an toàn với Google Drive, GitHub, Notion, Linear; hoặc xuất khóa MCP Server của Gehihi để ứng dụng khác gọi vào.</li>
@@ -76,6 +71,11 @@
 <li><b>Luồng Model dự phòng (Model Flows):</b> Thiết lập 1 model chính kèm tối đa 4 model dự phòng tự động chuyển tiếp khi có sự cố mạng hoặc quá tải.</li>
 <li><b>Workspace Nhóm:</b> Phân quyền Chủ sở hữu, Quản trị, Thành viên theo phòng ban với ví Credits chung và tên miền riêng cho tổ chức.</li>
 </ul>
+
+<figure class="visual-showcase">
+<img src="/assets/img/gehihi-connections.webp" width="1440" height="900" alt="Trang Kết nối Gehihi hiển thị các dịch vụ và mục quản lý khóa MCP" loading="lazy">
+<figcaption>Trang Kết nối liệt kê các dịch vụ tích hợp và mục quản lý khóa MCP cho ứng dụng bên ngoài.</figcaption>
+</figure>
 
 <p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore">Trải nghiệm trên ứng dụng →</a> <a class="btn btn-ghost" href="/workspace.html">Xem chi tiết Work &amp; Nghiệp vụ →</a></p>
 </div>
