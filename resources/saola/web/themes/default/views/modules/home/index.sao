@@ -1,82 +1,82 @@
 <template>
     @extends(__layout__ + "site")
-    @section('meta:title', 'Gehihi — Nền tảng AI Agent, Work, GenOffice & Studio cho công việc')
-    @section('meta:description', 'Gehihi là nền tảng AI Agent tích hợp Kho trợ lý, AI thiết kế luồng, không gian tài liệu GenOffice, thư mục công việc Work, Studio dựng web và kết nối MCP.')
+    @section('meta:title', 'Gehihi — Nền tảng AI Agent, Không gian Work đa nghiệp vụ & GenOffice')
+    @section('meta:description', 'Gehihi: nền tảng AI Agent kết hợp không gian Work đa nghiệp vụ, bộ văn phòng GenOffice, AI thiết kế luồng, Studio dựng web và kết nối AI Server riêng bảo mật.')
     @section('seo:path', '')
     @block('content')
         <section class="hero" itemscope="itemscope" itemtype="https://schema.org/WebApplication"><div class="container hero-grid">
                 <div class="hero-copy">
-                    <p class="eyebrow">Nền tảng AI Agent thế hệ mới</p>
-                    <h1><span itemprop="name">Gehihi</span>: tạo trợ lý AI <mark>cho công việc của bạn</mark></h1>
-                    <p class="lead" itemprop="description">Chọn trợ lý có sẵn hoặc tự tạo quy trình bằng AI thiết kế luồng. Làm việc trực tiếp trên cây thư mục Work, bộ công cụ văn phòng GenOffice (Word, Bảng tính, Slide, PDF), Studio dựng web và đặt lịch chạy tự động.</p>
+                    <p class="eyebrow">Nền tảng AI Agent &amp; Không gian làm việc số</p>
+                    <h1><span itemprop="name">Gehihi</span>: trợ lý AI thông minh <mark>cho mọi nghiệp vụ chuyên môn</mark></h1>
+                    <p class="lead" itemprop="description">Tối ưu hóa công việc hàng ngày với cây thư mục Work đa nghiệp vụ (Hành chính, Kế toán, Marketing, Kỹ thuật, Nhân sự), bộ văn phòng GenOffice tích hợp AI, Studio dựng web và cam kết bảo mật dữ liệu tuyệt đối cùng tùy chọn kết nối AI Server riêng.</p>
                     <meta itemprop="applicationCategory" content="ProductivityApplication">
                     <meta itemprop="operatingSystem" content="Web">
                     <meta itemprop="inLanguage" content="vi">
-                    <div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore" itemprop="url">Khám phá kho trợ lý →</a><a class="btn btn-ghost" href="/guide.html">Xem hướng dẫn sử dụng</a></div>
-                    <p class="hero-note">AI thiết kế luồng · Thư mục Work &amp; GenOffice · Kết nối MCP &amp; Google Drive</p>
+                    <div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore" itemprop="url">Khám phá kho trợ lý →</a><a class="btn btn-ghost" href="/workspace.html">Khám phá Work &amp; Nghiệp vụ</a></div>
+                    <p class="hero-note">Thư mục Work đa nghiệp vụ · Bảo mật dữ liệu &amp; AI Server riêng · GenOffice &amp; MCP</p>
                 </div>
                 <div class="chat-demo agent-preview" aria-label="Ví dụ minh họa quy trình trợ lý AI thẩm định và soạn tài liệu" role="img">
-                    <div class="chat-bar"><span></span><span></span><span></span><b>Trợ lý: Thẩm định &amp; Soạn báo cáo</b></div>
-                    <p class="agent-preview-label">Đầu vào &amp; Phạm vi đọc</p>
-                    <div class="agent-preview-input">Thư mục Work · Tệp PDF scan (OCR) · Bảng tính dự toán</div>
+                    <div class="chat-bar"><span></span><span></span><span></span><b>Trợ lý: Thẩm định hồ sơ &amp; Soạn thảo nghiệp vụ</b></div>
+                    <p class="agent-preview-label">Đầu vào &amp; Phạm vi đọc theo thư mục</p>
+                    <div class="agent-preview-input">Thư mục Work · Tệp PDF scan (OCR tiếng Việt) · Bảng số liệu</div>
                     <ol class="agent-preview-steps">
-                        <li><span>01</span><div><b>Đọc tệp &amp; OCR tiếng Việt</b><p>Trích xuất văn bản theo trang, kiểm tra cổng độ mật và ẩn dữ liệu cá nhân.</p></div></li>
-                        <li><span>02</span><div><b>Tra cứu &amp; Tính toán chính xác</b><p>Đối chiếu quy định, kiểm tra số liệu bằng công cụ xác định và ngày làm việc.</p></div></li>
-                        <li><span>03</span><div><b>Xuất tài liệu GenOffice</b><p>Tạo báo cáo Word chuẩn thể thức NĐ 30/2020 hoặc bộ Slide ngay trong thư mục.</p></div></li>
+                        <li><span>01</span><div><b>Đọc tệp, OCR &amp; Bóc tách thông tin</b><p>Trích xuất văn bản có số trang [Trang N], tự bóc số ký hiệu, cơ quan ban hành và kiểm soát độ mật.</p></div></li>
+                        <li><span>02</span><div><b>Tính toán &amp; Đối chiếu nghiệp vụ xác định</b><p>Kiểm tra số liệu bằng công cụ xác định (calc, number_to_words), tính ngày công vụ và tra cứu pháp lý.</p></div></li>
+                        <li><span>03</span><div><b>Xuất tài liệu mới vào thư mục Work</b><p>Tạo văn bản Word chuẩn thể thức NĐ 30/2020 hoặc slide thuyết trình kèm trích dẫn kiểm chứng.</p></div></li>
                     </ol>
-                    <div class="agent-preview-result"><b>Kết quả: Báo cáo Word kèm trích dẫn [Trang N]</b><p>Bôi đen đoạn bất kỳ để nhờ AI biên tập lại hoặc đặt lịch chạy định kỳ.</p></div>
-                    <p class="agent-preview-caption">Quy trình nhiều bước kết hợp Trợ lý AI, Work và GenOffice</p>
+                    <div class="agent-preview-result"><b>Kết quả: Tài liệu Word kèm trích dẫn [Trang N, Ô A1:D20]</b><p>Mở biên tập trực tiếp trong GenOffice hoặc kết nối AI Server riêng để xử lý khép kín.</p></div>
+                    <p class="agent-preview-caption">Quy trình khép kín kết hợp Trợ lý AI, Thư mục Work đa ngành và GenOffice</p>
                 </div>
             </div></section>
 
         <section class="section" id="he-sinh-thai" aria-labelledby="ecosystem-title"><div class="container">
-                <div class="section-head"><p class="eyebrow">Toàn cảnh nền tảng</p><h2 id="ecosystem-title">Hơn cả trò chuyện: một hệ sinh thái AI Agent đồng bộ</h2><p class="lead">Mọi công cụ từ trợ lý tự động, soạn thảo văn phòng, quản lý hồ sơ đến dựng trang web đều dùng chung nguồn tri thức và quyền truy cập của workspace.</p></div>
+                <div class="section-head"><p class="eyebrow">Toàn cảnh nền tảng</p><h2 id="ecosystem-title">Một hệ sinh thái AI Agent đồng bộ cho công việc chuyên sâu</h2><p class="lead">Từ trợ lý chuyên môn, thư mục hồ sơ minh bạch nguồn gốc, bộ văn phòng GenOffice đến dựng trang web Studio và bảo mật dữ liệu cấp doanh nghiệp.</p></div>
                 <figure class="visual-showcase">
                     <img src="/assets/img/platform-overview.svg" width="960" height="540" alt="Sơ đồ tổng quan hệ sinh thái Gehihi AI Agent Platform kết nối Trợ lý AI, Work, GenOffice, Studio và MCP" loading="lazy">
-                    <figcaption>Kiến trúc đồng bộ của Gehihi: Lõi điều phối Trợ lý AI kết nối trực tiếp với Thư mục Work, Bộ văn phòng GenOffice, Studio và Kết nối MCP.</figcaption>
+                    <figcaption>Kiến trúc đồng bộ của Gehihi: Trợ lý AI điều phối thư mục Work đa nghiệp vụ, bộ văn phòng GenOffice, Studio và kết nối máy chủ AI bảo mật.</figcaption>
                 </figure>
                 <div class="showcase-grid">
+                    <article class="showcase-card">
+                        <img src="/assets/img/work-folder-chat.svg" width="960" height="540" alt="Minh họa không gian Gehihi Work quản lý cây thư mục tài liệu có nguồn gốc và chat theo thư mục" loading="lazy">
+                        <div class="showcase-body">
+                            <span class="badge-tag">Không gian làm việc số</span>
+                            <h3>Gehihi Work: Phục vụ đa dạng nghiệp vụ chuyên môn</h3>
+                            <p>Tổ chức cây thư mục tài liệu rõ nguồn gốc (File Lineage), chat &#64;trợ lý ngay trong thư mục có trích dẫn trang/ô, tích hợp sẵn các gói nghiệp vụ chuyên sâu cho Văn phòng hành chính, Kế toán, Marketing, Kỹ thuật, Nhân sự và Pháp lý.</p>
+                            <a class="text-link" href="/workspace.html">Xem chi tiết Work &amp; Nghiệp vụ chuyên môn →</a>
+                        </div>
+                    </article>
                     <article class="showcase-card">
                         <img src="/assets/img/agent-builder-flow.svg" width="960" height="540" alt="Minh họa trình tạo trợ lý AI 3 chế độ Cơ bản, Nâng cao và AI thiết kế luồng" loading="lazy">
                         <div class="showcase-body">
                             <span class="badge-tag">Trợ lý &amp; Tự động hóa</span>
-                            <h3>Trình tạo Trợ lý 3 chế độ &amp; Công cụ xác định</h3>
+                            <h3>Trình tạo Trợ lý 3 chế độ &amp; AI thiết kế luồng</h3>
                             <p>Chuyển đổi linh hoạt giữa Cơ bản, Nâng cao nhiều bước và AI thiết kế luồng tự động. Tích hợp sẵn công cụ tính toán chính xác, đọc số thành chữ, tính ngày làm việc và OCR tiếng Việt.</p>
-                            <a class="text-link" href="/features.html">Xem chi tiết các tính năng mới →</a>
-                        </div>
-                    </article>
-                    <article class="showcase-card">
-                        <img src="/assets/img/work-folder-chat.svg" width="960" height="540" alt="Minh họa không gian Gehihi Work quản lý cây thư mục tài liệu có nguồn gốc và chat theo thư mục" loading="lazy">
-                        <div class="showcase-body">
-                            <span class="badge-tag">Không gian làm việc</span>
-                            <h3>Gehihi Work, GenOffice &amp; Studio</h3>
-                            <p>Quản lý cây thư mục tài liệu rõ nguồn gốc, hỏi đáp &#64;trợ lý ngay trong thư mục có trích dẫn trang/ô, soạn Word/Sheets/Slide/PDF trực tuyến và dựng Landing Page hoặc dự án Code.</p>
-                            <a class="text-link" href="/workspace.html">Khám phá Work, GenOffice &amp; Studio →</a>
+                            <a class="text-link" href="/features.html">Khám phá các tính năng nền tảng →</a>
                         </div>
                     </article>
                 </div>
             </div></section>
 
         <section class="section" id="tinh-nang" aria-labelledby="features-title"><div class="container">
-                <div class="section-head"><p class="eyebrow">Tính năng cốt lõi</p><h2 id="features-title">Tạo, sử dụng và quản lý công việc cùng AI trong một nơi</h2></div>
+                <div class="section-head"><p class="eyebrow">Năng lực cốt lõi</p><h2 id="features-title">Giải pháp làm việc thông minh, an toàn và đa chuyên môn</h2></div>
                 <div class="feature-grid">
-                    <article class="feature"><span class="feature-icon" aria-hidden="true">🤖</span><h3>Kho trợ lý &amp; Dùng thử ngay</h3><p>Khám phá trợ lý theo nhu cầu tại Kho trợ lý. Khách chưa đăng nhập vẫn chạy thử được các trợ lý miễn phí công khai trong hạn mức ngày.</p></article>
-                    <article class="feature"><span class="feature-icon" aria-hidden="true">✨</span><h3>AI thiết kế luồng nhiều bước</h3><p>Chỉ cần mô tả công việc bằng lời, AI sẽ phân tích, lập kế hoạch và sinh sẵn quy trình đọc tệp, xử lý, rẽ nhánh và xuất kết quả để bạn tinh chỉnh.</p></article>
-                    <article class="feature"><span class="feature-icon" aria-hidden="true">📂</span><h3>Thư mục công việc Work</h3><p>Gom tài liệu về một cây thư mục chung có gắn nhãn nguồn gốc, tự bóc tách số ký hiệu/trích yếu văn bản và chat với trợ lý kèm trích dẫn bấm được.</p></article>
-                    <article class="feature"><span class="feature-icon" aria-hidden="true">📘</span><h3>Bộ văn phòng GenOffice</h3><p>Soạn Word (hỗ trợ xuất chuẩn NĐ 30/2020), Bảng tính Univer đồng bộ Google Sheets, trình chiếu Slide 16:9 và trình PDF có OCR tiếng Việt.</p></article>
+                    <article class="feature"><span class="feature-icon" aria-hidden="true">📂</span><h3>Work đa nghiệp vụ</h3><p>Gom tài liệu về cây thư mục chung có gắn nhãn nguồn gốc, bóc tách số ký hiệu/trích yếu và cung cấp gói công cụ chuyên sâu cho hành chính, kế toán, marketing, kỹ thuật, nhân sự.</p></article>
+                    <article class="feature"><span class="feature-icon" aria-hidden="true">🛡️</span><h3>Bảo mật &amp; AI Server riêng</h3><p>Dữ liệu luôn bảo mật tại hệ thống và không dùng để huấn luyện AI. Hỗ trợ kết nối AI Server riêng (On-Premise / OpenAI-compatible) khép kín, kèm minh bạch chính sách các đối tác AI.</p></article>
+                    <article class="feature"><span class="feature-icon" aria-hidden="true">📘</span><h3>Bộ văn phòng GenOffice</h3><p>Soạn Word hỗ trợ chuẩn thể thức Nghị định 30/2020/NĐ-CP, Bảng tính Univer đồng bộ Google Sheets, trình chiếu Slide 16:9 và trình PDF tích hợp OCR tiếng Việt.</p></article>
+                    <article class="feature"><span class="feature-icon" aria-hidden="true">✨</span><h3>AI thiết kế luồng</h3><p>Chỉ cần mô tả công việc bằng tiếng Việt, AI sẽ tự phân tích, lập kế hoạch và sinh sẵn quy trình đọc tệp, tính toán số liệu, rẽ nhánh và xuất kết quả.</p></article>
+                    <article class="feature"><span class="feature-icon" aria-hidden="true">🤖</span><h3>Kho trợ lý &amp; Trò chuyện</h3><p>Dùng thử hàng chục trợ lý theo ngành nghề. Gọi &#64;trợ lý hoặc đính kèm kỹ năng /skill ngay trong ô chat để giải quyết công việc tức thì.</p></article>
                     <article class="feature"><span class="feature-icon" aria-hidden="true">💻</span><h3>Studio: Landing Page &amp; Code</h3><p>Dựng trang đích từng bước từ bản mô tả ngắn hoặc sửa mã nguồn đa tệp bằng Monaco Editor, đồng bộ GitHub và gắn tên miền riêng có HTTPS.</p></article>
-                    <article class="feature"><span class="feature-icon" aria-hidden="true">🔌</span><h3>Kết nối MCP, Drive &amp; Nhóm</h3><p>Kết nối OAuth với Google Drive, GitHub, Notion, Linear; đặt lịch hoặc trigger theo sự kiện; làm việc theo Workspace Nhóm với ví Credits chung.</p></article>
                 </div>
             </div></section>
 
         <section class="section meme" id="agents" aria-labelledby="agents-title"><div class="container meme-grid">
-                <div class="dict-card"><p class="dict-word">Cách làm của bạn</p><p><b>Hướng dẫn &amp; Kỹ năng:</b> chuẩn hóa giọng văn và quy tắc nghiệp vụ bằng <code>SKILL.md</code>.<br><b>Tri thức &amp; Thư mục Work:</b> đọc PDF dài theo khúc kèm số <code>[Trang N]</code>.<br><b>Công cụ xác định:</b> tính toán số liệu, ngày làm việc, đọc số thành chữ không sai sót.<br><b>Đầu ra trực tiếp:</b> mở kết quả ngay trong trình soạn tài liệu để bôi đen sửa tiếp.</p><p class="dict-example">Ví dụ: Nhận hồ sơ scan → OCR tiếng Việt → Kiểm tra dự toán → Xuất tờ trình Word chuẩn NĐ 30.</p></div>
+                <div class="dict-card"><p class="dict-word">Quy trình chuyên môn</p><p><b>Hành chính công:</b> Bóc số ký hiệu, cơ quan ban hành, ngày tháng; soạn văn bản chuẩn thể thức NĐ 30/2020.<br><b>Kế toán &amp; Tài chính:</b> Bóc hóa đơn, tính toán biểu thức không sai số, đọc số thành chữ.<br><b>Marketing &amp; Kỹ thuật:</b> Phân tích dữ liệu chiến dịch, tóm tắt phản hồi, xuất slide thuyết trình 16:9.<br><b>Bảo mật tuyệt đối:</b> Cổng kiểm soát độ mật, ẩn thông tin PII, tùy chọn AI Server riêng nội bộ.</p><p class="dict-example">Ví dụ: Hồ sơ quét giấy → OCR tiếng Việt → Trợ lý đối chiếu quy định → Xuất văn bản Word kèm trích dẫn.</p></div>
                 <div>
-                    <p class="eyebrow">Làm việc theo cách của bạn</p>
-                    <h2 id="agents-title">Lưu quy trình một lần, sử dụng lại cho cả cá nhân và đội nhóm</h2>
-                    <p>Thay vì lặp lại cùng một câu lệnh mỗi ngày, bạn có thể đóng gói hướng dẫn, ô nhập liệu, kỹ năng và các bước kiểm tra thành một trợ lý riêng hoặc chia sẻ trong Workspace Nhóm.</p>
-                    <p>Mỗi lượt chạy đều lưu vết nguồn gốc rõ ràng, hỗ trợ luồng model dự phòng tự động (1 model chính + 4 model dự phòng) và bảo vệ thông tin nhạy cảm bằng cổng kiểm soát độ mật.</p>
-                    <div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore">Tìm trợ lý phù hợp →</a><a class="btn btn-ghost" href="/features.html">Tìm hiểu tính năng mới</a></div>
+                    <p class="eyebrow">Hiệu quả và chuẩn mực</p>
+                    <h2 id="agents-title">Chuẩn hóa nghiệp vụ và bảo vệ dữ liệu tối đa cho tổ chức</h2>
+                    <p>Mỗi loại công việc trong đơn vị đều có quy chuẩn riêng. Gehihi giúp bạn đóng gói các hướng dẫn, biểu mẫu, quy tắc tính toán và kiểm tra thành trợ lý chuyên môn dùng chung trong Workspace Nhóm.</p>
+                    <p>Mọi lượt chạy đều lưu vết nguồn gốc minh bạch, hỗ trợ kết nối máy chủ AI riêng để bảo vệ dữ liệu nội bộ, đồng thời trang bị cổng kiểm soát độ mật và cơ chế ẩn dữ liệu cá nhân nhạy cảm tự động.</p>
+                    <div class="hero-actions"><a class="btn btn-primary" href="/workspace.html">Xem giải pháp Work chi tiết →</a><a class="btn btn-ghost" href="/privacy.html">Tìm hiểu chính sách bảo mật</a></div>
                 </div>
             </div></section>
 
@@ -87,23 +87,22 @@
                     <figcaption>Bốn bước từ trải nghiệm nhanh đến tự động hóa quy trình tài liệu và làm việc nhóm trên Gehihi.</figcaption>
                 </figure>
                 <ol class="steps">
-                    <li><b>Khám phá hoặc gọi &#64;trợ lý</b> Chạy thử trợ lý miễn phí trên Kho trợ lý, hoặc gõ &#64; để gọi trợ lý và / để chọn kỹ năng ngay trong khung trò chuyện.</li>
-                    <li><b>Tạo trợ lý &amp; nạp tài liệu</b> Dùng chế độ Cơ bản, Nâng cao hoặc nhờ AI thiết kế luồng; gắn thêm kỹ năng SKILL.md và tài liệu tham khảo riêng.</li>
-                    <li><b>Biên tập trên Work &amp; GenOffice</b> Chuyển kết quả sang trình soạn Word, Bảng tính, Slide hoặc lưu vào cây thư mục Work để hỏi đáp và chỉnh sửa sâu.</li>
+                    <li><b>Khám phá hoặc gọi &#64;trợ lý</b> Chạy thử trợ lý miễn phí trên Kho trợ lý, hoặc gõ &#64; để gọi trợ lý chuyên môn ngay trong thư mục Work.</li>
+                    <li><b>Tổ chức thư mục Work theo nghiệp vụ</b> Chọn gói thư mục mẫu (Hành chính, Kế toán, Marketing...), tải tài liệu lên và bóc tách thông tin tự động.</li>
+                    <li><b>Biên tập trên GenOffice</b> Chuyển kết quả sang trình soạn Word, Bảng tính Univer, Slide 16:9 hoặc mở tệp PDF để tra cứu sâu.</li>
                 </ol>
                 <p class="section-more"><a class="btn btn-primary" href="/guide.html">Xem trọn bộ hướng dẫn sử dụng có ảnh minh họa →</a></p>
             </div></section>
 
         <section class="section" id="hoi-dap" aria-labelledby="faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage"><div class="container narrow">
                 <div class="section-head"><p class="eyebrow">Hỏi đáp</p><h2 id="faq-title">Câu hỏi thường gặp</h2></div>
-                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Gehihi là gì và gồm những không gian làm việc nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi là nền tảng AI Agent do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển. Bên cạnh Trò chuyện đa mô hình và Kho trợ lý AI, Gehihi tích hợp cây thư mục công việc <b>Work</b> (<code>/work</code>), bộ công cụ văn phòng <b>GenOffice</b> (Word, Bảng tính, Slide, PDF tại <code>/documents</code>), <b>Studio</b> dựng Landing Page và dự án Code (<code>/studio</code>), cùng hệ thống kết nối MCP và làm việc nhóm.</p></div></details>
-                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có cần tạo tài khoản để dùng thử trợ lý không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể xem Kho trợ lý và chạy thử các trợ lý công khai miễn phí ngay ở chế độ khách trong hạn mức ngày. Để tự tạo trợ lý riêng, sử dụng thư mục Work, lưu tài liệu GenOffice, kết nối MCP và đặt lịch chạy tự động, bạn cần đăng nhập tài khoản.</p></div></details>
-                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tính năng “AI thiết kế luồng” hoạt động như thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Trong trình tạo trợ lý (<code>/agents/builder</code>), khi bạn chọn <b>AI thiết kế luồng</b> và nhập mô tả công việc, hệ thống sẽ tự động phân tích, lập kế hoạch, sinh cấu hình các ô nhập liệu và các bước xử lý (đọc tệp, AI, nghiên cứu, rẽ nhánh, gửi email) rồi kiểm tra hợp lệ trước khi đưa vào trình soạn để bạn chỉnh sửa tiếp.</p></div></details>
-                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi Work khác gì so với việc đính kèm tệp thông thường?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi Work gom mọi tài liệu vào một cây thư mục chung, lưu rõ nguồn gốc từng tệp (tải lên, do trợ lý tạo, từ nghiên cứu hay Google Drive), tự động bóc tách số ký hiệu và trích yếu văn bản. Bạn có thể chat với trợ lý ngay trong thư mục để đối chiếu nhiều tệp cùng lúc kèm trích dẫn bấm mở đúng trang hoặc ô dữ liệu nguồn.</p></div></details>
-                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tài liệu riêng và dữ liệu cá nhân được bảo vệ ra sao?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Tri thức và tài nguyên riêng được lưu tách biệt theo từng workspace, không đi kèm khi bạn công khai trợ lý lên Store. Hệ thống còn trang bị cổng kiểm soát độ mật để chặn tài liệu nhạy cảm gửi ra mô hình đám mây và cơ chế ẩn dữ liệu cá nhân (PII masking) khi xử lý.</p></div></details>
+                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Gehihi Work phục vụ những loại công việc và nghiệp vụ chuyên môn nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi Work (<code>/work</code>) được tối ưu cho nhiều nhóm nghiệp vụ chuyên môn: <b>Văn phòng &amp; Hành chính công</b> (bóc số ký hiệu, cơ quan ban hành, soạn thảo theo chuẩn NĐ 30/2020), <b>Kế toán &amp; Tài chính</b> (bóc hóa đơn, tính toán xác định, đọc số thành chữ), <b>Marketing &amp; Bán hàng</b> (phân tích số liệu, tạo slide tự động), <b>Kỹ thuật &amp; Sản phẩm</b> (đặc tả PRD, biên bản họp), <b>Nhân sự</b> (sàng lọc CV, quy chế nội bộ) và <b>Pháp lý</b> (đối chiếu hiệu lực văn bản).</p></div></details>
+                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Dữ liệu của người dùng được bảo mật tại hệ thống như thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Tại hệ thống Gehihi của SaoLabs, toàn bộ dữ liệu tài liệu, tệp tin và cuộc trò chuyện của bạn được mã hóa an toàn (AES-256 / TLS) và phân quyền chặt chẽ theo Workspace. SaoLabs cam kết <b>không bao giờ bán dữ liệu</b> và <b>không sử dụng dữ liệu của người dùng để huấn luyện mô hình AI</b>.</p></div></details>
+                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Nếu cơ quan hoặc doanh nghiệp có AI Server riêng thì cấu hình thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi hỗ trợ cấu hình kết nối chuẩn OpenAI-compatible tới các <b>AI Server riêng</b> (vLLM, Ollama, LocalAI, GPU server on-premise). Khi kết nối AI Server riêng, toàn bộ dữ liệu chỉ luân chuyển trực tiếp giữa Gehihi và máy chủ của đơn vị bạn, hoàn toàn khép kín trong hạ tầng nội bộ và không đi qua bên thứ ba.</p></div></details>
+                <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi sử dụng mô hình của đối tác (Google, OpenAI, Anthropic...) thì chính sách dữ liệu ra sao?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Gehihi luôn đảm bảo bảo mật dữ liệu tại hệ thống và áp dụng Cổng kiểm soát độ mật cùng cơ chế ẩn dữ liệu cá nhân (PII Masking). Khi gửi yêu cầu tới các đối tác AI, việc lưu giữ và xử lý phụ thuộc vào chính sách riêng của từng nhà cung cấp. Chúng tôi cung cấp danh sách liên kết minh bạch tới chính sách của các đối tác tại trang <a href="/privacy.html">Chính sách bảo mật</a> để bạn nắm rõ.</p></div></details>
                 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi có phải sản phẩm của Google không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. Gehihi do <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> phát triển độc lập và không liên kết với Google. “Gehihi” là biệt danh cộng đồng AI Việt dùng để gọi Gemini; Gemini là thương hiệu của Google LLC.</p></div></details>
             </div></section>
 
-        <section class="container cta-band"><div><h2>Trải nghiệm hệ sinh thái AI Agent ngay hôm nay</h2><p>Khám phá kho trợ lý có sẵn, tự thiết kế quy trình hoặc xem hướng dẫn từng bước.</p></div><div class="hero-actions"><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn/agents/explore">Mở Kho trợ lý →</a><a class="btn btn-ghost" href="/guide.html">Hướng dẫn sử dụng</a></div></section>
+        <section class="container cta-band"><div><h2>Trải nghiệm hệ sinh thái AI Agent &amp; Work ngay hôm nay</h2><p>Khám phá không gian làm việc Work đa nghiệp vụ, kho trợ lý có sẵn hoặc tìm hiểu chính sách bảo mật.</p></div><div class="hero-actions"><a class="btn btn-primary" href="/workspace.html">Khám phá Gehihi Work →</a><a class="btn btn-ghost" href="/privacy.html">Chính sách bảo mật dữ liệu</a></div></section>
     @endblock
 </template>

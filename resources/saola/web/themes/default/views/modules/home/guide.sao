@@ -1,7 +1,7 @@
 <template>
 @extends(__layout__ + "site")
-@section('meta:title', 'Hướng dẫn sử dụng Gehihi — Cẩm nang AI Agent Platform có ảnh minh họa')
-@section('meta:description', 'Hướng dẫn sử dụng nền tảng AI Agent Gehihi từng bước kèm ảnh minh họa: cách chạy trợ lý, tự tạo quy trình, dùng Work, GenOffice, Studio và đặt lịch tự động.')
+@section('meta:title', 'Hướng dẫn sử dụng Gehihi — Cẩm nang AI Agent Platform & Work có ảnh minh họa')
+@section('meta:description', 'Hướng dẫn sử dụng Gehihi: làm chủ không gian Work đa nghiệp vụ, bộ GenOffice, tạo trợ lý AI, bảo mật AI Server riêng và đặt lịch tự động có ảnh minh họa.')
 @section('meta:og_type', 'article')
 @section('seo:path', 'guide')
 @block('content')
@@ -13,20 +13,20 @@
 <header class="article-head">
 <p class="eyebrow">Cẩm nang thực hành từng bước</p>
 <h1 itemprop="headline">Hướng dẫn sử dụng Hệ thống AI Agent Platform (Gehihi App)</h1>
-<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-09">09/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-11-09"><meta itemprop="inLanguage" content="vi"></p>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-12">12/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-11-09"><meta itemprop="inLanguage" content="vi"></p>
 </header>
-<div class="answer-box" itemprop="abstract"><p>Trang này hướng dẫn bạn từng bước làm chủ <b>Gehihi App</b> (<a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>) kèm hình ảnh minh họa: từ cách gọi trợ lý trong khung chat, tự thiết kế trợ lý nhiều bước, làm việc trên cây thư mục <b>Work</b> và bộ văn phòng <b>GenOffice</b>, đến cách đặt lịch tự động và quản lý nhóm.</p></div>
+<div class="answer-box" itemprop="abstract"><p>Trang này hướng dẫn bạn từng bước làm chủ <b>Gehihi App</b> (<a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>) kèm hình ảnh minh họa: từ cách gọi trợ lý trong khung chat, tự thiết kế trợ lý nhiều bước, khai thác không gian <b>Work đa nghiệp vụ</b> và bộ văn phòng <b>GenOffice</b>, đến cấu hình <b>bảo mật AI Server riêng</b> và đặt lịch tự động.</p></div>
 
 <figure class="visual-showcase">
 <img src="/assets/img/guide-quickstart.svg" width="960" height="520" alt="Sơ đồ hướng dẫn 4 bước bắt đầu sử dụng Gehihi AI Agent Platform" loading="lazy">
-<figcaption>Lộ trình 4 bước làm quen và khai thác tối đa sức mạnh của Gehihi AI Agent Platform.</figcaption>
+<figcaption>Lộ trình làm quen và khai thác tối đa sức mạnh của Gehihi AI Agent Platform.</figcaption>
 </figure>
 
 <div class="prose" itemprop="articleBody">
 <h2 id="buoc-1-kham-pha-va-chat">Bước 1: Khám phá Kho trợ lý &amp; Trò chuyện đa năng</h2>
 <p>Ngay khi mở <a data-nav="false" href="https://app.gehihi.vn" target="_blank" rel="noopener">trang chủ ứng dụng</a> hoặc <a data-nav="false" href="https://app.gehihi.vn/agents/explore" target="_blank" rel="noopener">Kho trợ lý (<code>/agents/explore</code>)</a>, bạn có thể bắt đầu ngay cả khi chưa đăng nhập:</p>
 <ul>
-<li><b>Chạy trực tiếp từ Kho trợ lý:</b> Chọn một trợ lý theo danh mục công việc (Biên tập, Marketing, Hành chính công, Phân tích dữ liệu…), điền các ô thông tin đầu vào trên biểu mẫu và bấm <b>Chạy trợ lý</b>. Các trợ lý vừa dùng sẽ xuất hiện ngay dưới khung soạn thảo ở trang chủ để bạn mở lại nhanh.</li>
+<li><b>Chạy trực tiếp từ Kho trợ lý:</b> Chọn một trợ lý theo danh mục công việc (Hành chính văn thư, Kế toán tài chính, Marketing, Kỹ thuật, Nhân sự...), điền các ô thông tin đầu vào trên biểu mẫu và bấm <b>Chạy trợ lý</b>. Các trợ lý vừa dùng sẽ xuất hiện ngay dưới khung soạn thảo ở trang chủ để bạn mở lại nhanh.</li>
 <li><b>Gọi trợ lý và kỹ năng trong ô Chat:</b> Trong màn hình Trò chuyện (<code>/</code>), gõ ký tự <code>&#64;</code> để chọn trợ lý muốn phối hợp, hoặc gõ <code>/</code> để đính kèm một kỹ năng chuyên môn (<code>SKILL.md</code>) vào câu hỏi hiện tại.</li>
 <li><b>Tra cứu Web &amp; Nghiên cứu chuyên sâu (Research):</b> Bật công cụ <b>Nghiên cứu</b> khi bạn cần báo cáo tổng hợp dài. Hệ thống sẽ tự lập kế hoạch → tìm kiếm đa nguồn → đọc trang → đánh giá phần còn thiếu → tìm bổ sung và xuất báo cáo hoàn chỉnh kèm sổ nguồn trích dẫn.</li>
 <li><b>Gợi ý công cụ thông minh:</b> Sau mỗi câu trả lời trong chat, nếu nội dung phù hợp để chuyển thành văn bản Word, bộ Slide hay trang đích, Gehihi sẽ hiển thị nút gợi ý ngay bên dưới để bạn mở sang công cụ tương ứng chỉ với một cú nhấp chuột.</li>
@@ -65,11 +65,18 @@
 <figcaption>Cơ chế tự động hóa tại /ai/schedules: Chọn nguồn kích hoạt (Cron, Sự kiện, Webhook), cấp quyền tự làm (Grants) và nhận báo cáo an toàn.</figcaption>
 </figure>
 
-<h2 id="buoc-4-work-genoffice-studio">Bước 4: Làm việc trên Thư mục Work, GenOffice &amp; Studio</h2>
-<p>Sau khi trợ lý tạo ra kết quả hoặc khi bạn cần xử lý bộ hồ sơ lớn, hãy kết hợp ba không gian làm việc trên thanh điều hướng bên trái:</p>
+<h2 id="buoc-4-work-da-nghiep-vu">Bước 4: Khai thác Không gian Work đa nghiệp vụ &amp; GenOffice</h2>
+<p>Tại thanh điều hướng bên trái, bấm vào <b>Work (<code>/work</code>)</b> để bước vào không gian quản trị tài liệu nghiệp vụ chuyên sâu:</p>
 <ul>
-<li><b>Quản lý hồ sơ tại Work (<code>/work</code>):</b> Tạo thư mục theo dự án hoặc phòng ban, tải tệp lên hoặc dùng tính năng <i>Quét giấy</i> trên điện thoại để chuyển ảnh chụp văn bản thành PDF có chữ. Mở khung chat bên phải thư mục, gõ <code>&#64;</code> chọn trợ lý để yêu cầu đối chiếu số liệu giữa các tệp và bấm trực tiếp vào thẻ trích dẫn <code>[Trang N]</code> để kiểm tra nguồn.</li>
-<li><b>Soạn thảo tại GenOffice (<code>/documents</code>):</b> Mở văn bản Word để bôi đen đoạn cần AI trau chuốt và xuất <code>.docx</code> chuẩn thể thức NĐ 30/2020; mở <b>Bảng tính</b> để tính toán công thức và đồng bộ hai chiều với Google Sheets; mở <b>Slide</b> để nhờ AI dựng bài thuyết trình <code>.pptx</code>; hoặc mở <b>PDF</b> để khoanh vùng hỏi AI.</li>
+<li><b>Tổ chức theo gói nghiệp vụ chuyên môn:</b> Tạo thư mục mới và áp dụng gói mẫu tương ứng với chuyên môn của bạn:
+  <ul>
+    <li><i>Hành chính văn thư:</i> Tự động bóc tách số ký hiệu, cơ quan ban hành, ngày tháng, trích yếu; gọi trợ lý soạn dự thảo công văn, tờ trình chuẩn thể thức Nghị định 30/2020/NĐ-CP; dùng tính năng «Quét giấy» chụp ảnh tài liệu để OCR tiếng Việt.</li>
+    <li><i>Kế toán &amp; Tài chính:</i> Tải hóa đơn, chứng từ vào thư mục để bóc tách số liệu vào bảng tính, tính toán công thức xác định và đọc số thành chữ không sai lệch.</li>
+    <li><i>Marketing &amp; Kỹ thuật &amp; Nhân sự:</i> Phân tích dữ liệu chiến dịch quảng cáo, quản lý PRD kỹ thuật, sàng lọc CV ứng viên và tạo slide thuyết trình 16:9 tự động.</li>
+  </ul>
+</li>
+<li><b>Chat trực tiếp theo thư mục:</b> Mở khung chat bên phải thư mục, gõ <code>&#64;</code> chọn trợ lý để yêu cầu đối chiếu số liệu giữa các tệp. Bấm trực tiếp vào thẻ trích dẫn <code>[Trang N]</code> hoặc <code>[Ô A1:F50]</code> để nhảy tới vị trí dữ liệu nguồn.</li>
+<li><b>Biên tập với GenOffice (<code>/documents</code>):</b> Mở văn bản Word để bôi đen đoạn cần AI trau chuốt và xuất <code>.docx</code> chuẩn NĐ 30; mở <b>Bảng tính Univer</b> đồng bộ Google Sheets; mở <b>Slide</b> dựng bài thuyết trình; hoặc mở <b>PDF</b> để khoanh vùng hỏi AI.</li>
 <li><b>Dựng trang web tại Studio (<code>/studio</code>):</b> Chọn <i>Landing page mới</i> để AI hỏi làm rõ và dựng trang đích từng mục, hoặc chọn <i>Dự án Code mới</i> để viết mã đa tệp, đẩy lên GitHub và gắn tên miền riêng.</li>
 </ul>
 
@@ -78,32 +85,31 @@
 <figcaption>Chỉnh sửa và xuất bản tài liệu chuyên nghiệp ngay trên trình duyệt với bốn công cụ trong GenOffice (/documents).</figcaption>
 </figure>
 
-<h2 id="buoc-5-ket-noi-ai-nhom">Bước 5: Thiết lập Luồng Model, Kết nối MCP &amp; Quản lý Nhóm</h2>
-<p>Để tối ưu độ ổn định và cộng tác cùng đồng nghiệp, bạn có thể cấu hình tại menu Tài khoản ở góc dưới thanh bên:</p>
+<h2 id="buoc-5-bao-mat-ai-server-nhom">Bước 5: Cấu hình Bảo mật, AI Server riêng &amp; Quản trị Nhóm</h2>
+<p>Để đảm bảo an toàn thông tin tối đa và cộng tác hiệu quả trong tổ chức:</p>
 <ul>
-<li><b>Thiết lập AI &amp; Luồng Model (<code>/account/ai</code>):</b> Nhập khóa API riêng (BYOK) cho Gemini, Vertex AI, OpenAI, Claude hoặc dịch vụ tìm kiếm (Tavily, Serper, Brave, Exa). Tại mục <b>Luồng model</b>, chọn model chính và xếp tối đa 4 model dự phòng bên dưới cho từng tác vụ.</li>
-<li><b>Kết nối tài khoản ngoài (<code>/connections</code>):</b> Bấm <b>Kết nối</b> trên thẻ Google Drive, GitHub, Notion hoặc Linear để cấp quyền OAuth. Sau đó gắn kết nối vào trợ lý và chọn đúng các công cụ đọc/ghi được phép sử dụng.</li>
-<li><b>Tạo nhóm &amp; Quản lý gói (<code>/account/team</code>, <code>/account/plans</code>):</b> Tạo Workspace Nhóm, sao chép liên kết mời thành viên, phân quyền phòng ban và chuyển đổi nhanh giữa không gian Cá nhân và Nhóm ngay trên thanh điều hướng.</li>
+<li><b>Cấu hình AI Server riêng (On-Premise / OpenAI-compatible):</b> Tại menu Tài khoản → Cài đặt AI, chọn loại nhà cung cấp <b>OpenAI-compatible</b> và nhập URL máy chủ nội bộ của đơn vị bạn (vLLM, Ollama, GPU server). Khi đó, dữ liệu của bạn hoàn toàn xử lý khép kín trong mạng nội bộ, không đi qua bên thứ ba nào.</li>
+<li><b>Sử dụng khóa API riêng (BYOK) &amp; Luồng Model:</b> Nếu dùng nhà cung cấp đám mây (Google Gemini, OpenAI, Claude, DeepSeek, NVIDIA, Cerebras), nhập khóa API riêng để tối ưu chi phí. Thiết lập Luồng model với 1 model chính và tối đa 4 model dự phòng tự động chuyển đổi khi quá tải.</li>
+<li><b>Kiểm tra chính sách bảo mật của các đối tác:</b> Đọc kỹ các điều khoản và chính sách dữ liệu của từng đối tác được liên kết công khai tại trang <a href="/privacy.html">Bảo mật dữ liệu</a> trước khi sử dụng.</li>
+<li><b>Tạo nhóm &amp; Quản lý Workspace Nhóm (<code>/account/team</code>):</b> Mời thành viên, phân quyền phòng ban, chia sẻ thư mục Work an toàn và quản lý ví Credits chung cho tổ chức.</li>
 </ul>
 
-<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn">Mở ứng dụng Gehihi và thực hành ngay →</a> <a class="btn btn-ghost" href="/features.html">Xem lại danh sách tính năng mới</a></p>
+<p><a data-nav="false" class="btn btn-primary" href="https://app.gehihi.vn">Mở ứng dụng Gehihi và thực hành ngay →</a> <a class="btn btn-ghost" href="/workspace.html">Xem chi tiết Work &amp; Nghiệp vụ</a></p>
 </div>
 
 <section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
 <h2 id="article-faq-title">Câu hỏi thường gặp khi sử dụng</h2>
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Làm sao để tiếp tục một lượt chạy bị tạm dừng do hết hạn mức ngày?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Khi bạn đăng nhập, nâng cấp gói hoặc sang ngày mới có lại hạn mức, bạn chỉ cần mở lại phiên chạy đó và bấm <b>Tiếp tục</b>. Hệ thống giữ nguyên trạng thái các bước đã hoàn thành để chạy tiếp mà không phải làm lại từ đầu.</p></div></details>
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi tải lên tệp PDF bản quét (scan) không chọn được chữ thì trợ lý có đọc được không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Hệ thống tự động nhận diện chữ bằng OCR tiếng Việt và tiếng Anh (tối đa 15 trang mỗi tệp trong luồng chạy, hoặc OCR toàn bộ trong trình PDF) và đánh dấu số trang <code>[Trang N]</code> để trợ lý trích dẫn chính xác.</p></div></details>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Làm thế nào để chia sẻ trợ lý tôi tạo cho đồng nghiệp dùng?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể mời đồng nghiệp vào chung một <b>Workspace Nhóm</b> tại <code>/account/team</code> để cùng làm việc, hoặc chuyển chế độ hiển thị của trợ lý sang <i>Chỉ qua liên kết</i> / xuất bản lên <i>Kho trợ lý công khai</i> sau khi được duyệt.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi kết nối AI Server riêng thì chi phí và hạn mức tính thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Khi kết nối AI Server riêng của đơn vị bạn, toàn bộ chi phí suy luận phần cứng do hạ tầng của bạn đảm nhiệm; Gehihi không tính phí token của nhà cung cấp bên thứ ba và dữ liệu hoàn toàn thuộc quyền kiểm soát của bạn.</p></div></details>
 </section>
 
 <footer class="sources"><h2>Liên kết nhanh vào ứng dụng</h2><ul>
+<li><a data-nav="false" href="https://app.gehihi.vn/work">Không gian Work (/work)</a></li>
 <li><a data-nav="false" href="https://app.gehihi.vn/agents/explore">Kho trợ lý công khai (/agents/explore)</a></li>
-<li><a data-nav="false" href="https://app.gehihi.vn/agents/builder">Trình tạo trợ lý 3 chế độ (/agents/builder)</a></li>
-<li><a data-nav="false" href="https://app.gehihi.vn/work">Không gian thư mục công việc (/work)</a></li>
-<li><a data-nav="false" href="https://app.gehihi.vn/documents">Bộ công cụ văn phòng GenOffice (/documents)</a></li>
-<li><a data-nav="false" href="https://app.gehihi.vn/studio">Gehihi Studio dựng Landing Page &amp; Code (/studio)</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/documents">Bộ văn phòng GenOffice (/documents)</a></li>
+<li><a data-nav="false" href="https://app.gehihi.vn/studio">Gehihi Studio (/studio)</a></li>
 </ul></footer>
 </article>
 @endblock
 </template>
-

@@ -5,10 +5,11 @@
 <header class="site-header" id="top"><div class="container header-inner">
 <a href="/" class="brand" aria-label="Gehihi, trang chủ"><img src="/assets/img/gehihi-mark.svg" width="36" height="36" alt=""><span>Gehihi</span></a>
 <nav class="site-nav" aria-label="Điều hướng chính">
-<a href="/about.html">Giới thiệu</a>
-<a href="/features.html">Tính năng mới</a>
-<a href="/workspace.html">Work &amp; Office</a>
+<a href="/workspace.html">Work &amp; Nghiệp vụ</a>
+<a href="/features.html">Tính năng</a>
+<a href="/privacy.html">Bảo mật dữ liệu</a>
 <a href="/guide.html">Hướng dẫn</a>
+<a href="/about.html">Giới thiệu</a>
 <a href="/contact.html">Liên hệ</a>
 </nav>
 <a data-nav="false" class="btn btn-primary btn-small" href="https://app.gehihi.vn/agents/explore">Khám phá trợ lý</a>
@@ -18,9 +19,9 @@
 </main>
 <footer class="site-footer" itemscope="itemscope" itemtype="https://schema.org/Organization"><div class="container footer-grid">
 <div><a href="/" class="brand" aria-label="Gehihi, trang chủ"><img src="/assets/img/gehihi-mark.svg" width="36" height="36" alt=""><span>Gehihi</span></a>
-<p class="footer-description">Nền tảng AI Agent tích hợp Kho trợ lý, AI thiết kế luồng, không gian công việc Work, bộ công cụ văn phòng GenOffice, Studio dựng web và kết nối MCP. Một sản phẩm của <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a>.</p></div>
-<div class="footer-links"><h2>Khám phá</h2><a href="/about.html">Giới thiệu</a><a href="/features.html">Tính năng mới</a><a href="/workspace.html">Work, GenOffice &amp; Studio</a><a href="/guide.html">Hướng dẫn sử dụng</a><a href="/#hoi-dap">Hỏi đáp</a></div>
-<div class="footer-links"><h2>Pháp lý &amp; Hỗ trợ</h2><a href="/terms.html">Điều khoản dịch vụ</a><a href="/privacy.html">Chính sách bảo mật</a><a href="/contact.html">Trang liên hệ &amp; Biểu mẫu</a></div>
+<p class="footer-description">Nền tảng AI Agent tích hợp không gian Work đa nghiệp vụ, Kho trợ lý, AI thiết kế luồng, bộ công cụ văn phòng GenOffice, Studio dựng web và kết nối MCP bảo mật. Một sản phẩm của <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a>.</p></div>
+<div class="footer-links"><h2>Khám phá</h2><a href="/workspace.html">Work &amp; Nghiệp vụ</a><a href="/features.html">Tính năng nền tảng</a><a href="/guide.html">Hướng dẫn sử dụng</a><a href="/about.html">Giới thiệu Gehihi</a><a href="/#hoi-dap">Hỏi đáp</a></div>
+<div class="footer-links"><h2>Bảo mật &amp; Pháp lý</h2><a href="/privacy.html">Bảo mật dữ liệu &amp; AI Server</a><a href="/terms.html">Điều khoản dịch vụ</a><a href="/contact.html">Trang liên hệ &amp; Hỗ trợ</a></div>
 <div class="footer-links"><h2>Liên hệ</h2><a href="/contact.html">Lê Ngọc Doãn</a><a data-nav="false" href="tel:0382434682" itemprop="telephone">0382 434 682</a><a data-nav="false" href="mailto:doanln16@gmail.com" itemprop="email">doanln16&#64;gmail.com</a><a data-nav="false" href="https://facebook.com/LeNgocDoan" target="_blank" rel="noopener">facebook.com/LeNgocDoan</a><span>Số 172, đường Bà Triệu, P. Thống Nhất, Phú Thọ</span></div>
 </div>
 <div class="container footer-bottom"><p>Gehihi không liên kết với Google. Gemini là thương hiệu của Google LLC; “Gehihi” là biệt danh do cộng đồng đặt cho Gemini.</p><a data-nav="false" href="#top">Lên đầu trang ↑</a></div>

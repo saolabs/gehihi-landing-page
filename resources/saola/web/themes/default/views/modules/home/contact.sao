@@ -185,11 +185,14 @@
 </section>
 
 <footer class="sources"><h2>Liên kết hữu ích</h2><ul>
-<li><a href="/about.html">Giới thiệu về Gehihi &amp; SaoLabs</a></li>
-<li><a href="/features.html">Khám phá các tính năng mới của nền tảng</a></li>
+<li><a href="/workspace.html">Không gian làm việc Work &amp; Nghiệp vụ chuyên môn</a></li>
+<li><a href="/features.html">Khám phá các tính năng của nền tảng</a></li>
+<li><a href="/privacy.html">Chính sách bảo mật dữ liệu &amp; AI Server riêng</a></li>
 <li><a href="/guide.html">Hướng dẫn sử dụng từng bước có ảnh minh họa</a></li>
+<li><a href="/about.html">Giới thiệu về Gehihi &amp; SaoLabs</a></li>
 <li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi (app.gehihi.vn)</a></li>
 </ul></footer>
 </article>
 @endblock
 </template>
+

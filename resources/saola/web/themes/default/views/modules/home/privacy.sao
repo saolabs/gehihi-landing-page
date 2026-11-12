@@ -1,86 +1,130 @@
 <template>
 @extends(__layout__ + "site")
-@section('meta:title', 'Chính sách bảo mật Gehihi — Bảo vệ dữ liệu cá nhân tại SaoLabs')
-@section('meta:description', 'Chính sách bảo mật Gehihi mô tả cách xử lý dữ liệu cá nhân, khóa API, nội dung gửi tới AI và quyền khi đăng nhập Google hoặc kết nối Drive.')
+@section('meta:title', 'Bảo mật dữ liệu Gehihi — Cam kết an toàn, AI Server riêng & Chính sách đối tác')
+@section('meta:description', 'Cam kết bảo mật dữ liệu của Gehihi: mã hóa an toàn trên hệ thống, hỗ trợ kết nối AI Server riêng (on-premise) và minh bạch chính sách dữ liệu từ các đối tác AI.')
 @section('meta:og_type', 'article')
 @section('seo:path', 'privacy')
 @block('content')
 <article class="container article" itemscope="itemscope" itemtype="https://schema.org/Article">
 <nav class="breadcrumb" aria-label="Breadcrumb"><ol itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
 <li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1"></li>
-<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Chính sách bảo mật</span><meta itemprop="position" content="2"></li>
+<li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><span itemprop="name">Bảo mật dữ liệu</span><meta itemprop="position" content="2"></li>
 </ol></nav>
 <header class="article-head">
-<h1 itemprop="headline">Chính sách bảo mật Gehihi</h1>
-<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-05">05/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
+<h1 itemprop="headline">Chính sách bảo mật &amp; An toàn dữ liệu Gehihi</h1>
+<p class="article-meta">Cập nhật <time itemprop="dateModified" datetime="2026-11-12">12/11/2026</time> · <span itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Organization"><a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener" itemprop="url"><span itemprop="name">SaoLabs</span></a></span><meta itemprop="datePublished" content="2026-10-22"><meta itemprop="inLanguage" content="vi"></p>
 </header>
-<div class="answer-box" itemprop="abstract"><p><b>Chính sách bảo mật Gehihi</b> mô tả cam kết của <a data-nav="false" class="text-link" href="https://saolabs.org/" target="_blank" rel="noopener">SaoLabs</a> trong việc thu thập, lưu trữ và bảo vệ thông tin người dùng. SaoLabs không bán dữ liệu cá nhân và không dùng tài liệu riêng của bạn để huấn luyện mô hình AI.</p></div>
+<div class="answer-box" itemprop="abstract"><p><b>Chính sách bảo mật Gehihi</b> xác định rõ ràng: dữ liệu của bạn luôn được bảo mật tại hệ thống SaoLabs và không bao giờ bị sử dụng để huấn luyện AI. Khi kết nối <b>AI Server riêng</b>, dữ liệu hoàn toàn khép kín trong hạ tầng của bạn; còn khi sử dụng các <b>đối tác AI đám mây</b>, việc xử lý tuân theo chính sách của từng nhà cung cấp được liên kết minh bạch dưới đây.</p></div>
 <div class="prose" itemprop="articleBody">
 <h2>1. Thông tin chúng tôi thu thập</h2>
-<p>Gehihi xử lý các nhóm thông tin sau tùy theo tính năng bạn sử dụng.</p>
+<p>Gehihi thu thập và xử lý các thông tin cần thiết phục vụ cho quá trình làm việc của bạn:</p>
 <ul>
-<li><b>Thông tin tài khoản:</b> Địa chỉ email, tên hiển thị và mật khẩu đã băm đối với tài khoản dùng mật khẩu. Khi đăng nhập bằng Google, Gehihi nhận thông tin định danh cơ bản theo mục 5.</li>
-<li><b>Khóa API người dùng (BYOK):</b> Khóa do bạn cung cấp để sử dụng nhà cung cấp AI được lưu dưới dạng mã hóa trên máy chủ và được dùng khi thực hiện yêu cầu cần khóa đó.</li>
-<li><b>Nội dung làm việc:</b> Hội thoại, tệp tải lên, tài liệu, slide, dự án web, cấu hình agent và kỹ năng, lịch chạy, kết quả và dữ liệu kết nối mà tính năng được bạn sử dụng cần xử lý.</li>
-<li><b>Dữ liệu kỹ thuật tự động:</b> Địa chỉ IP, loại trình duyệt, phiên bản hệ điều hành và nhật ký yêu cầu để đảm bảo an ninh mạng, chống lạm dụng và tối ưu hóa hệ thống.</li>
+<li><b>Thông tin tài khoản:</b> Địa chỉ email, tên hiển thị và mật khẩu đã băm đối với tài khoản dùng mật khẩu. Khi đăng nhập bằng Google, Gehihi nhận thông tin định danh cơ bản theo mục 6.</li>
+<li><b>Khóa API người dùng (BYOK) &amp; Cấu hình máy chủ riêng:</b> Khóa API cá nhân hoặc URL máy chủ AI riêng do bạn cung cấp được lưu dưới dạng mã hóa mạnh trên máy chủ và chỉ giải mã trong RAM khi thực thi tác vụ.</li>
+<li><b>Nội dung làm việc:</b> Cây thư mục tài liệu Work, hồ sơ văn bản, bảng tính, bài trình chiếu, dự án Studio, cấu hình quy trình trợ lý, nhật ký truy cập và kết quả chạy quy trình.</li>
+<li><b>Dữ liệu kỹ thuật tự động:</b> Địa chỉ IP, loại trình duyệt, phiên bản hệ điều hành và nhật ký yêu cầu phục vụ an ninh mạng, phòng chống lạm dụng và tối ưu hóa hệ thống.</li>
 </ul>
 
-<h2>2. Mục đích và cách thức sử dụng dữ liệu</h2>
-<p>Dữ liệu của bạn chỉ được sử dụng cho các mục đích cụ thể và rõ ràng:</p>
+<h2>2. Cam kết bảo mật dữ liệu tại hệ thống Gehihi</h2>
+<p>SaoLabs cam kết bảo vệ dữ liệu người dùng tại hệ thống bằng các biện pháp kỹ thuật và nguyên tắc quản trị nghiêm ngặt:</p>
 <ul>
-<li>Cung cấp tính năng trò chuyện, nghiên cứu, chỉnh sửa nội dung và chạy agent theo yêu cầu hoặc lịch bạn thiết lập.</li>
-<li>Cung cấp ngữ cảnh từ tài liệu và công cụ kết nối cho tác vụ AI khi cần.</li>
-<li>Kích hoạt tác vụ theo lịch đã cài đặt và gửi báo cáo kết quả đến các địa chỉ email đã được xác minh.</li>
-<li>Phát hiện, ngăn chặn các hành vi gian lận hoặc vi phạm <a href="/terms.html">Điều khoản dịch vụ</a>.</li>
+<li><b>Mã hóa toàn diện:</b> Mọi dữ liệu lưu trữ (at-rest) và truyền tải trên đường truyền (in-transit) đều được mã hóa bằng chuẩn TLS và thuật toán mã hóa tiêu chuẩn công nghiệp (AES-256).</li>
+<li><b>Không huấn luyện AI trên dữ liệu của bạn:</b> SaoLabs <b>tuyệt đối không bán dữ liệu</b> và <b>không sử dụng bất kỳ tệp tin, tài liệu nghiệp vụ, nội dung văn bản hay cuộc trò chuyện nào của bạn để huấn luyện mô hình AI</b>.</li>
+<li><b>Cô lập theo Workspace &amp; Phân quyền nhiều lớp:</b> Dữ liệu công việc trong Work và GenOffice được phân định ranh giới chặt chẽ theo từng workspace, hỗ trợ phân quyền theo phòng ban và vai trò (Chủ sở hữu, Quản trị viên, Thành viên, Xem/Sửa) kèm nhật ký truy cập tài liệu đầy đủ (<code>work_access_log</code>).</li>
+<li><b>Cổng kiểm soát độ mật &amp; Ẩn dữ liệu cá nhân (PII Masking):</b> Hệ thống tự động nhận diện dấu hiệu tài liệu mật để cảnh báo hoặc ngăn gửi ra các mô hình AI đám mây công cộng, đồng thời tự động che các thông tin nhạy cảm (số CCCD/CMND, số điện thoại, email) trước khi gửi tới mô hình AI.</li>
 </ul>
 
-<h2>3. Nguyên tắc gửi dữ liệu tới các nhà cung cấp AI</h2>
-<p>Khi bạn yêu cầu xử lý bằng AI, Gehihi có thể gửi yêu cầu, đoạn tài liệu, tệp đính kèm hoặc kết quả công cụ cần thiết đến nhà cung cấp mô hình được chọn hoặc cấu hình cho tác vụ. Dữ liệu Google chỉ được sử dụng hoặc chuyển tiếp trong phạm vi nêu ở mục 5.</p>
-<p>SaoLabs không dùng nội dung riêng của bạn để huấn luyện mô hình AI và không chuyển dữ liệu Google cho mục đích huấn luyện. Với dữ liệu khác, cách nhà cung cấp AI lưu giữ và xử lý yêu cầu phụ thuộc vào dịch vụ và cấu hình bạn sử dụng, bao gồm các điều khoản áp dụng cho khóa API riêng.</p>
-
-<h2>4. Lưu trữ và an toàn tài liệu riêng</h2>
-<p>Gehihi lưu nội dung làm việc theo không gian làm việc và áp dụng kiểm soát truy cập theo tài khoản. Một số nguồn tri thức và tài nguyên được gắn với từng agent.</p>
-<p>Khi bạn xuất bản một agent lên kho chia sẻ cộng đồng (Agent Store), chỉ có cấu trúc, mô tả và hướng dẫn chung được chia sẻ. Việc công khai agent không tự động đính kèm tài liệu riêng hoặc khóa API. Hãy rà soát hướng dẫn, mô tả và cấu hình trước khi chia sẻ vì các trường này có thể chứa thông tin do bạn nhập.</p>
-
-<h2>5. Đăng nhập Google và kết nối Google Drive</h2>
-<p>Gehihi dùng các quyền Google khác nhau tùy vào thao tác bạn chọn và tính năng đang được cung cấp.</p>
+<h2>3. Bảo mật với Hệ thống AI Server riêng (On-Premise / Custom Provider)</h2>
+<p>Nhằm đáp ứng yêu cầu khắt khe về chủ quyền dữ liệu của cơ quan nhà nước, tổ chức tài chính và doanh nghiệp lớn, Gehihi hỗ trợ kết nối trực tiếp với <b>AI Server riêng</b> của người dùng:</p>
 <ul>
-<li><b>Đăng nhập Google:</b> Các quyền <code>openid</code>, <code>email</code> và <code>profile</code> giúp Gehihi nhận mã định danh Google, email và tên hiển thị để xác thực, tạo hoặc liên kết tài khoản. Khi tùy chọn lưu trữ Drive được đề nghị cùng lúc đăng nhập, bạn có thể từ chối quyền Drive và tiếp tục đăng nhập.</li>
-<li><b>Sao lưu và khôi phục qua Google Drive:</b> Quyền <code>drive.file</code> giới hạn truy cập theo tệp được cấp quyền cho ứng dụng. Gehihi dùng quyền này để tạo thư mục sao lưu, tải lên các bản sao của tài liệu, tệp tài nguyên hoặc dự án web bạn chọn, và đọc bản sao khi bạn yêu cầu khôi phục. Khi bạn bật sao lưu tự động, Gehihi có thể tạo bản sao cho các phiên bản mới của nội dung đã chọn. Khôi phục tạo một mục mới trong Gehihi. Bản sao là tệp riêng trên Drive.</li>
-<li><b>Kết nối Google Drive cho agent (MCP):</b> Khi tính năng này được bật, đây là kết nối riêng mà bạn phải cấp quyền và cho phép agent sử dụng. Quyền <code>drive.readonly</code> cho phép tìm kiếm, liệt kê và đọc các tệp hoặc thông tin về tệp mà tài khoản Google của bạn có quyền xem. Agent có thể dùng kết quả trong lượt chạy, và phần cần thiết có thể được lưu cùng kết quả công cụ hoặc gửi cho nhà cung cấp AI được cấu hình để hoàn thành tác vụ bạn yêu cầu.</li>
-<li><b>Lưu trữ và chia sẻ:</b> Gehihi lưu mã truy cập và mã làm mới dưới dạng mã hóa trên máy chủ. Trong quá trình sao lưu, Gehihi có thể lưu tạm bản sao dưới dạng mã hóa để hoàn thành lượt tải lên hoặc thử lại. Gehihi không bán dữ liệu Google, dùng dữ liệu đó để nhắm mục tiêu quảng cáo hoặc dùng cho mục đích huấn luyện mô hình AI.</li>
-<li><b>Ngắt kết nối và thu hồi quyền:</b> Khi bạn ngắt kết nối sao lưu trong Gehihi, hệ thống xóa token của kết nối đó và dừng sao lưu tự động. Bản sao đã tải lên vẫn nằm trong Google Drive và bạn có thể xóa trực tiếp tại đó. Bạn có thể thu hồi quyền OAuth qua <a data-nav="false" class="text-link" href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">trang quản lý quyền tài khoản Google</a>. Kết quả đã được lưu trong Gehihi có thể được quản lý cùng nội dung làm việc tương ứng.</li>
-<li><b>Tuyên bố tuân thủ chính sách người dùng của Google (Limited Use Disclosure):</b>
+<li><b>Tương thích OpenAI-compatible:</b> Bạn có thể cấu hình endpoint kết nối tới các hệ thống máy chủ suy luận riêng như vLLM, Ollama, LocalAI, TGI hoặc cụm máy chủ GPU nội bộ đặt ngay tại cơ quan, trung tâm dữ liệu của bạn.</li>
+<li><b>Khép kín 100% trong hạ tầng nội bộ:</b> Khi sử dụng AI Server riêng, toàn bộ dữ liệu prompt, câu lệnh và tệp tài liệu chỉ trao đổi trực tiếp giữa Gehihi và máy chủ của bạn qua mạng nội bộ hoặc đường truyền bảo mật riêng. <b>Không có bất kỳ dữ liệu nào chuyển tiếp ra bên ngoài hay lưu lại tại các dịch vụ đám mây trung gian.</b></li>
+<li><b>Kiểm soát trọn vẹn mô hình:</b> Đơn vị hoàn toàn chủ động lựa chọn mô hình mã nguồn mở phù hợp (Qwen, Llama, Gemma, DeepSeek, v.v.), kiểm soát lưu lượng và chính sách lưu trữ nhật ký theo đúng quy chế an toàn thông tin nội bộ.</li>
+</ul>
+
+<h2>4. Sử dụng dịch vụ từ các Đối tác AI &amp; Liên kết chính sách nhà cung cấp</h2>
+<p>Khi bạn chọn sử dụng các mô hình AI đám mây do các đối tác công nghệ cung cấp (thông qua tài khoản Gehihi hoặc khóa API riêng BYOK), hệ thống Gehihi sẽ gửi nội dung yêu cầu và ngữ cảnh tài liệu cần thiết đến nhà cung cấp đó để thực thi. Việc lưu giữ, bảo mật và sử dụng dữ liệu ở phía đối tác <b>hoàn toàn phụ thuộc vào chính sách quyền riêng tư và điều khoản sử dụng của từng nhà cung cấp tương ứng</b>.</p>
+<p>Để đảm bảo tính minh bạch, chúng tôi cung cấp danh sách liên kết trực tiếp đến chính sách dữ liệu chính thức của các nhà cung cấp để bạn chủ động tìm hiểu:</p>
+
+<div class="provider-policy-list">
+<ul>
+<li><b>Google (Gemini &amp; Google Cloud Vertex AI):</b>
+<ul>
+<li><a data-nav="false" class="text-link" href="https://policies.google.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư chung của Google (Google Privacy Policy)</a></li>
+<li><a data-nav="false" class="text-link" href="https://cloud.google.com/vertex-ai/docs/generative-ai/data-governance" target="_blank" rel="noopener">Quản trị dữ liệu &amp; Quyền riêng tư Google Cloud Vertex AI (Data Governance)</a> — Google cam kết dữ liệu khách hàng gửi qua Vertex AI không được dùng để huấn luyện mô hình nền tảng.</li>
+<li><a data-nav="false" class="text-link" href="https://ai.google.dev/terms" target="_blank" rel="noopener">Điều khoản dịch vụ Google AI / Gemini API (Gemini API Terms of Service)</a></li>
+</ul>
+</li>
+<li><b>OpenAI (ChatGPT &amp; OpenAI API):</b>
+<ul>
+<li><a data-nav="false" class="text-link" href="https://openai.com/enterprise-privacy/" target="_blank" rel="noopener">Chính sách quyền riêng tư dành cho Doanh nghiệp &amp; API (OpenAI Enterprise Privacy)</a> — Dữ liệu gửi qua OpenAI API không dùng để huấn luyện mô hình mặc định.</li>
+<li><a data-nav="false" class="text-link" href="https://openai.com/privacy/" target="_blank" rel="noopener">Chính sách quyền riêng tư chung của OpenAI (OpenAI Privacy Policy)</a></li>
+</ul>
+</li>
+<li><b>Anthropic (Claude):</b>
+<ul>
+<li><a data-nav="false" class="text-link" href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của Anthropic (Anthropic Privacy Policy)</a></li>
+<li><a data-nav="false" class="text-link" href="https://www.anthropic.com/legal/commercial-terms" target="_blank" rel="noopener">Điều khoản thương mại &amp; Cam kết bảo vệ dữ liệu Anthropic (Commercial Terms)</a></li>
+</ul>
+</li>
+<li><b>DeepSeek:</b>
+<ul>
+<li><a data-nav="false" class="text-link" href="https://www.deepseek.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của DeepSeek (DeepSeek Privacy Policy)</a></li>
+</ul>
+</li>
+<li><b>NVIDIA:</b>
+<ul>
+<li><a data-nav="false" class="text-link" href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/" target="_blank" rel="noopener">Chính sách bảo mật quyền riêng tư của NVIDIA (NVIDIA Privacy Policy)</a></li>
+</ul>
+</li>
+<li><b>Cerebras:</b>
+<ul>
+<li><a data-nav="false" class="text-link" href="https://cerebras.ai/privacy-policy/" target="_blank" rel="noopener">Chính sách bảo mật của Cerebras (Cerebras Privacy Policy)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><i>Lưu ý:</i> Nếu bạn có các yêu cầu bảo mật đặc thù không được phép chia sẻ dữ liệu ra bên ngoài biên giới hoặc mạng công cộng, chúng tôi khuyến nghị lựa chọn triển khai <b>AI Server riêng (On-Premise)</b> hoặc mô hình nội bộ của đơn vị theo mục 3.</p>
+
+<h2>5. Lưu trữ và kiểm soát tài liệu riêng</h2>
+<p>Gehihi lưu trữ nội dung theo từng workspace và áp dụng kiểm soát quyền truy cập chặt chẽ. Khi bạn xuất bản một trợ lý (agent) lên Kho trợ lý công khai (Agent Store), hệ thống chỉ chia sẻ cấu trúc biểu mẫu, mô tả và hướng dẫn chung. <b>Tài liệu nội bộ, tri thức riêng và khóa API của bạn không bao giờ bị đính kèm hay công khai ra ngoài.</b></p>
+
+<h2>6. Đăng nhập Google và kết nối Google Drive</h2>
+<p>Gehihi chỉ sử dụng các quyền Google khi có sự đồng ý tường minh của bạn cho từng tính năng cụ thể:</p>
+<ul>
+<li><b>Đăng nhập Google:</b> Sử dụng quyền <code>openid</code>, <code>email</code> và <code>profile</code> để xác thực danh tính và tạo phiên làm việc an toàn.</li>
+<li><b>Sao lưu qua Google Drive:</b> Quyền <code>drive.file</code> chỉ cho phép ứng dụng truy cập các tệp do chính Gehihi tạo ra để sao lưu hoặc khôi phục dữ liệu theo yêu cầu của bạn.</li>
+<li><b>Kết nối Google Drive cho trợ lý (MCP):</b> Quyền <code>drive.readonly</code> chỉ được kích hoạt khi bạn chủ động cấu hình để trợ lý tra cứu tài liệu phục vụ công việc.</li>
+<li><b>Tuân thủ chính sách người dùng của Google (Limited Use Disclosure):</b>
 <p><i>Việc Gehihi sử dụng và chuyển giao thông tin nhận được từ Google API sang bất kỳ ứng dụng nào khác sẽ tuân thủ nghiêm ngặt <a data-nav="false" class="text-link" href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Chính sách dữ liệu người dùng của dịch vụ Google API (Google API Services User Data Policy)</a>, bao gồm các yêu cầu về Sử dụng có giới hạn (Limited Use requirements).</i></p>
 <p lang="en"><i>Gehihi's use and transfer to any other app of information received from Google APIs will adhere to the <a data-nav="false" class="text-link" href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</i></p>
 </li>
 </ul>
 
-<h2>6. Quyền kiểm soát dữ liệu của bạn</h2>
-<p>Bạn luôn có toàn quyền kiểm soát dữ liệu của mình trên Gehihi:</p>
+<h2>7. Quyền kiểm soát của người dùng đối với dữ liệu</h2>
+<p>Bạn luôn giữ quyền kiểm soát tối cao đối với dữ liệu của mình trên Gehihi:</p>
 <ul>
-<li><b>Xem và chỉnh sửa:</b> Dễ dàng xem lại, cập nhật hoặc thay thế tài liệu, prompt và khóa API bất cứ lúc nào qua giao diện web.</li>
-<li><b>Xóa dữ liệu:</b> Bạn có thể dùng các chức năng xóa trong Gehihi để xóa nội dung được hỗ trợ, chẳng hạn cuộc trò chuyện, tệp hoặc tài liệu.</li>
-<li><b>Chế độ dùng thử không đăng nhập:</b> Gehihi lưu nội dung chế độ khách trong không gian làm việc tạm thời trên máy chủ. Trình duyệt giữ thông tin nhận diện phiên để bạn có thể quay lại. Không gian tạm hết hạn theo thời hạn áp dụng cho chế độ khách.</li>
-<li><b>Yêu cầu hủy tài khoản:</b> Nếu không còn nhu cầu sử dụng, bạn có thể gửi yêu cầu xóa tài khoản và dữ liệu cá nhân đến địa chỉ hỗ trợ.</li>
+<li><b>Chủ động xem và chỉnh sửa:</b> Dễ dàng xem lại, cập nhật hoặc thay thế tài liệu, hướng dẫn và cấu hình kết nối bất kỳ lúc nào qua giao diện người dùng.</li>
+<li><b>Xóa dữ liệu vĩnh viễn:</b> Bạn có thể xóa bất kỳ tệp tin, thư mục Work, tài liệu GenOffice hoặc toàn bộ lịch sử trò chuyện. Thùng rác hỗ trợ khôi phục trong 30 ngày trước khi bị xóa hoàn toàn.</li>
+<li><b>Yêu cầu hủy tài khoản:</b> Bạn có quyền yêu cầu xóa tài khoản cùng toàn bộ dữ liệu liên quan bất cứ lúc nào bằng cách liên hệ với bộ phận hỗ trợ kỹ thuật của SaoLabs.</li>
 </ul>
 
-<h2>7. Cookie và công nghệ theo dõi</h2>
-<p>Trang web sử dụng cookie kỹ thuật để duy trì phiên làm việc an toàn của bạn. Ngoài ra, chúng tôi sử dụng Google Analytics trên trang giới thiệu để đo lường lưu lượng truy cập và cải thiện chất lượng trang đích. Bạn có thể quản lý cookie trong cài đặt trình duyệt. Việc tắt cookie cần thiết có thể ảnh hưởng đến đăng nhập hoặc duy trì phiên làm việc.</p>
-
-<h2>8. Cập nhật chính sách và thông tin liên hệ</h2>
-<p>Chính sách bảo mật này có thể được điều chỉnh để phù hợp với các quy định pháp luật mới hoặc sự thay đổi trong tính năng dịch vụ. Mọi điều chỉnh đều được công bố công khai tại đây.</p>
-<p>Nếu bạn có câu hỏi, thắc mắc hoặc khiếu nại về an toàn thông tin cá nhân, vui lòng liên hệ đội ngũ phụ trách bảo mật của SaoLabs qua email: <a data-nav="false" class="text-link" href="mailto:support@saolabs.org">support&#64;saolabs.org</a>.</p>
+<h2>8. Thông tin liên hệ và báo cáo an toàn thông tin</h2>
+<p>Mọi thắc mắc về an toàn dữ liệu, đề nghị hỗ trợ kết nối AI Server riêng hoặc báo cáo sự cố an ninh thông tin, xin vui lòng liên hệ trực tiếp với đội ngũ phụ trách bảo mật của SaoLabs:</p>
+<p>Email: <a data-nav="false" class="text-link" href="mailto:support@saolabs.org">support&#64;saolabs.org</a> · Hotline: <a data-nav="false" href="tel:0382434682">0382 434 682</a></p>
 </div>
+
 <section class="article-faq" aria-labelledby="article-faq-title" itemscope="itemscope" itemtype="https://schema.org/FAQPage">
-<h2 id="article-faq-title">Câu hỏi thường gặp</h2>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Tài liệu và dữ liệu tải lên Gehihi có bị dùng để huấn luyện AI không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">SaoLabs không dùng tài liệu riêng của bạn để huấn luyện mô hình AI. Khi bạn yêu cầu AI xử lý tài liệu, nhà cung cấp được cấu hình có thể nhận phần nội dung cần thiết để thực hiện tác vụ.</p></div></details>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Gehihi có xem được các tệp tin cá nhân có sẵn trên Google Drive của tôi không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Luồng sao lưu dùng quyền theo tệp. Nếu bạn cấp riêng quyền chỉ đọc cho kết nối Google Drive của agent, agent được bạn cho phép có thể tìm kiếm và đọc tệp trong phạm vi quyền Google đã cấp.</p></div></details>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khóa API cá nhân (BYOK) được bảo vệ như thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Khóa API được mã hóa an toàn trên máy chủ của SaoLabs. Hệ thống chỉ giải mã trong bộ nhớ đệm khi cần gửi request tới nhà cung cấp mô hình tương ứng.</p></div></details>
-<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có thể yêu cầu xóa vĩnh viễn toàn bộ dữ liệu cá nhân không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể xóa nội dung được hỗ trợ trong ứng dụng hoặc gửi yêu cầu xóa tài khoản và dữ liệu cá nhân đến support&#64;saolabs.org. Các bản sao trên Google Drive được quản lý trong tài khoản Google của bạn.</p></div></details>
+<h2 id="article-faq-title">Câu hỏi thường gặp về bảo mật dữ liệu</h2>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question" open="open"><summary itemprop="name">Dữ liệu tài liệu và cuộc trò chuyện của tôi có bị dùng để huấn luyện AI không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Không. SaoLabs cam kết không sử dụng bất kỳ dữ liệu, tệp tài liệu hay hội thoại nào của người dùng để huấn luyện mô hình AI. Dữ liệu của bạn được lưu trữ mã hóa và chỉ phục vụ duy nhất cho các tác vụ bạn yêu cầu.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Tôi có thể kết nối Gehihi với máy chủ AI Server riêng (On-Premise) của đơn vị mình không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Có. Gehihi hỗ trợ kết nối chuẩn OpenAI-compatible tới các máy chủ AI nội bộ (vLLM, Ollama, LocalAI, GPU server). Khi dùng cấu hình này, toàn bộ prompt và tài liệu chỉ truyền trực tiếp trong hạ tầng riêng của bạn, không đi qua bất kỳ bên thứ ba nào.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi sử dụng mô hình của đối tác như Google, OpenAI hay Anthropic thì dữ liệu được bảo vệ thế nào?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Hệ thống Gehihi bảo mật dữ liệu tại hệ thống và áp dụng Cổng kiểm soát độ mật cùng cơ chế ẩn dữ liệu cá nhân (PII Masking). Khi gửi yêu cầu tới đối tác, việc xử lý và lưu giữ phụ thuộc vào chính sách riêng của từng nhà cung cấp; chúng tôi cung cấp đầy đủ liên kết chính sách của các đối tác tại mục 4 để bạn tham khảo trước khi sử dụng.</p></div></details>
+<details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khóa API cá nhân (BYOK) được bảo mật ra sao?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Khóa API cá nhân của bạn được mã hóa bất đối xứng trên máy chủ bảo mật của SaoLabs. Khóa chỉ được giải mã tạm thời trong RAM khi thực thi lệnh gọi API tương ứng và tuyệt đối không bao giờ bị lộ ra ngoài giao diện hay chia sẻ cho người khác.</p></div></details>
 </section>
+
 <footer class="sources"><h2>Liên kết hữu ích</h2><ul>
-<li><a href="/about.html">Giới thiệu chi tiết về Gehihi</a></li>
+<li><a href="/workspace.html">Không gian làm việc Work &amp; Nghiệp vụ chuyên môn</a></li>
+<li><a href="/features.html">Tính năng nền tảng Gehihi AI Agent Platform</a></li>
 <li><a href="/terms.html">Điều khoản sử dụng dịch vụ</a></li>
 <li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi</a></li>
 <li><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">SaoLabs: đơn vị phát triển</a></li>
@@ -88,4 +132,3 @@
 </article>
 @endblock
 </template>
-

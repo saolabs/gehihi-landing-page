@@ -20,9 +20,9 @@
 <p>Gehihi là nền tảng làm việc với AI. Bạn có thể trò chuyện, nghiên cứu, soạn tài liệu và slide, tạo dự án web hoặc cấu hình agent với kỹ năng, tài liệu riêng và lịch chạy. Dịch vụ được cung cấp bởi SaoLabs qua website và ứng dụng tại <a data-nav="false" class="text-link" href="https://app.gehihi.vn" target="_blank" rel="noopener">app.gehihi.vn</a>.</p>
 <p>Bằng việc đăng ký tài khoản, đăng nhập hoặc sử dụng bất kỳ tính năng nào của Gehihi (kể cả chế độ trải nghiệm không đăng nhập), bạn xác nhận đã đọc, hiểu và đồng ý chịu sự ràng buộc của Điều khoản dịch vụ này cùng <a href="/privacy.html">Chính sách bảo mật</a> của chúng tôi.</p>
 
-<h2>2. Tài khoản người dùng và bảo mật</h2>
-<p>Để lưu trữ agent cá nhân, cấu hình kỹ năng và quản lý lịch chạy, bạn cần đăng ký tài khoản. Bạn có trách nhiệm bảo mật mật khẩu và các thông tin xác thực của mình, đồng thời chịu hoàn toàn trách nhiệm đối với mọi hoạt động diễn ra dưới tài khoản đó.</p>
-<p>Nếu bạn sử dụng khóa API riêng (Bring Your Own Key - BYOK) để kết nối các mô hình AI như Gemini, OpenAI hay Claude, khóa của bạn sẽ được mã hóa an toàn trên hệ thống. Bạn chịu trách nhiệm về hạn mức, chi phí và tuân thủ điều khoản của nhà cung cấp API bên thứ ba tương ứng.</p>
+<h2>2. Tài khoản người dùng, Bảo mật &amp; Kết nối AI Server</h2>
+<p>Để lưu trữ agent cá nhân, cấu hình kỹ năng, quản lý thư mục Work và lịch chạy, bạn cần đăng ký tài khoản. Bạn có trách nhiệm bảo mật mật khẩu và các thông tin xác thực của mình, đồng thời chịu hoàn toàn trách nhiệm đối với mọi hoạt động diễn ra dưới tài khoản đó.</p>
+<p>Nếu bạn sử dụng khóa API riêng (Bring Your Own Key - BYOK) hoặc kết nối với <b>AI Server riêng (On-Premise / OpenAI-compatible)</b> của đơn vị bạn, các thông tin xác thực sẽ được mã hóa an toàn trên hệ thống. Khi sử dụng AI Server riêng, dữ liệu hoàn toàn khép kín trong hạ tầng của bạn. Khi sử dụng mô hình của bên thứ ba (Google, OpenAI, Anthropic...), bạn chịu trách nhiệm về hạn mức, chi phí và tuân thủ các chính sách của nhà cung cấp đó theo chi tiết tại <a href="/privacy.html">Chính sách bảo mật</a>.</p>
 
 <h2>3. Quyền sở hữu trí tuệ và nội dung</h2>
 <ul>
@@ -64,8 +64,10 @@
 <details class="faq" itemscope="itemscope" itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Khi kết nối Google Drive, tôi có thể ngắt quyền bất cứ lúc nào không?</summary><div itemscope="itemscope" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Bạn có thể ngắt kết nối trong Gehihi hoặc thu hồi quyền trên trang quản lý tài khoản Google. Để xóa bản sao đã tải lên, hãy quản lý tệp trực tiếp trong Drive.</p></div></details>
 </section>
 <footer class="sources"><h2>Liên kết hữu ích</h2><ul>
+<li><a href="/workspace.html">Không gian làm việc Work &amp; Nghiệp vụ chuyên môn</a></li>
+<li><a href="/features.html">Tính năng nền tảng Gehihi AI Agent Platform</a></li>
+<li><a href="/privacy.html">Chính sách bảo mật dữ liệu &amp; AI Server riêng</a></li>
 <li><a href="/about.html">Giới thiệu chi tiết về Gehihi</a></li>
-<li><a href="/privacy.html">Chính sách bảo mật thông tin</a></li>
 <li><a data-nav="false" href="https://app.gehihi.vn">Mở ứng dụng Gehihi</a></li>
 <li><a data-nav="false" href="https://saolabs.org" target="_blank" rel="noopener">SaoLabs: đơn vị phát triển</a></li>
 </ul></footer>
